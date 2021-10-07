@@ -49,7 +49,7 @@
         </children>
       </children>
       <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="8FadNEwmQJAkHpqxr7IkXEKVchCgp53u">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="101" height="51" x="282" y="330" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="101" height="51" x="317" y="322" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
         <link businessObjects="8FadNEwmQJAkHpqxr7IkXEKVchCgp53u"/>
         <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.3"/>
         <children xsi:type="pi:ContainerShape" visible="true">

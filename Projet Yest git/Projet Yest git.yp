@@ -4,7 +4,18 @@
   <metadata key="ApplicationVersion" value="3.0.2"/>
   <testElements xsi:type="yest:Workflow" id="nTU34tMEyKr1YBFFDHas9IUBpwRsp0p0" name="Parcours">
     <flowElements xsi:type="yest:StartPoint" id="Km8VHgkBK1bxgpqRVCdT8tUCghESvTQ9" name="" outgoings="OxbrKXFXsoMaKVCHgg8pGnt3doy60sUq"/>
-    <flowElements xsi:type="yest:Task" id="0f5ulgpMPgwFf82QK0qrf6YZOSVz37w3" name="Tâche" incomings="OxbrKXFXsoMaKVCHgg8pGnt3doy60sUq" outgoings="6FqasaWhKUtcHPoQC0tyy0xUrvyIqCml"/>
+    <flowElements xsi:type="yest:Task" id="0f5ulgpMPgwFf82QK0qrf6YZOSVz37w3" name="Tâche" incomings="OxbrKXFXsoMaKVCHgg8pGnt3doy60sUq" outgoings="6FqasaWhKUtcHPoQC0tyy0xUrvyIqCml">
+      <table>
+        <columns xsi:type="yest:OperationColumn" id="NbYo9x4TH8MRjEievEEPjNLeHLalyKyJ"/>
+        <decisions id="bBcroYkZKexLxI7zCSCvkQvG0bJELNzN">
+          <cells key="NbYo9x4TH8MRjEievEEPjNLeHLalyKyJ">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="ViTjFl9yvzdXSi2QQuDQxnL1cJIHFt8m"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
     <flowElements xsi:type="yest:SequenceFlow" id="OxbrKXFXsoMaKVCHgg8pGnt3doy60sUq" name="" target="0f5ulgpMPgwFf82QK0qrf6YZOSVz37w3" source="Km8VHgkBK1bxgpqRVCdT8tUCghESvTQ9"/>
     <flowElements xsi:type="yest:Task" id="MWeqwyHeo3VCcFi8Nb23aZFr2fbZMBdM" name="Tâche1" incomings="6FqasaWhKUtcHPoQC0tyy0xUrvyIqCml" outgoings="KF9vZxDCbk2j8kWcTBwmzCF8wXRtMFuT"/>
     <flowElements xsi:type="yest:SequenceFlow" id="6FqasaWhKUtcHPoQC0tyy0xUrvyIqCml" name="" target="MWeqwyHeo3VCcFi8Nb23aZFr2fbZMBdM" source="0f5ulgpMPgwFf82QK0qrf6YZOSVz37w3"/>
@@ -18,7 +29,7 @@
         <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.0 //@testElements.0/@diagram/@connections.1"/>
       </children>
       <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="0f5ulgpMPgwFf82QK0qrf6YZOSVz37w3">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="101" height="51" x="282" y="160" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="101" height="51" x="289" y="156" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
         <link businessObjects="0f5ulgpMPgwFf82QK0qrf6YZOSVz37w3"/>
         <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.2" incomingConnections="//@testElements.0/@diagram/@connections.1"/>
         <children xsi:type="pi:ContainerShape" visible="true">
@@ -210,6 +221,14 @@
       <colors red="171" green="171" blue="171"/>
       <fonts name="Segoe UI" size="9"/>
     </diagram>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="ViTjFl9yvzdXSi2QQuDQxnL1cJIHFt8m">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche importante à garder"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
   </testElements>
   <designDataDictionary id="xF1jpGr1SCs63GZnaSUORDltiBuc1IWC" name="#designDataDictionary"/>
   <implementationDataDictionary id="9PGHzj5H6X1HZywu2NTZUOEdZ85zeSU8" name="#implementationDataDictionary"/>

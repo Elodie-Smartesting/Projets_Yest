@@ -268,7 +268,7 @@
         <stepElements xsi:type="yest:StepText" content="Tache user 1"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="jjj"/>
+        <stepElements xsi:type="yest:StepText" content="bonjour"/>
       </expectedResult>
     </highLevelStep>
   </testElements>

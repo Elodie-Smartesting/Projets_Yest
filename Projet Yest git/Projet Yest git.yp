@@ -275,7 +275,18 @@
   <testElements xsi:type="yest:Workflow" id="mrcDJ0injQcI0ovICp8Ye5KOTTWjU7z2" name="Parcours (1)">
     <flowElements xsi:type="yest:StartPoint" id="mbkxKEjWdsewPkL4BD7ll2pBbecqdVmo" name="" outgoings="2XEGYfXuSq55OO32SJVSitId8Hq4mw6B"/>
     <flowElements xsi:type="yest:Task" id="K4oUKN0BnNxORJszKiuu8seZhOCwKES0" name="Tâche" incomings="2XEGYfXuSq55OO32SJVSitId8Hq4mw6B" outgoings="WMPmQaUi3yhiLiSCZzLjd24nU3g3JncX"/>
-    <flowElements xsi:type="yest:Task" id="8dlqPSim1NqK5ikMfQhFD8plXk12epti" name="Tâche1" incomings="WMPmQaUi3yhiLiSCZzLjd24nU3g3JncX" outgoings="xU2lI1L0o2M2N20WL9lLSPlaO4WfdORQ"/>
+    <flowElements xsi:type="yest:Task" id="8dlqPSim1NqK5ikMfQhFD8plXk12epti" name="Tâche1" incomings="WMPmQaUi3yhiLiSCZzLjd24nU3g3JncX" outgoings="xU2lI1L0o2M2N20WL9lLSPlaO4WfdORQ">
+      <table>
+        <columns xsi:type="yest:OperationColumn" id="9ZPUpzolAF0Tt8vMO9Ro5mbS9gxKZD86"/>
+        <decisions id="lvTQ6u7ego1N5jpb6WOk6NOq8I9vJS3u">
+          <cells key="9ZPUpzolAF0Tt8vMO9Ro5mbS9gxKZD86">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="bQlOolnM6afGLhzFK898dtnxWil57l8p"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
     <flowElements xsi:type="yest:Task" id="nlWhdQHCFAXN7tRzXg9m7SGzeMn1OHaL" name="Tache user 1" incomings="xU2lI1L0o2M2N20WL9lLSPlaO4WfdORQ" outgoings="GkHoXSctfwjF8kveW8KnTctBkzBamTGo">
       <table>
         <columns xsi:type="yest:OperationColumn" id="taLehOrLyJaMosEr4Kf729tb3whc5jgv"/>
@@ -669,6 +680,14 @@
       <colors red="51" green="51" blue="51"/>
       <fonts name="Segoe UI" size="9"/>
     </diagram>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="bQlOolnM6afGLhzFK898dtnxWil57l8p">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche1"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
   </testElements>
   <designDataDictionary id="xF1jpGr1SCs63GZnaSUORDltiBuc1IWC" name="#designDataDictionary"/>
   <implementationDataDictionary id="9PGHzj5H6X1HZywu2NTZUOEdZ85zeSU8" name="#implementationDataDictionary"/>

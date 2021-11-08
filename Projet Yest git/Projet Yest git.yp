@@ -293,7 +293,7 @@
         <decisions id="4BwyS2EnyMiItKGEc3Tm69vSSmhWazCS">
           <cells key="taLehOrLyJaMosEr4Kf729tb3whc5jgv">
             <value xsi:type="yest:OperationCell">
-              <operations reference="N8lGhav7tI8F6EoDxMY8gpmifhRQ8YYG"/>
+              <operations reference="ZWu9YUd9bh7M2sw2hLNL83tVf400QGNG"/>
             </value>
           </cells>
         </decisions>
@@ -687,6 +687,16 @@
         <stepElements xsi:type="yest:StepText" content="Tâche1"/>
       </action>
       <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="ZWu9YUd9bh7M2sw2hLNL83tVf400QGNG">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tache user 1"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="bonjour"/>
+      </expectedResult>
     </highLevelStep>
   </testElements>
   <designDataDictionary id="xF1jpGr1SCs63GZnaSUORDltiBuc1IWC" name="#designDataDictionary"/>

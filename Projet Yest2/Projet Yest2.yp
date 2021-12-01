@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yest:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:yest="http://www.smartesting.com/yest/metamodel" name="Projet Yest2" id="uH3gRP5gSKkYfldcCQ3fJ3iwhtDrjHJt">
+  <metadata key="ProjectVersion" value="10"/>
+  <metadata key="ApplicationVersion" value="3.1.0"/>
+  <designDataDictionary id="n2N7aGBiO8Jm3VGkImwIKYsVxTrww8rr" name="#designDataDictionary"/>
+  <implementationDataDictionary id="OjmOBxAwVjp7ESBbWgG6dZkSugNbNoWx" name="#implementationDataDictionary"/>
+  <dataSetCatalog name="#catalog" id="wQeWGff86PHmMiccZSRQ57t3fZGqV1Ag"/>
+</yest:Project>

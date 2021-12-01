@@ -274,7 +274,18 @@
   </testElements>
   <testElements xsi:type="yest:Workflow" id="mrcDJ0injQcI0ovICp8Ye5KOTTWjU7z2" name="Parcours (1)">
     <flowElements xsi:type="yest:StartPoint" id="mbkxKEjWdsewPkL4BD7ll2pBbecqdVmo" name="" outgoings="2XEGYfXuSq55OO32SJVSitId8Hq4mw6B"/>
-    <flowElements xsi:type="yest:Task" id="K4oUKN0BnNxORJszKiuu8seZhOCwKES0" name="Tâche" incomings="2XEGYfXuSq55OO32SJVSitId8Hq4mw6B" outgoings="WMPmQaUi3yhiLiSCZzLjd24nU3g3JncX"/>
+    <flowElements xsi:type="yest:Task" id="K4oUKN0BnNxORJszKiuu8seZhOCwKES0" name="Tâche" incomings="2XEGYfXuSq55OO32SJVSitId8Hq4mw6B" outgoings="WMPmQaUi3yhiLiSCZzLjd24nU3g3JncX">
+      <table>
+        <columns xsi:type="yest:OperationColumn" id="sd6mAKp58WdVHEmA2NdkFsXKcC2G7P1b"/>
+        <decisions id="N8zUDCIULUJlipy9R0MQw5nLebOXh0Da">
+          <cells key="sd6mAKp58WdVHEmA2NdkFsXKcC2G7P1b">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="Ps63hhKtcVELk3atmSDSeG1E8pNvo19I"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
     <flowElements xsi:type="yest:Task" id="8dlqPSim1NqK5ikMfQhFD8plXk12epti" name="Tâche1" incomings="WMPmQaUi3yhiLiSCZzLjd24nU3g3JncX" outgoings="xU2lI1L0o2M2N20WL9lLSPlaO4WfdORQ">
       <table>
         <columns xsi:type="yest:OperationColumn" id="9ZPUpzolAF0Tt8vMO9Ro5mbS9gxKZD86"/>
@@ -697,6 +708,14 @@
       <expectedResult>
         <stepElements xsi:type="yest:StepText" content="bonjour"/>
       </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="Ps63hhKtcVELk3atmSDSeG1E8pNvo19I">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche"/>
+      </action>
+      <expectedResult/>
     </highLevelStep>
   </testElements>
   <designDataDictionary id="xF1jpGr1SCs63GZnaSUORDltiBuc1IWC" name="#designDataDictionary"/>

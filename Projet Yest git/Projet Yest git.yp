@@ -25,10 +25,10 @@
   <testElements xsi:type="yest:TestOperation" id="guynffridAdEiDAjVGWZig5qB1vwY1o4">
     <highLevelStep>
       <action>
-        <stepElements xsi:type="yest:StepText" content="A1"/>
+        <stepElements xsi:type="yest:StepText" content="A1 new"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="R1"/>
+        <stepElements xsi:type="yest:StepText" content="R1 new"/>
       </expectedResult>
     </highLevelStep>
   </testElements>

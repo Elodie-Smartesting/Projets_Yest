@@ -1818,7 +1818,7 @@
     <flowElements xsi:type="yest:SequenceFlow" id="XiiIKoAwRrzv69U34yPDLV3gUBd6VO8G" name="" target="bbKOSmD9buxTqOCWkHiDcDjPEVF7k7PS" source="dnUPT6bDEvmVLHtqvaYi1VL0OzDxXhyi"/>
     <flowElements xsi:type="yest:SequenceFlow" id="X42Bs98QlRYUVG3Wv1Va5M8lnC3fejBD" name="" target="SpMZe687pb4umfux0houuycjlgdtnWMn" source="bbKOSmD9buxTqOCWkHiDcDjPEVF7k7PS"/>
     <flowElements xsi:type="yest:SequenceFlow" id="XRU5gBT3v40QtaJlsuby4E8p7q58IYvK" name="" target="bdnT1B8pJCASkmsliYiEb5Gbxw7Z7NHP" source="SpMZe687pb4umfux0houuycjlgdtnWMn"/>
-    <flowElements xsi:type="yest:Task" id="4lcXYeI5NfsNox4VkcQjfpxDAHTh7sIZ" name="Ouvrir un projet Yest existant dans Git le même que user 1"/>
+    <flowElements xsi:type="yest:Task" id="4lcXYeI5NfsNox4VkcQjfpxDAHTh7sIZ" name="Ouvrir un projet Yest existant dans Git le même que user 1 car voilà"/>
     <flowElements xsi:type="yest:Task" id="TnWKsWDDx92zjrBm968iqTMn9qAT7zfh" name="Faire des modifs dans le parcours partagé" incomings="axPqgEkmhGSiIUx029OffFoWbmfJhsjF" outgoings="mnX0DN79LRH0XObpO7Rgie0Hysc8zGlu"/>
     <flowElements xsi:type="yest:SequenceFlow" id="axPqgEkmhGSiIUx029OffFoWbmfJhsjF" name="" target="TnWKsWDDx92zjrBm968iqTMn9qAT7zfh" source="bdnT1B8pJCASkmsliYiEb5Gbxw7Z7NHP"/>
     <flowElements xsi:type="yest:Task" id="ZEsPPZwW7uqp3lxDtOzev9X82SE6PXU0" name="Envoyer sur le serveur" incomings="MgGMKogdH2egX4EzOox3GZEVn4ffLHFo" outgoings="5JCD9LVEQvo3dUkyUuzoxPSa8RVjZSHs"/>
@@ -1894,7 +1894,7 @@
         <link businessObjects="4lcXYeI5NfsNox4VkcQjfpxDAHTh7sIZ"/>
         <anchors xsi:type="pi:ChopboxAnchor"/>
         <children xsi:type="pi:ContainerShape" visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.11/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="286" height="32" x="7" y="7" font="//@testElements.11/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Ouvrir un projet Yest existant dans Git le même que&#xD;&#xA;user 1"/>
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.11/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="286" height="32" x="7" y="7" font="//@testElements.11/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Ouvrir un projet Yest existant dans Git le même que&#xD;&#xA;user 1 car voilà"/>
         </children>
       </children>
       <children xsi:type="yest:TextAnnotationShape" visible="true" active="true" extras="//@testElements.11/@diagram/@children.9/@children.1/@graphicsAlgorithm" text="//@testElements.11/@diagram/@children.9/@children.0/@graphicsAlgorithm" id="N3KUkf9iLvUVj1iD8Mgpv1Qz9oHtpaDh">

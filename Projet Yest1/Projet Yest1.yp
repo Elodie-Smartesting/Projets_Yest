@@ -8,7 +8,8 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Cloner un dépot GIT en "/>
-        <stepElements xsi:type="yest:StepField" id="cmRNkMEogR0HBgRJWO65IlnN4nnq2G8U" data="ziFTZIygBuQ85fOJzAlX4UYOEVSMAtce"/>
+        <stepElements xsi:type="yest:StepField" id="NJjHpsfpwwCOArqU7fD4kqAr7WTOyVSd" data="ziFTZIygBuQ85fOJzAlX4UYOEVSMAtce"/>
+        <stepElements xsi:type="yest:StepText" content=" bonjour"/>
       </action>
       <expectedResult>
         <stepElements xsi:type="yest:StepText" content="Arborescence s'affiche avec les projets dispos sur le dépot ou option de créer un nouveau projet"/>

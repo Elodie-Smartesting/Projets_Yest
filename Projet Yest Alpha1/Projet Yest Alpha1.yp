@@ -2300,6 +2300,8 @@
     <datas xsi:type="yest:DesignData" name="jdd" id="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
     <datas xsi:type="yest:DesignData" name="dC" id="TbTKuvahsD0qxj22oh45hKicoNjVcBVK">
       <possibleValues definition="c3" id="gEbWaNQ4yciZxjvx3TO0cSByc81OPKtI"/>
+      <possibleValues definition="c33" id="xaLg1s6Fiux12SDKiQph8lQm75lxt8lH"/>
+      <possibleValues definition="c2" id="OdnmL7Zfw5s790sQrQzO1Izum0P5TRxw"/>
     </datas>
   </designDataDictionary>
   <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary">

@@ -437,13 +437,23 @@
       </diagram>
     </testElements>
     <testElements xsi:type="yest:Workflow" id="jbo3DsCMiTsdmOz1r6RB96UJuLtXkYbL" name="Parcours juste pour modifier">
-      <flowElements xsi:type="yest:StartPoint" id="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE" name=""/>
-      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours juste pour modifier" pictogramLinks="//@subFolders.0/@testElements.1/@diagram/@children.0/@link" version="0.16.0">
+      <flowElements xsi:type="yest:StartPoint" id="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE" name="" outgoings="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo"/>
+      <flowElements xsi:type="yest:Task" id="JAIfYsJq13ETq7xHhqIQurwWHquwqscY" name="Tâche" incomings="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo" name="" target="JAIfYsJq13ETq7xHhqIQurwWHquwqscY" source="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours juste pour modifier" pictogramLinks="//@subFolders.0/@testElements.1/@diagram/@children.0/@link //@subFolders.0/@testElements.1/@diagram/@children.1/@link //@subFolders.0/@testElements.1/@diagram/@connections.0/@link" version="0.16.0">
         <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.1/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
         <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="150" y="100" style="//@subFolders.0/@testElements.1/@diagram/@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="308" y="65" style="//@subFolders.0/@testElements.1/@diagram/@styles.0"/>
           <link businessObjects="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE"/>
-          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.1/@diagram/@connections.0"/>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.1/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="JAIfYsJq13ETq7xHhqIQurwWHquwqscY">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.3" lineWidth="2" transparency="0.0" width="101" height="51" x="273" y="151" style="//@subFolders.0/@testElements.1/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="JAIfYsJq13ETq7xHhqIQurwWHquwqscY"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.1/@diagram/@connections.0"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.0/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Tâche"/>
+          </children>
         </children>
         <styles filled="true" lineVisible="true" id="shape-bg-green-id">
           <renderingStyle>
@@ -481,8 +491,58 @@
             </adaptedGradientColoredAreas>
           </renderingStyle>
         </styles>
+        <styles id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.1/@diagram/@children.0/@anchors.0" end="//@subFolders.0/@testElements.1/@diagram/@children.1/@anchors.0" sequenceFlow="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.1/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.2" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
         <colors red="227" green="238" blue="249"/>
         <colors red="164" green="193" blue="162"/>
+        <colors red="51" green="51" blue="51"/>
+        <colors red="174" green="198" blue="207"/>
+        <fonts name="Segoe UI" size="9"/>
       </diagram>
     </testElements>
     <testElements xsi:type="yest:Workflow" id="b3DNLorxFYKV2o4KJFkpryeFHMA3okpO" name="Parcours : un utilisateur veut récupérer le travail d'un collègue">

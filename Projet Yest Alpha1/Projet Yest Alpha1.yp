@@ -544,7 +544,7 @@
           </children>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.1/@diagram/@children.6/@children.0/@graphicsAlgorithm" flowNode="8pkEMS4shP6pILw4ulTxNFrnsaeCOKNu">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.3" lineWidth="2" transparency="0.0" width="101" height="51" x="256" y="471" style="//@subFolders.0/@testElements.1/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.3" lineWidth="2" transparency="0.0" width="101" height="51" x="261" y="500" style="//@subFolders.0/@testElements.1/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="8pkEMS4shP6pILw4ulTxNFrnsaeCOKNu"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.1/@diagram/@connections.5" incomingConnections="//@subFolders.0/@testElements.1/@diagram/@connections.4"/>
           <children xsi:type="pi:ContainerShape" visible="true">

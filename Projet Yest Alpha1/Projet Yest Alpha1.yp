@@ -7,7 +7,6 @@
       <flowElements xsi:type="yest:StartPoint" id="wfPLBjNkUkcbXv6uSFJYxJ9T0RI8M5gV" name="" outgoings="Hjikk717SyFIo0onS5oXizlPWMHqDCpm"/>
       <flowElements xsi:type="yest:Task" id="kNPE4fRBLU6OIZfYqRqeaC2kTV53hyLE" name="Vérifier &quot;Versions à récupérer sur le serveur&quot;" incomings="rcByuQr8xqj7dr7bBreBzfO6Nl0kggG3" outgoings="8PmeYwyYNhCHQGEzEuc51Y0SZJ2sPnxk">
         <table>
-          <columns xsi:type="yest:DataColumn" id="A6TKxoq4g9Y1AytmR0a1o3nQkmEzjZ4v" data="1lp48bnpWqWvgqybOtBQfgqh14dRCB0V"/>
           <columns xsi:type="yest:DataColumn" id="28XDQIjrOk8eXLpUIwbnkG9rNx0YsuCr" data="iIREH7PAZEtGpuhA58J9pCi6JtPYsRGR"/>
           <columns xsi:type="yest:DataColumn" id="nAmvnzRpTfg6rxG6nr6Pj1XFHPBYA4Sq" data="VODVySTDLmwfOF8RpBoTxV1EE0lYJBx4"/>
           <columns xsi:type="yest:OperationColumn" id="C023J1muM5mXM1hR5krlAycu7AXovC3O"/>
@@ -16,13 +15,10 @@
               <value xsi:type="yest:OperationCell"/>
             </cells>
             <cells key="28XDQIjrOk8eXLpUIwbnkG9rNx0YsuCr">
-              <value xsi:type="yest:StringCell" value="pas de version"/>
-            </cells>
-            <cells key="A6TKxoq4g9Y1AytmR0a1o3nQkmEzjZ4v">
-              <value xsi:type="yest:StringCell" value="N'a rien fait"/>
+              <value xsi:type="yest:StringCell" value="10 versions"/>
             </cells>
             <cells key="nAmvnzRpTfg6rxG6nr6Pj1XFHPBYA4Sq">
-              <value xsi:type="yest:StringCell" value=""/>
+              <value xsi:type="yest:StringCell" value="C'est un autre utilisateur qui a envoyé la dernière version"/>
             </cells>
           </decisions>
           <decisions id="W3sAL5EXYXcuLuJqhzWj9Qmszc6KMy00">
@@ -30,19 +26,15 @@
               <value xsi:type="yest:StringCell" value="1 version"/>
             </cells>
             <cells key="C023J1muM5mXM1hR5krlAycu7AXovC3O">
-              <value xsi:type="yest:OperationCell"/>
-            </cells>
-            <cells key="A6TKxoq4g9Y1AytmR0a1o3nQkmEzjZ4v">
-              <value xsi:type="yest:StringCell" value="Us2 a envoyé une version"/>
+              <value xsi:type="yest:OperationCell">
+                <operations reference="Tu1hEFPgpl1LGbvhtlJjvVYCTSj6C44o"/>
+              </value>
             </cells>
             <cells key="nAmvnzRpTfg6rxG6nr6Pj1XFHPBYA4Sq">
-              <value xsi:type="yest:StringCell" value=""/>
+              <value xsi:type="yest:StringCell" value="C'est un autre utilisateur qui a envoyé la dernière version"/>
             </cells>
           </decisions>
           <decisions id="PoW5JGorLb11DmUDy08Yz8FBeXzYVPV6">
-            <cells key="A6TKxoq4g9Y1AytmR0a1o3nQkmEzjZ4v">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
             <cells key="28XDQIjrOk8eXLpUIwbnkG9rNx0YsuCr">
               <value xsi:type="yest:StringCell" value="pas de version"/>
             </cells>
@@ -998,6 +990,16 @@
       </action>
       <expectedResult>
         <stepElements xsi:type="yest:StepText" content="Le projet Yest est ouvert, avec le chemin du repo local"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="Tu1hEFPgpl1LGbvhtlJjvVYCTSj6C44o">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Vérifier la dernière version synchonisée"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Versions à récupérer du serveur affiche : &#xD;&#xA;une version  à récupérer"/>
       </expectedResult>
     </highLevelStep>
   </testElements>

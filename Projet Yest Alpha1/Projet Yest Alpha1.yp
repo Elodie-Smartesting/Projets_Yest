@@ -2428,20 +2428,30 @@
     </datas>
     <datas xsi:type="yest:DesignData" name="récupérer_version" id="c2fFirEWHWynkwMF8hGQ1oxl6F7IN2Av"/>
     <datas xsi:type="yest:DesignData" name="jdd" id="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
-    <datas xsi:type="yest:DesignData" name="donnée_conception" id="TbTKuvahsD0qxj22oh45hKicoNjVcBVK"/>
+    <datas xsi:type="yest:DesignData" name="donnée_conception_renommée" id="TbTKuvahsD0qxj22oh45hKicoNjVcBVK"/>
     <datas xsi:type="yest:DesignData" name="donnée_implémentation" id="yCYexBCrxoYDbYlltVnCXWsva5bsCmYy"/>
   </designDataDictionary>
   <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary">
-    <datas xsi:type="yest:ImplementationData" name="donnée_i1" id="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4"/>
+    <datas xsi:type="yest:ImplementationData" name="donnée_i1_renommée" id="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4"/>
   </implementationDataDictionary>
   <dataSetCatalog name="#catalog" id="fTX9DJQOjHpMFxmS9sztIkEoy9ptx4tU">
     <dataSetCollections name="jdd u2" id="9L6LidONcbru6gnafSezFxlwcCooXG12"/>
     <dataSetCollections name="jdd u2 avec données" id="wfGVkpWOfZiwMZTmQHgFB7VTGy6lR7yc">
       <dataSets name="Jeu 1" id="fulxzzZNnqaI2GbI1OkBCg9skhjkM2Ra">
-        <values data="TbTKuvahsD0qxj22oh45hKicoNjVcBVK" value="c1"/>
+        <values data="TbTKuvahsD0qxj22oh45hKicoNjVcBVK" value="c2"/>
         <values data="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4" value="i1"/>
       </dataSets>
       <dataSets name="Jeu 2" id="YSs9ZQLTR6CViJ4GV68Yd1p4maizIi4P">
+        <values data="TbTKuvahsD0qxj22oh45hKicoNjVcBVK" value="c1"/>
+        <values data="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4" value="i2"/>
+      </dataSets>
+    </dataSetCollections>
+    <dataSetCollections name="jdd u2 avec données renommées" id="OJKyRKlXL1fjlLFewa43b3OqJJs927ME">
+      <dataSets name="Jeu 1" id="cE2gSfWLkrtbbNKF1DwiqQMnITbOkjel">
+        <values data="TbTKuvahsD0qxj22oh45hKicoNjVcBVK" value="c1"/>
+        <values data="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4" value="i1"/>
+      </dataSets>
+      <dataSets name="Jeu 2" id="SgzZmL0Gy8mmCTBEDnjn5P4ERQyrMGIM">
         <values data="TbTKuvahsD0qxj22oh45hKicoNjVcBVK" value="c1"/>
         <values data="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4" value="i2"/>
       </dataSets>

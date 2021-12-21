@@ -1243,8 +1243,6 @@
       <flowElements xsi:type="yest:Task" id="kYJCtJpLqMm1qLKan8ibYeVz4m2oaMla" name="Récupération des changements du serveur" incomings="ESsmg6EWwLzD23GUUnNtW0nO92WULIO7">
         <table>
           <columns xsi:type="yest:DataColumn" id="JYaScdcwOz5Ne8qlezKlzXXbYiEVxpiG" data="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
-          <columns xsi:type="yest:DataColumn" id="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS" data="TbTKuvahsD0qxj22oh45hKicoNjVcBVK"/>
-          <columns xsi:type="yest:DataColumn" id="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47" data="yCYexBCrxoYDbYlltVnCXWsva5bsCmYy"/>
           <columns xsi:type="yest:OperationColumn" id="5pFSOrOlGxzaQK1BurNFhBHXwU8sMlel"/>
           <columns xsi:type="yest:CriterionColumn" id="iNJeaYOXO3AtfJXPDtQ9LCwtzPZj0xSx" criterionType="#objective"/>
           <decisions id="wCcoLWE9NwvVkECGiyBiMAIf6uv0BEB0">
@@ -1259,22 +1257,10 @@
             <cells key="iNJeaYOXO3AtfJXPDtQ9LCwtzPZj0xSx">
               <value xsi:type="yest:StringCell" value="un autre utilisateur a ajouté un jdd"/>
             </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value="NA"/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value="NA"/>
-            </cells>
           </decisions>
           <decisions id="8aHxcXspQfzGliLsiv1cS735uiT1PvHB">
             <cells key="JYaScdcwOz5Ne8qlezKlzXXbYiEVxpiG">
               <value xsi:type="yest:StringCell" value="un autre utilisateur a ajouté un jdd avec des données de conception et d'implémentation renommée (nom et valeur)"/>
-            </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
             </cells>
             <cells key="iNJeaYOXO3AtfJXPDtQ9LCwtzPZj0xSx">
               <value xsi:type="yest:StringCell" value=""/>
@@ -1297,12 +1283,6 @@
             <cells key="iNJeaYOXO3AtfJXPDtQ9LCwtzPZj0xSx">
               <value xsi:type="yest:StringCell" value="un autre utilisateur a modifié un jdd"/>
             </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
           </decisions>
           <decisions id="7LYCkQlwdOQWiEBGViME91uNsabiY0P6">
             <cells key="JYaScdcwOz5Ne8qlezKlzXXbYiEVxpiG">
@@ -1315,12 +1295,6 @@
             </cells>
             <cells key="iNJeaYOXO3AtfJXPDtQ9LCwtzPZj0xSx">
               <value xsi:type="yest:StringCell" value="un autre utilisateur a supprimé un jdd"/>
-            </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
             </cells>
           </decisions>
           <decisions id="lPJQot1OOrXYMZucXmdQGeglVj4quVfD">
@@ -1335,12 +1309,6 @@
             <cells key="iNJeaYOXO3AtfJXPDtQ9LCwtzPZj0xSx">
               <value xsi:type="yest:StringCell" value="l'utilisateur courant a ajouté un jdd"/>
             </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
           </decisions>
           <decisions id="kXgf4tqcRce9kjqIMnYDTV2MQABvo4Ys">
             <cells key="JYaScdcwOz5Ne8qlezKlzXXbYiEVxpiG">
@@ -1353,12 +1321,6 @@
             </cells>
             <cells key="iNJeaYOXO3AtfJXPDtQ9LCwtzPZj0xSx">
               <value xsi:type="yest:StringCell" value="l'utilisateur courant a modifié un jdd"/>
-            </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
             </cells>
           </decisions>
           <decisions id="mOWje7nrCmjMQSvh4Q8n8mHK4IaMbpbH">
@@ -1373,12 +1335,6 @@
             <cells key="iNJeaYOXO3AtfJXPDtQ9LCwtzPZj0xSx">
               <value xsi:type="yest:StringCell" value="l'utilisateur courant a supprimé un jdd"/>
             </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
           </decisions>
           <decisions id="N655tcDvPrAKU6930wgs1t0GBvIJw0GY">
             <cells key="JYaScdcwOz5Ne8qlezKlzXXbYiEVxpiG">
@@ -1391,12 +1347,6 @@
               <value xsi:type="yest:OperationCell">
                 <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
               </value>
-            </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
             </cells>
           </decisions>
           <decisions id="zjtKEJiUe4RniVw3nFUUiNoP85QwwGkD">
@@ -1411,12 +1361,6 @@
                 <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
               </value>
             </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
           </decisions>
           <decisions id="mgItFgscCdJO27mwujg67uyPrqi9oRSs">
             <cells key="JYaScdcwOz5Ne8qlezKlzXXbYiEVxpiG">
@@ -1430,12 +1374,6 @@
                 <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
               </value>
             </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
           </decisions>
           <decisions id="ID41PGWHlYRJBOyb42RKX3Mw0EMASzsY">
             <cells key="JYaScdcwOz5Ne8qlezKlzXXbYiEVxpiG">
@@ -1448,12 +1386,6 @@
               <value xsi:type="yest:OperationCell">
                 <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
               </value>
-            </cells>
-            <cells key="aQ9Uy63zUYxfgNp5hlo9cnuVvQWsmpQS">
-              <value xsi:type="yest:StringCell" value=""/>
-            </cells>
-            <cells key="SaFFxunvbAz9mqNaB5wm2kjU9P6Q0u47">
-              <value xsi:type="yest:StringCell" value=""/>
             </cells>
           </decisions>
         </table>

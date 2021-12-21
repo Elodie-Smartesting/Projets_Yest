@@ -445,7 +445,7 @@
         </table>
       </flowElements>
       <flowElements xsi:type="yest:SequenceFlow" id="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo" name="" target="JAIfYsJq13ETq7xHhqIQurwWHquwqscY" source="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE"/>
-      <flowElements xsi:type="yest:Task" id="CRL9FV2tQHdKI1woQkESchyCIR0NR1Q4" name="Tâche1" incomings="KdOxGF1R12OGqmy4Hf8kQa0Cq42ASWYO" outgoings="njYLjTP11sJQRwITgYXLv42pFTcM3z28">
+      <flowElements xsi:type="yest:Task" id="CRL9FV2tQHdKI1woQkESchyCIR0NR1Q4" name="Tâche1 modifié par US1" incomings="KdOxGF1R12OGqmy4Hf8kQa0Cq42ASWYO" outgoings="njYLjTP11sJQRwITgYXLv42pFTcM3z28">
         <table>
           <columns xsi:type="yest:OperationColumn" id="vLPn4o5sS0VEDCiXQH4s5L42WuLz6bKD"/>
           <decisions id="G7lo2AqEbB9kLoGCIfZ4Wffm6JYy2MjB">
@@ -519,7 +519,7 @@
           <link businessObjects="CRL9FV2tQHdKI1woQkESchyCIR0NR1Q4"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.1/@diagram/@connections.2" incomingConnections="//@subFolders.0/@testElements.1/@diagram/@connections.1"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.0/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Tâche1"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.0/@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Tâche1 modifié&#xD;&#xA;par US1"/>
           </children>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.1/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="b9WJbPraoQYk11Db4SDboeaizef7M0ns">
@@ -2713,7 +2713,7 @@
   <testElements xsi:type="yest:TestOperation" id="3GiswaQxcYxoTiGVVNuO3eEChfqdpWuQ">
     <highLevelStep>
       <action>
-        <stepElements xsi:type="yest:StepText" content="Tâche2"/>
+        <stepElements xsi:type="yest:StepText" content="Tâche2 avec modif US1"/>
       </action>
       <expectedResult/>
     </highLevelStep>
@@ -2721,7 +2721,7 @@
   <testElements xsi:type="yest:TestOperation" id="FyeiQ7etPIUvrva4kSfT5dmUZ07yTG7G">
     <highLevelStep>
       <action>
-        <stepElements xsi:type="yest:StepText" content="Tâche3"/>
+        <stepElements xsi:type="yest:StepText" content="Tâche3 modif U1"/>
       </action>
       <expectedResult/>
     </highLevelStep>

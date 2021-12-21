@@ -432,7 +432,18 @@
     </testElements>
     <testElements xsi:type="yest:Workflow" id="jbo3DsCMiTsdmOz1r6RB96UJuLtXkYbL" name="Parcours juste pour modifier">
       <flowElements xsi:type="yest:StartPoint" id="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE" name="" outgoings="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo"/>
-      <flowElements xsi:type="yest:Task" id="JAIfYsJq13ETq7xHhqIQurwWHquwqscY" name="Tâche" incomings="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo"/>
+      <flowElements xsi:type="yest:Task" id="JAIfYsJq13ETq7xHhqIQurwWHquwqscY" name="Tâche" incomings="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="EkqRFUn4T3qwujdhrxEkRM5E2PNS99nC"/>
+          <decisions id="uPR2Otuwdb72far5ruRFD6snwIHJdF6O">
+            <cells key="EkqRFUn4T3qwujdhrxEkRM5E2PNS99nC">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="2P4q8KpwQlt9aP2XiLmmeafq7iS2mHbw"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
       <flowElements xsi:type="yest:SequenceFlow" id="3Qm0GG0Hrl79SeQxaEP0qTv8YYNGODOo" name="" target="JAIfYsJq13ETq7xHhqIQurwWHquwqscY" source="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE"/>
       <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours juste pour modifier" pictogramLinks="//@subFolders.0/@testElements.1/@diagram/@children.0/@link //@subFolders.0/@testElements.1/@diagram/@children.1/@link //@subFolders.0/@testElements.1/@diagram/@connections.0/@link" version="0.16.0">
         <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.1/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
@@ -442,7 +453,7 @@
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.1/@diagram/@connections.0"/>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.1/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="JAIfYsJq13ETq7xHhqIQurwWHquwqscY">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.3" lineWidth="2" transparency="0.0" width="101" height="51" x="146" y="284" style="//@subFolders.0/@testElements.1/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.3" lineWidth="2" transparency="0.0" width="101" height="51" x="375" y="260" style="//@subFolders.0/@testElements.1/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="JAIfYsJq13ETq7xHhqIQurwWHquwqscY"/>
           <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.1/@diagram/@connections.0"/>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -2395,6 +2406,14 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Récupération des changements du serveur"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="2P4q8KpwQlt9aP2XiLmmeafq7iS2mHbw">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche"/>
       </action>
       <expectedResult/>
     </highLevelStep>

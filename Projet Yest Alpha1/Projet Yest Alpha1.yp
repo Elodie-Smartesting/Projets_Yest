@@ -2305,16 +2305,5 @@
   <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary">
     <datas xsi:type="yest:ImplementationData" name="di_i1_R" id="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4"/>
   </implementationDataDictionary>
-  <dataSetCatalog name="#catalog" id="fTX9DJQOjHpMFxmS9sztIkEoy9ptx4tU">
-    <dataSetCollections name="jdd u2 avec données" id="wfGVkpWOfZiwMZTmQHgFB7VTGy6lR7yc">
-      <dataSets name="Jeu 1" id="fulxzzZNnqaI2GbI1OkBCg9skhjkM2Ra">
-        <values data="TbTKuvahsD0qxj22oh45hKicoNjVcBVK" value="c3"/>
-        <values data="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4" value="i1"/>
-      </dataSets>
-      <dataSets name="Jeu 2" id="YSs9ZQLTR6CViJ4GV68Yd1p4maizIi4P">
-        <values data="TbTKuvahsD0qxj22oh45hKicoNjVcBVK" value="c2"/>
-        <values data="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4" value="i3"/>
-      </dataSets>
-    </dataSetCollections>
-  </dataSetCatalog>
+  <dataSetCatalog name="#catalog" id="fTX9DJQOjHpMFxmS9sztIkEoy9ptx4tU"/>
 </yest:Project>

@@ -1227,7 +1227,7 @@
         </table>
       </flowElements>
       <flowElements xsi:type="yest:SequenceFlow" id="sBYzVT0yYdfyAFrkT5D76DhaBUUj0D5I" name="" target="Pw7l4W9VuDDuqXOexHrV4FRgoLPimWue" source="agV0IXSn8h3ucYzRtsgT3vwl4olKwSc9"/>
-      <flowElements xsi:type="yest:Task" id="D6FYYTIHw3NPQPlfsNn7fRQarp3S2HLn" name="Cliquer sur &quot;Comparer et Fusionner&quot;" incomings="2RLZHXNwV8Pms4Ql31IdQZU4877aXuvG" outgoings="ESsmg6EWwLzD23GUUnNtW0nO92WULIO7">
+      <flowElements xsi:type="yest:Task" id="D6FYYTIHw3NPQPlfsNn7fRQarp3S2HLn" name="Cliquer sur &quot;Comparer et Fusionner&quot;" incomings="2RLZHXNwV8Pms4Ql31IdQZU4877aXuvG" outgoings="fL6VNUYraSK2mHoAgY4Llcljg3gU0UkW">
         <table>
           <columns xsi:type="yest:OperationColumn" id="6GwtCiiTdacLzwbCmm3ZZDsug9KAGXdv"/>
           <decisions id="UB90fHl38Cw1AlgfrgrwEUB2vnxgMzSi">
@@ -1240,7 +1240,7 @@
         </table>
       </flowElements>
       <flowElements xsi:type="yest:SequenceFlow" id="2RLZHXNwV8Pms4Ql31IdQZU4877aXuvG" name="" target="D6FYYTIHw3NPQPlfsNn7fRQarp3S2HLn" source="Pw7l4W9VuDDuqXOexHrV4FRgoLPimWue"/>
-      <flowElements xsi:type="yest:Task" id="kYJCtJpLqMm1qLKan8ibYeVz4m2oaMla" name="Récupération des changements du serveur" incomings="ESsmg6EWwLzD23GUUnNtW0nO92WULIO7">
+      <flowElements xsi:type="yest:Task" id="kYJCtJpLqMm1qLKan8ibYeVz4m2oaMla" name="Récupération des changements du serveur (utilisateur 1) jdd" incomings="Xn1xPGU0dvDxagcMeSFYdd4D4QEj03WN" outgoings="1sBSok6X0V1nA9oKydgpyIQk9wFxbXAx">
         <table>
           <columns xsi:type="yest:DataColumn" id="JYaScdcwOz5Ne8qlezKlzXXbYiEVxpiG" data="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
           <columns xsi:type="yest:OperationColumn" id="5pFSOrOlGxzaQK1BurNFhBHXwU8sMlel"/>
@@ -1323,21 +1323,132 @@
               </value>
             </cells>
             <cells key="bxliEszmbT4xHkHzpTjKjzfczQNYEhmo">
-              <value xsi:type="yest:StringCell" value=""/>
+              <value xsi:type="yest:StringCell" value="ok"/>
             </cells>
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:SequenceFlow" id="ESsmg6EWwLzD23GUUnNtW0nO92WULIO7" name="" target="kYJCtJpLqMm1qLKan8ibYeVz4m2oaMla" source="D6FYYTIHw3NPQPlfsNn7fRQarp3S2HLn"/>
-      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Vérifier la fonctionnalité &quot;Envoyer sur le serveur&quot;" pictogramLinks="//@subFolders.0/@testElements.4/@diagram/@children.0/@link //@subFolders.0/@testElements.4/@diagram/@children.1/@link //@subFolders.0/@testElements.4/@diagram/@connections.0/@link //@subFolders.0/@testElements.4/@diagram/@children.2/@link //@subFolders.0/@testElements.4/@diagram/@connections.1/@link //@subFolders.0/@testElements.4/@diagram/@children.3/@link //@subFolders.0/@testElements.4/@diagram/@connections.2/@link //@subFolders.0/@testElements.4/@diagram/@children.4/@link //@subFolders.0/@testElements.4/@diagram/@connections.3/@link //@subFolders.0/@testElements.4/@diagram/@children.5/@link //@subFolders.0/@testElements.4/@diagram/@connections.4/@link //@subFolders.0/@testElements.4/@diagram/@children.6/@link //@subFolders.0/@testElements.4/@diagram/@connections.5/@link" version="0.16.0">
+      <flowElements xsi:type="yest:Task" id="4ZGcZqvfnCgDPuSjyMaX0kG20LJdhhlG" name="Récupération des changements du serveur (utilisateur 2)" incomings="1sBSok6X0V1nA9oKydgpyIQk9wFxbXAx">
+        <table>
+          <columns xsi:type="yest:DataColumn" id="iGNkiZeFS1B4Oe5nUXccWlqjx3Vdgt8N" data="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
+          <columns xsi:type="yest:OperationColumn" id="7bQyGyEfXKM7UYiOLFrnpTaeMnqgKdrZ"/>
+          <columns xsi:type="yest:CriterionColumn" id="1AalhABoHwdogs6Qt0HaxQygZY6jRnAd" criterionType="#objective"/>
+          <columns xsi:type="yest:CriterionColumn" id="HXIVOjYIV7wPAwMEE2yY9k4AaHTHxQ9a" criterionType="#objective"/>
+          <decisions id="vlrwepReOrcUgR7nkhabPnGmhNeISuml">
+            <cells key="iGNkiZeFS1B4Oe5nUXccWlqjx3Vdgt8N">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a supprimé un jdd que l'utilisateur courant a modifié"/>
+            </cells>
+            <cells key="1AalhABoHwdogs6Qt0HaxQygZY6jRnAd">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a supprimé un jdd que l'utilisateur courant a modifié"/>
+            </cells>
+            <cells key="7bQyGyEfXKM7UYiOLFrnpTaeMnqgKdrZ">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="iWB5P5oIiKbtdh2hTis27VvIi5zMeoON"/>
+              </value>
+            </cells>
+            <cells key="HXIVOjYIV7wPAwMEE2yY9k4AaHTHxQ9a">
+              <value xsi:type="yest:StringCell" value="ok"/>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:SequenceFlow" id="1sBSok6X0V1nA9oKydgpyIQk9wFxbXAx" name="" target="4ZGcZqvfnCgDPuSjyMaX0kG20LJdhhlG" source="kYJCtJpLqMm1qLKan8ibYeVz4m2oaMla"/>
+      <flowElements xsi:type="yest:ChoicePoint" id="p0omaNnkeb97dUcEhJ8NUGANaXAvJRTj" name="" incomings="fL6VNUYraSK2mHoAgY4Llcljg3gU0UkW" outgoings="Xn1xPGU0dvDxagcMeSFYdd4D4QEj03WN c06Po79PyNAZBdgfS7RsLXuK7DvAHMvn"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="fL6VNUYraSK2mHoAgY4Llcljg3gU0UkW" name="" target="p0omaNnkeb97dUcEhJ8NUGANaXAvJRTj" source="D6FYYTIHw3NPQPlfsNn7fRQarp3S2HLn"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="Xn1xPGU0dvDxagcMeSFYdd4D4QEj03WN" name="jdd" target="kYJCtJpLqMm1qLKan8ibYeVz4m2oaMla" source="p0omaNnkeb97dUcEhJ8NUGANaXAvJRTj"/>
+      <flowElements xsi:type="yest:Task" id="wkTK95z3fp8Vt0hFHAWaxRhqb4Kg1fDM" name="Récupération des changements du serveur (utilisateur 1) tâche et table" incomings="c06Po79PyNAZBdgfS7RsLXuK7DvAHMvn">
+        <table>
+          <columns xsi:type="yest:DataColumn" id="YDFiqTfO1AheZ3dNyzQl6FAjDFDi1WNJ" data="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
+          <columns xsi:type="yest:OperationColumn" id="cn2oafXTKC2gQoOhYEyoZpoh9Jo0BCei"/>
+          <columns xsi:type="yest:CriterionColumn" id="R266mWTF2om9Qqr3FqWPghKb8qColJJT" criterionType="#objective"/>
+          <decisions id="oE2h3T75eyozC38UfQnBkDTzKyFumIIS">
+            <cells key="cn2oafXTKC2gQoOhYEyoZpoh9Jo0BCei">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
+              </value>
+            </cells>
+            <cells key="YDFiqTfO1AheZ3dNyzQl6FAjDFDi1WNJ">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a ajouté une tâche (pas de conflit)"/>
+            </cells>
+            <cells key="R266mWTF2om9Qqr3FqWPghKb8qColJJT">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a ajouté un jdd"/>
+            </cells>
+          </decisions>
+          <decisions id="eBvFJqEgESXzpTxBmgx8PJNwCnbHXPm7">
+            <cells key="YDFiqTfO1AheZ3dNyzQl6FAjDFDi1WNJ">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur supprimé une tâche (pas de conflit)"/>
+            </cells>
+            <cells key="R266mWTF2om9Qqr3FqWPghKb8qColJJT">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a ajouté un jdd avec des données de conception et d'implémentation renommée (nom et valeur)"/>
+            </cells>
+            <cells key="cn2oafXTKC2gQoOhYEyoZpoh9Jo0BCei">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
+              </value>
+            </cells>
+          </decisions>
+          <decisions id="HVBpV1hOv1PEAVV7Phzgi10qULevhshg">
+            <cells key="YDFiqTfO1AheZ3dNyzQl6FAjDFDi1WNJ">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a déplacé une tâche (pas de conflit)"/>
+            </cells>
+            <cells key="cn2oafXTKC2gQoOhYEyoZpoh9Jo0BCei">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
+              </value>
+            </cells>
+            <cells key="R266mWTF2om9Qqr3FqWPghKb8qColJJT">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a modifié un jdd"/>
+            </cells>
+          </decisions>
+          <decisions id="RFQZZyLGvGC9hUgNP0c5TpY3dpwmV3c1">
+            <cells key="YDFiqTfO1AheZ3dNyzQl6FAjDFDi1WNJ">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a déplacé une tâche que l'utilisateur courant à modifié"/>
+            </cells>
+            <cells key="cn2oafXTKC2gQoOhYEyoZpoh9Jo0BCei">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
+              </value>
+            </cells>
+            <cells key="R266mWTF2om9Qqr3FqWPghKb8qColJJT">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a supprimé un jdd"/>
+            </cells>
+          </decisions>
+          <decisions id="eUg8acRoy4KUfX5X41yrTg8yNZRhAIdH">
+            <cells key="YDFiqTfO1AheZ3dNyzQl6FAjDFDi1WNJ">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a renommé une tâche que l'utilisateur courant à modifié"/>
+            </cells>
+            <cells key="R266mWTF2om9Qqr3FqWPghKb8qColJJT">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a supprimé un jdd que l'utilisateur courant a modifié"/>
+            </cells>
+            <cells key="cn2oafXTKC2gQoOhYEyoZpoh9Jo0BCei">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="nqIqMSG2nm8ZEVzcyVUt0cRur052AIN5"/>
+              </value>
+            </cells>
+          </decisions>
+          <decisions id="vVlNpv7tEvJeLjm53EwhxozxCZ4Vbumr">
+            <cells key="YDFiqTfO1AheZ3dNyzQl6FAjDFDi1WNJ">
+              <value xsi:type="yest:StringCell" value="un autre utilisateur a modifié une tâche que l'utilisateur courant à modifié"/>
+            </cells>
+            <cells key="R266mWTF2om9Qqr3FqWPghKb8qColJJT">
+              <value xsi:type="yest:StringCell" value=""/>
+            </cells>
+            <cells key="cn2oafXTKC2gQoOhYEyoZpoh9Jo0BCei">
+              <value xsi:type="yest:OperationCell"/>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:SequenceFlow" id="c06Po79PyNAZBdgfS7RsLXuK7DvAHMvn" name="" target="wkTK95z3fp8Vt0hFHAWaxRhqb4Kg1fDM" source="p0omaNnkeb97dUcEhJ8NUGANaXAvJRTj"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Vérifier la fonctionnalité &quot;Envoyer sur le serveur&quot;" pictogramLinks="//@subFolders.0/@testElements.4/@diagram/@children.0/@link //@subFolders.0/@testElements.4/@diagram/@children.1/@link //@subFolders.0/@testElements.4/@diagram/@connections.0/@link //@subFolders.0/@testElements.4/@diagram/@children.2/@link //@subFolders.0/@testElements.4/@diagram/@connections.1/@link //@subFolders.0/@testElements.4/@diagram/@children.3/@link //@subFolders.0/@testElements.4/@diagram/@connections.2/@link //@subFolders.0/@testElements.4/@diagram/@children.4/@link //@subFolders.0/@testElements.4/@diagram/@connections.3/@link //@subFolders.0/@testElements.4/@diagram/@children.5/@link //@subFolders.0/@testElements.4/@diagram/@connections.4/@link //@subFolders.0/@testElements.4/@diagram/@children.6/@link //@subFolders.0/@testElements.4/@diagram/@children.7/@link //@subFolders.0/@testElements.4/@diagram/@connections.5/@link //@subFolders.0/@testElements.4/@diagram/@children.8/@link //@subFolders.0/@testElements.4/@diagram/@connections.6/@link //@subFolders.0/@testElements.4/@diagram/@connections.7/@link //@subFolders.0/@testElements.4/@diagram/@children.9/@link //@subFolders.0/@testElements.4/@diagram/@connections.8/@link" version="0.16.0">
         <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.4/@diagram/@colors.1" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
         <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="uu4TxmlYdOONwvLD7HLLzskWvaXkGHlg">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="275" y="95" style="//@subFolders.0/@testElements.4/@diagram/@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="201" y="15" style="//@subFolders.0/@testElements.4/@diagram/@styles.0"/>
           <link businessObjects="uu4TxmlYdOONwvLD7HLLzskWvaXkGHlg"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.0"/>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.4/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="8IriGcoBlFWyyIgo41WyrQTF1HsFRHdV">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="219" y="153" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="145" y="73" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="8IriGcoBlFWyyIgo41WyrQTF1HsFRHdV"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.1" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.0"/>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -1345,7 +1456,7 @@
           </children>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.4/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="D46P42vpuVxtoXAPVWfznhVjLuC28Svr">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="219" y="253" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="145" y="173" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="D46P42vpuVxtoXAPVWfznhVjLuC28Svr"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.2" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.1"/>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -1353,7 +1464,7 @@
           </children>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.4/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="agV0IXSn8h3ucYzRtsgT3vwl4olKwSc9">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="219" y="350" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="145" y="270" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="agV0IXSn8h3ucYzRtsgT3vwl4olKwSc9"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.3" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.2"/>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -1361,7 +1472,7 @@
           </children>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.4/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="Pw7l4W9VuDDuqXOexHrV4FRgoLPimWue">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="219" y="455" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="145" y="375" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="Pw7l4W9VuDDuqXOexHrV4FRgoLPimWue"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.4" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.3"/>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -1369,19 +1480,58 @@
           </children>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.4/@diagram/@children.5/@children.0/@graphicsAlgorithm" flowNode="D6FYYTIHw3NPQPlfsNn7fRQarp3S2HLn">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="219" y="536" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="145" y="456" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="D6FYYTIHw3NPQPlfsNn7fRQarp3S2HLn"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.5" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.4"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.6" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.4"/>
           <children xsi:type="pi:ContainerShape" visible="true">
             <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.4/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Cliquer sur &quot;Comparer&#xD;&#xA;et Fusionner&quot;"/>
           </children>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.4/@diagram/@children.6/@children.0/@graphicsAlgorithm" flowNode="kYJCtJpLqMm1qLKan8ibYeVz4m2oaMla">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="219" y="628" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="2" y="594" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="kYJCtJpLqMm1qLKan8ibYeVz4m2oaMla"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.5" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.7"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.4/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Récupération des&#xD;&#xA;changements du serveur&#xD;&#xA;(utilisateur 1) jdd"/>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.4/@diagram/@children.7/@children.0/@graphicsAlgorithm" flowNode="4ZGcZqvfnCgDPuSjyMaX0kG20LJdhhlG">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="2" y="681" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="4ZGcZqvfnCgDPuSjyMaX0kG20LJdhhlG"/>
           <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.5"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.4/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Récupération des&#xD;&#xA;changements du serveur"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.4/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Récupération des&#xD;&#xA;changements du serveur&#xD;&#xA;(utilisateur 2)"/>
+          </children>
+        </children>
+        <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@subFolders.0/@testElements.4/@diagram/@children.8/@children.0/@graphicsAlgorithm //@subFolders.0/@testElements.4/@diagram/@children.8/@children.1/@graphicsAlgorithm" flowNode="p0omaNnkeb97dUcEhJ8NUGANaXAvJRTj">
+          <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="196" y="532" style="//@subFolders.0/@testElements.4/@diagram/@styles.2">
+            <points x="20"/>
+            <points x="40" y="20"/>
+            <points x="20" y="40"/>
+            <points y="20"/>
+            <points x="20"/>
+          </graphicsAlgorithm>
+          <link businessObjects="p0omaNnkeb97dUcEhJ8NUGANaXAvJRTj"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.7 //@subFolders.0/@testElements.4/@diagram/@connections.8" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.6"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.5" lineWidth="2">
+              <points x="12" y="12"/>
+              <points x="28" y="28"/>
+            </graphicsAlgorithm>
+          </children>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.5" lineWidth="2">
+              <points x="12" y="28"/>
+              <points x="28" y="12"/>
+            </graphicsAlgorithm>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.4/@diagram/@children.9/@children.0/@graphicsAlgorithm" flowNode="wkTK95z3fp8Vt0hFHAWaxRhqb4Kg1fDM">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="187" height="78" x="190" y="586" style="//@subFolders.0/@testElements.4/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="wkTK95z3fp8Vt0hFHAWaxRhqb4Kg1fDM"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.4/@diagram/@connections.8"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="173" height="64" x="7" y="7" font="//@subFolders.0/@testElements.4/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Récupération des changements&#xD;&#xA;du serveur (utilisateur 1) tâche et&#xD;&#xA;table"/>
           </children>
         </children>
         <styles id="shape-bg-green-id">
@@ -1456,6 +1606,42 @@
             </adaptedGradientColoredAreas>
           </renderingStyle>
         </styles>
+        <styles id="shape-bg-yellow-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-yellow-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
         <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.4/@diagram/@children.0/@anchors.0" end="//@subFolders.0/@testElements.4/@diagram/@children.1/@anchors.0" sequenceFlow="FtwVxGaLUSSkOv4HTMuWOmxb8lQShc9b">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
           <link businessObjects="FtwVxGaLUSSkOv4HTMuWOmxb8lQShc9b"/>
@@ -1511,9 +1697,45 @@
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.4/@diagram/@children.5/@anchors.0" end="//@subFolders.0/@testElements.4/@diagram/@children.6/@anchors.0" sequenceFlow="ESsmg6EWwLzD23GUUnNtW0nO92WULIO7">
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.4/@diagram/@children.6/@anchors.0" end="//@subFolders.0/@testElements.4/@diagram/@children.7/@anchors.0" sequenceFlow="1sBSok6X0V1nA9oKydgpyIQk9wFxbXAx">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="ESsmg6EWwLzD23GUUnNtW0nO92WULIO7"/>
+          <link businessObjects="1sBSok6X0V1nA9oKydgpyIQk9wFxbXAx"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.4/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.4/@diagram/@children.5/@anchors.0" end="//@subFolders.0/@testElements.4/@diagram/@children.8/@anchors.0" sequenceFlow="fL6VNUYraSK2mHoAgY4Llcljg3gU0UkW">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="fL6VNUYraSK2mHoAgY4Llcljg3gU0UkW"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.4/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.4/@diagram/@children.8/@anchors.0" end="//@subFolders.0/@testElements.4/@diagram/@children.6/@anchors.0" sequenceFlow="Xn1xPGU0dvDxagcMeSFYdd4D4QEj03WN">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="Xn1xPGU0dvDxagcMeSFYdd4D4QEj03WN"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.4/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+          <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@subFolders.0/@testElements.4/@diagram/@connections.7/@connectionDecorators.1/@graphicsAlgorithm">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="34" height="19" x="-27" y="-24" font="//@subFolders.0/@testElements.4/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="jdd"/>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.4/@diagram/@children.8/@anchors.0" end="//@subFolders.0/@testElements.4/@diagram/@children.9/@anchors.0" sequenceFlow="c06Po79PyNAZBdgfS7RsLXuK7DvAHMvn">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="c06Po79PyNAZBdgfS7RsLXuK7DvAHMvn"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
             <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.4/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.4/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
@@ -1527,6 +1749,7 @@
         <colors red="164" green="193" blue="162"/>
         <colors red="51" green="51" blue="51"/>
         <colors red="174" green="198" blue="207"/>
+        <colors red="255" green="198" blue="64"/>
         <fonts name="Segoe UI" size="9"/>
       </diagram>
     </testElements>
@@ -2284,6 +2507,14 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Tâche"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="iWB5P5oIiKbtdh2hTis27VvIi5zMeoON">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Utilisateur 2 se synchronise après que l'utilisateur ai remis son jdd, on peut tout récup"/>
       </action>
       <expectedResult/>
     </highLevelStep>

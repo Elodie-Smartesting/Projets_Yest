@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
    <openedEditor>TestElement:wHQ1uattvJAYlAIIEywBuVu4ph2d95Zz</openedEditor>
-   <activeEditor>TestElement:wHQ1uattvJAYlAIIEywBuVu4ph2d95Zz</activeEditor>
+   <openedEditor>TestElement:OqYWeYsqm8DQveQXjyR3dTe64RtybXHd</openedEditor>
+   <openedEditor>TestElement:UfXtz2XWLERm66vBAA6foIFcyXYOddaR</openedEditor>
+   <activeEditor>TestElement:UfXtz2XWLERm66vBAA6foIFcyXYOddaR</activeEditor>
    <editorConfigurations>
       <workflow assistant_orientation="256"
                 resource="TestElement:wHQ1uattvJAYlAIIEywBuVu4ph2d95Zz"
@@ -13,6 +15,20 @@
             <weight>0</weight>
          </assistant_sash_weights>
       </workflow>
+      <scenario assistant_orientation="256"
+                resource="TestElement:OqYWeYsqm8DQveQXjyR3dTe64RtybXHd">
+         <assistant_sash_weights>
+            <weight>100</weight>
+            <weight>0</weight>
+         </assistant_sash_weights>
+      </scenario>
+      <campaign assistant_orientation="256"
+                resource="TestElement:UfXtz2XWLERm66vBAA6foIFcyXYOddaR">
+         <assistant_sash_weights>
+            <weight>100</weight>
+            <weight>0</weight>
+         </assistant_sash_weights>
+      </campaign>
    </editorConfigurations>
    <authenticationConfigurations/>
 </project>

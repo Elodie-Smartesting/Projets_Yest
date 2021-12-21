@@ -54,6 +54,18 @@
       <fonts name="Segoe UI" size="9"/>
     </diagram>
   </testElements>
+  <testElements xsi:type="yest:TestScenario" id="OqYWeYsqm8DQveQXjyR3dTe64RtybXHd" name="Scénario">
+    <testActions id="jyiTSqAutkMYrg81Zzd6kPxs72sq34zi" operation="gJJkiTBU5ZpwgUOX30r8fVtb4zEHTif2"/>
+  </testElements>
+  <testElements xsi:type="yest:TestCampaign" id="UfXtz2XWLERm66vBAA6foIFcyXYOddaR" name="Campagne" folders="Bjf42unu7eIrn6sHN1Rbzze96vwAyYez"/>
+  <testElements xsi:type="yest:TestOperation" id="gJJkiTBU5ZpwgUOX30r8fVtb4zEHTif2">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="dddd"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
   <designDataDictionary id="wy7rey8NlXn2QZFKeJzjzJrSi6fZMXci" name="#designDataDictionary"/>
   <implementationDataDictionary id="EjbnQc31QZF1w5cpJCPBzXb2xoTdiQU5" name="#implementationDataDictionary"/>
   <dataSetCatalog name="#catalog" id="KDtQkSYLkWj69jhzOE2DtQhIcAmoIAmH"/>

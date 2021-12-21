@@ -3,26 +3,91 @@
   <metadata key="ProjectVersion" value="10"/>
   <metadata key="ApplicationVersion" value="3.1.0"/>
   <subFolders name="Dossier" id="1802dfi7oI0kV59dcqlxNZqw48N0q3tW">
-    <testElements xsi:type="yest:Workflow" id="cWJ9sc9PpeiBYIhyqgmi3MXLc9Aqsuk7" name="Parcours">
-      <flowElements xsi:type="yest:StartPoint" id="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO" name="" outgoings="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA"/>
-      <flowElements xsi:type="yest:Task" id="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl" name="Us1 crée un nouveau projet Yest dans un repo Git" incomings="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA" outgoings="wXzsydLM7El9TAkXTwJetAqJWHKqUeyO">
+    <testElements xsi:type="yest:Workflow" id="DvY9kXBctDDqBD2BRLxvViv1y94P4vu2" name="Vérifier la fonctionnalité &quot;Statut&quot;">
+      <flowElements xsi:type="yest:StartPoint" id="wfPLBjNkUkcbXv6uSFJYxJ9T0RI8M5gV" name="" outgoings="Hjikk717SyFIo0onS5oXizlPWMHqDCpm"/>
+      <flowElements xsi:type="yest:Task" id="kNPE4fRBLU6OIZfYqRqeaC2kTV53hyLE" name="Vérifier &quot;Versions à récupérer sur le serveur&quot;" incomings="rcByuQr8xqj7dr7bBreBzfO6Nl0kggG3" outgoings="8PmeYwyYNhCHQGEzEuc51Y0SZJ2sPnxk">
         <table>
-          <columns xsi:type="yest:OperationColumn" id="cyFb14kPzgl9jKzGvuYo71ONTcexUKS6"/>
-          <decisions id="MuVcHO0jDOsD3o8apFOPsdaGvGpuZjOe">
-            <cells key="cyFb14kPzgl9jKzGvuYo71ONTcexUKS6">
+          <columns xsi:type="yest:DataColumn" id="A6TKxoq4g9Y1AytmR0a1o3nQkmEzjZ4v" data="1lp48bnpWqWvgqybOtBQfgqh14dRCB0V"/>
+          <columns xsi:type="yest:DataColumn" id="28XDQIjrOk8eXLpUIwbnkG9rNx0YsuCr" data="iIREH7PAZEtGpuhA58J9pCi6JtPYsRGR"/>
+          <columns xsi:type="yest:DataColumn" id="nAmvnzRpTfg6rxG6nr6Pj1XFHPBYA4Sq" data="VODVySTDLmwfOF8RpBoTxV1EE0lYJBx4"/>
+          <columns xsi:type="yest:OperationColumn" id="C023J1muM5mXM1hR5krlAycu7AXovC3O"/>
+          <decisions id="iEjnPr3DBTaAfcjiP29Bl2Achjz3yz6Q">
+            <cells key="C023J1muM5mXM1hR5krlAycu7AXovC3O">
+              <value xsi:type="yest:OperationCell"/>
+            </cells>
+            <cells key="28XDQIjrOk8eXLpUIwbnkG9rNx0YsuCr">
+              <value xsi:type="yest:StringCell" value="pas de version"/>
+            </cells>
+            <cells key="A6TKxoq4g9Y1AytmR0a1o3nQkmEzjZ4v">
+              <value xsi:type="yest:StringCell" value="N'a rien fait"/>
+            </cells>
+            <cells key="nAmvnzRpTfg6rxG6nr6Pj1XFHPBYA4Sq">
+              <value xsi:type="yest:StringCell" value=""/>
+            </cells>
+          </decisions>
+          <decisions id="W3sAL5EXYXcuLuJqhzWj9Qmszc6KMy00">
+            <cells key="28XDQIjrOk8eXLpUIwbnkG9rNx0YsuCr">
+              <value xsi:type="yest:StringCell" value="1 version"/>
+            </cells>
+            <cells key="C023J1muM5mXM1hR5krlAycu7AXovC3O">
+              <value xsi:type="yest:OperationCell"/>
+            </cells>
+            <cells key="A6TKxoq4g9Y1AytmR0a1o3nQkmEzjZ4v">
+              <value xsi:type="yest:StringCell" value="Us2 a envoyé une version"/>
+            </cells>
+            <cells key="nAmvnzRpTfg6rxG6nr6Pj1XFHPBYA4Sq">
+              <value xsi:type="yest:StringCell" value=""/>
+            </cells>
+          </decisions>
+          <decisions id="PoW5JGorLb11DmUDy08Yz8FBeXzYVPV6">
+            <cells key="A6TKxoq4g9Y1AytmR0a1o3nQkmEzjZ4v">
+              <value xsi:type="yest:StringCell" value=""/>
+            </cells>
+            <cells key="28XDQIjrOk8eXLpUIwbnkG9rNx0YsuCr">
+              <value xsi:type="yest:StringCell" value="pas de version"/>
+            </cells>
+            <cells key="nAmvnzRpTfg6rxG6nr6Pj1XFHPBYA4Sq">
+              <value xsi:type="yest:StringCell" value="C'est l'utilisateur courant qui à envoyé la dernière version"/>
+            </cells>
+            <cells key="C023J1muM5mXM1hR5krlAycu7AXovC3O">
               <value xsi:type="yest:OperationCell">
-                <operations reference="JsMsGOwhmOjhieiAcDR8CklbSdSFeB96"/>
+                <operations reference="NEwiI3ToJpZUIcNf0eaqFiM02irkRLvr"/>
               </value>
             </cells>
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:SequenceFlow" id="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA" name="" target="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl" source="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO"/>
-      <flowElements xsi:type="yest:Task" id="JY4YIVVVHgPSpL6CJU0OgQPbXsWHM5ab" name="Cliquer sur Statut" incomings="wXzsydLM7El9TAkXTwJetAqJWHKqUeyO" outgoings="FVIj1NKe12uYNdQgwbZq4R9dx0Wl4TiA">
+      <flowElements xsi:type="yest:Task" id="5G7r70W7SMY3kZdVW6DCOgeNXowTDLQb" name="Vérifier la dernière version synchronisée" incomings="ldHyI2lEhWrVnKtOUJoYS2xcpbbLEdSO" outgoings="rcByuQr8xqj7dr7bBreBzfO6Nl0kggG3">
         <table>
-          <columns xsi:type="yest:OperationColumn" id="lIYVMpnZONZiuZKMFBXa3IZmbq3honki"/>
-          <decisions id="w5fWqwMZfg0hzfssAFqRcLogugN7ZkKD">
-            <cells key="lIYVMpnZONZiuZKMFBXa3IZmbq3honki">
+          <columns xsi:type="yest:DataColumn" id="vmKtEtBTCLnWcnMfhibDmQFBKY9th3t2" data="VODVySTDLmwfOF8RpBoTxV1EE0lYJBx4"/>
+          <columns xsi:type="yest:OperationColumn" id="0aC1PUUT4VtSgsoyVYdf4ykosj47rdOU"/>
+          <decisions id="LAZOrFx5C6wux5OukSAUYZSXDbTP2t8L">
+            <cells key="0aC1PUUT4VtSgsoyVYdf4ykosj47rdOU">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="lfkWWhoZx9Xu8fA7DQX0Lp7LZzaDWFR6"/>
+              </value>
+            </cells>
+            <cells key="vmKtEtBTCLnWcnMfhibDmQFBKY9th3t2">
+              <value xsi:type="yest:StringCell" value="C'est l'utilisateur courant qui à envoyé la dernière version"/>
+            </cells>
+          </decisions>
+          <decisions id="L9v0PSMYY8hjf1GKk53cSPlranYWBSr2">
+            <cells key="vmKtEtBTCLnWcnMfhibDmQFBKY9th3t2">
+              <value xsi:type="yest:StringCell" value="C'est un autre utilisateur qui a envoyé la dernière version"/>
+            </cells>
+            <cells key="0aC1PUUT4VtSgsoyVYdf4ykosj47rdOU">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="EZkrKR1wBPdqyLUS1kUsq8GSUEyOkOGs"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:Task" id="FdpSIbGcFLizIYm75n0p32mc7Tf16B9M" name="Cliquer sur Statut" incomings="Hjikk717SyFIo0onS5oXizlPWMHqDCpm" outgoings="ldHyI2lEhWrVnKtOUJoYS2xcpbbLEdSO">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="suesDOw88vKp1oCcrfrjACuWQZB5cpUV"/>
+          <decisions id="omI1ysb16xPiqet35Ruft3hd4oP1dvLd">
+            <cells key="suesDOw88vKp1oCcrfrjACuWQZB5cpUV">
               <value xsi:type="yest:OperationCell">
                 <operations reference="zO4wyCg5s22xclHBgVua63B07wehHDq0"/>
               </value>
@@ -30,12 +95,11 @@
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:SequenceFlow" id="wXzsydLM7El9TAkXTwJetAqJWHKqUeyO" name="" target="JY4YIVVVHgPSpL6CJU0OgQPbXsWHM5ab" source="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl"/>
-      <flowElements xsi:type="yest:Task" id="Ar2MT55LFD9hICjcoGWmml08KS83u6oM" name="Vérifier la dernière version synchronisée" incomings="FVIj1NKe12uYNdQgwbZq4R9dx0Wl4TiA" outgoings="DebmgheCAUi1AHWrxeqaomqaX10MFgsm">
+      <flowElements xsi:type="yest:Task" id="q6jcHi1OkCkDrI3g1dWTRjEIgViNNp2Z" name="Vérifier &quot;Changements non versionnés&quot;" incomings="8PmeYwyYNhCHQGEzEuc51Y0SZJ2sPnxk" outgoings="orimRuwxlce5Ktkp3V5QxyqKmc5Z9rIi">
         <table>
-          <columns xsi:type="yest:OperationColumn" id="xwcw1CczeOK1noXoWZYGvDKe0IqvZueD"/>
-          <decisions id="EkWzM422Q9rsSMxYdyTxbkgpLpzLnuWv">
-            <cells key="xwcw1CczeOK1noXoWZYGvDKe0IqvZueD">
+          <columns xsi:type="yest:OperationColumn" id="ebxL2ZqjVx0fx2OgiayK4AIfh8kxNXIs"/>
+          <decisions id="0ggo6wVtmr17s7hhvVRvWEQqGhiSjxn3">
+            <cells key="ebxL2ZqjVx0fx2OgiayK4AIfh8kxNXIs">
               <value xsi:type="yest:OperationCell">
                 <operations reference="lfkWWhoZx9Xu8fA7DQX0Lp7LZzaDWFR6"/>
               </value>
@@ -43,100 +107,57 @@
           </decisions>
         </table>
       </flowElements>
-      <flowElements xsi:type="yest:Task" id="bBBkhsZwUWYHmtSG5DWpKSin9o25spk2" name="Vérifier &quot;Versions à récupérer sur le serveur&quot;" incomings="DebmgheCAUi1AHWrxeqaomqaX10MFgsm" outgoings="TFZXzlHwn6IQkTYqWlBtnQQMmDf8IUIQ">
-        <table>
-          <columns xsi:type="yest:DataColumn" id="RtTowVNSU0B37SxuQwPkAgQXh9kg3jZA" data="1lp48bnpWqWvgqybOtBQfgqh14dRCB0V"/>
-          <columns xsi:type="yest:DataColumn" id="14e2C1omvQVkGZ0UJHHKnogAnaRNC03q" data="iIREH7PAZEtGpuhA58J9pCi6JtPYsRGR"/>
-          <columns xsi:type="yest:OperationColumn" id="FTDe7CiuGI27vYK07vgOe8I1kwOkJQc7"/>
-          <decisions id="LaMD0encwzdeB1ma39G3Tk6AAZXjAHa0">
-            <cells key="FTDe7CiuGI27vYK07vgOe8I1kwOkJQc7">
-              <value xsi:type="yest:OperationCell">
-                <operations reference="NEwiI3ToJpZUIcNf0eaqFiM02irkRLvr"/>
-              </value>
-            </cells>
-            <cells key="14e2C1omvQVkGZ0UJHHKnogAnaRNC03q">
-              <value xsi:type="yest:StringCell" value="pas de version"/>
-            </cells>
-            <cells key="RtTowVNSU0B37SxuQwPkAgQXh9kg3jZA">
-              <value xsi:type="yest:StringCell" value="N'a rien fait"/>
-            </cells>
-          </decisions>
-          <decisions id="GKEKEQSB1Dx3tanJDwuRpztl08iqI3sG">
-            <cells key="14e2C1omvQVkGZ0UJHHKnogAnaRNC03q">
-              <value xsi:type="yest:StringCell" value="1 version"/>
-            </cells>
-            <cells key="FTDe7CiuGI27vYK07vgOe8I1kwOkJQc7">
-              <value xsi:type="yest:OperationCell"/>
-            </cells>
-            <cells key="RtTowVNSU0B37SxuQwPkAgQXh9kg3jZA">
-              <value xsi:type="yest:StringCell" value="Us2 a envoyé une version"/>
-            </cells>
-          </decisions>
-        </table>
-      </flowElements>
-      <flowElements xsi:type="yest:Task" id="zqMpuNfpbTLdHic1OIWCDT0HF2mwGCEJ" name="Vérifier &quot;Changements non versionnés&quot;" incomings="TFZXzlHwn6IQkTYqWlBtnQQMmDf8IUIQ">
-        <table>
-          <columns xsi:type="yest:OperationColumn" id="yenFhWwYdxO6l4xHWTx6UutndLfIjBLg"/>
-          <decisions id="bHgO1CTGMCabSihKZ9ZmXUEpw5mRMWvQ">
-            <cells key="yenFhWwYdxO6l4xHWTx6UutndLfIjBLg">
-              <value xsi:type="yest:OperationCell">
-                <operations reference="lfkWWhoZx9Xu8fA7DQX0Lp7LZzaDWFR6"/>
-              </value>
-            </cells>
-          </decisions>
-        </table>
-      </flowElements>
-      <flowElements xsi:type="yest:SequenceFlow" id="FVIj1NKe12uYNdQgwbZq4R9dx0Wl4TiA" name="" target="Ar2MT55LFD9hICjcoGWmml08KS83u6oM" source="JY4YIVVVHgPSpL6CJU0OgQPbXsWHM5ab"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="DebmgheCAUi1AHWrxeqaomqaX10MFgsm" name="" target="bBBkhsZwUWYHmtSG5DWpKSin9o25spk2" source="Ar2MT55LFD9hICjcoGWmml08KS83u6oM"/>
-      <flowElements xsi:type="yest:SequenceFlow" id="TFZXzlHwn6IQkTYqWlBtnQQMmDf8IUIQ" name="" target="zqMpuNfpbTLdHic1OIWCDT0HF2mwGCEJ" source="bBBkhsZwUWYHmtSG5DWpKSin9o25spk2"/>
-      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours" pictogramLinks="//@subFolders.0/@testElements.0/@diagram/@children.0/@link //@subFolders.0/@testElements.0/@diagram/@children.1/@link //@subFolders.0/@testElements.0/@diagram/@connections.0/@link //@subFolders.0/@testElements.0/@diagram/@children.2/@link //@subFolders.0/@testElements.0/@diagram/@connections.1/@link //@subFolders.0/@testElements.0/@diagram/@children.3/@link //@subFolders.0/@testElements.0/@diagram/@children.4/@link //@subFolders.0/@testElements.0/@diagram/@children.5/@link //@subFolders.0/@testElements.0/@diagram/@connections.2/@link //@subFolders.0/@testElements.0/@diagram/@connections.3/@link //@subFolders.0/@testElements.0/@diagram/@connections.4/@link" version="0.16.0">
-        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.0/@diagram/@colors.1" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
-        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO">
-          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="300" y="61" style="//@subFolders.0/@testElements.0/@diagram/@styles.0"/>
-          <link businessObjects="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
+      <flowElements xsi:type="yest:EndPoint" id="P9Qxym6AGwuox7zIhRJY4aoYwVyNHVYU" name="" incomings="orimRuwxlce5Ktkp3V5QxyqKmc5Z9rIi"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="8PmeYwyYNhCHQGEzEuc51Y0SZJ2sPnxk" name="" target="q6jcHi1OkCkDrI3g1dWTRjEIgViNNp2Z" source="kNPE4fRBLU6OIZfYqRqeaC2kTV53hyLE"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="ldHyI2lEhWrVnKtOUJoYS2xcpbbLEdSO" name="" target="5G7r70W7SMY3kZdVW6DCOgeNXowTDLQb" source="FdpSIbGcFLizIYm75n0p32mc7Tf16B9M"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="rcByuQr8xqj7dr7bBreBzfO6Nl0kggG3" name="" target="kNPE4fRBLU6OIZfYqRqeaC2kTV53hyLE" source="5G7r70W7SMY3kZdVW6DCOgeNXowTDLQb"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="Hjikk717SyFIo0onS5oXizlPWMHqDCpm" name="" target="FdpSIbGcFLizIYm75n0p32mc7Tf16B9M" source="wfPLBjNkUkcbXv6uSFJYxJ9T0RI8M5gV"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="orimRuwxlce5Ktkp3V5QxyqKmc5Z9rIi" name="" target="P9Qxym6AGwuox7zIhRJY4aoYwVyNHVYU" source="q6jcHi1OkCkDrI3g1dWTRjEIgViNNp2Z"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Vérifier la fonctionnalité &quot;Statut&quot;" pictogramLinks="//@subFolders.0/@testElements.0/@diagram/@children.0/@link //@subFolders.0/@testElements.0/@diagram/@children.1/@link //@subFolders.0/@testElements.0/@diagram/@children.2/@link //@subFolders.0/@testElements.0/@diagram/@children.3/@link //@subFolders.0/@testElements.0/@diagram/@children.4/@link //@subFolders.0/@testElements.0/@diagram/@children.5/@link //@subFolders.0/@testElements.0/@diagram/@connections.0/@link //@subFolders.0/@testElements.0/@diagram/@connections.1/@link //@subFolders.0/@testElements.0/@diagram/@connections.2/@link //@subFolders.0/@testElements.0/@diagram/@connections.3/@link //@subFolders.0/@testElements.0/@diagram/@connections.4/@link" version="0.16.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.0/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="wfPLBjNkUkcbXv6uSFJYxJ9T0RI8M5gV">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="150" y="100" style="//@subFolders.0/@testElements.0/@diagram/@styles.0"/>
+          <link businessObjects="wfPLBjNkUkcbXv6uSFJYxJ9T0RI8M5gV"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.3"/>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="244" y="116" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.1" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="kNPE4fRBLU6OIZfYqRqeaC2kTV53hyLE">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="270" height="45" x="31" y="285" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="kNPE4fRBLU6OIZfYqRqeaC2kTV53hyLE"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.2"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Us1 crée un nouveau&#xD;&#xA;projet Yest dans un repo&#xD;&#xA;Git"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="256" height="31" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier &quot;Versions à récupérer sur le serveur&quot;"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="JY4YIVVVHgPSpL6CJU0OgQPbXsWHM5ab">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="157" height="51" x="104" y="235" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="JY4YIVVVHgPSpL6CJU0OgQPbXsWHM5ab"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="5G7r70W7SMY3kZdVW6DCOgeNXowTDLQb">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="238" height="48" x="43" y="217" style="//@subFolders.0/@testElements.0/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="5G7r70W7SMY3kZdVW6DCOgeNXowTDLQb"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.2" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.1"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="143" height="37" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Cliquer sur Statut"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="224" height="34" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier la dernière version synchronisée"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="Ar2MT55LFD9hICjcoGWmml08KS83u6oM">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="238" height="48" x="60" y="301" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="Ar2MT55LFD9hICjcoGWmml08KS83u6oM"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.3" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.2"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="FdpSIbGcFLizIYm75n0p32mc7Tf16B9M">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="157" height="51" x="87" y="151" style="//@subFolders.0/@testElements.0/@diagram/@styles.3" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="FdpSIbGcFLizIYm75n0p32mc7Tf16B9M"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.1" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.3"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="224" height="34" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier la dernière version synchronisée"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="143" height="37" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Cliquer sur Statut"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="bBBkhsZwUWYHmtSG5DWpKSin9o25spk2">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="270" height="45" x="48" y="369" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="bBBkhsZwUWYHmtSG5DWpKSin9o25spk2"/>
-          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.4" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.3"/>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="q6jcHi1OkCkDrI3g1dWTRjEIgViNNp2Z">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="270" height="45" x="31" y="349" style="//@subFolders.0/@testElements.0/@diagram/@styles.4" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="q6jcHi1OkCkDrI3g1dWTRjEIgViNNp2Z"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.4" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="256" height="31" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier &quot;Versions à récupérer sur le serveur&quot;"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="256" height="31" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier &quot;Changements non versionnés&quot;"/>
           </children>
         </children>
-        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.5/@children.0/@graphicsAlgorithm" flowNode="zqMpuNfpbTLdHic1OIWCDT0HF2mwGCEJ">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="270" height="45" x="48" y="433" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-          <link businessObjects="zqMpuNfpbTLdHic1OIWCDT0HF2mwGCEJ"/>
+        <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="P9Qxym6AGwuox7zIhRJY4aoYwVyNHVYU">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="4" transparency="0.0" width="31" height="31" x="150" y="419" style="//@subFolders.0/@testElements.0/@diagram/@styles.5"/>
+          <link businessObjects="P9Qxym6AGwuox7zIhRJY4aoYwVyNHVYU"/>
           <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.4"/>
-          <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="256" height="31" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier &quot;Changements non versionnés&quot;"/>
-          </children>
         </children>
-        <styles id="shape-bg-green-id">
+        <styles filled="true" lineVisible="true" id="shape-bg-green-id">
           <renderingStyle>
             <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
               <adaptedGradientColoredAreas styleAdaption="0">
@@ -172,7 +193,7 @@
             </adaptedGradientColoredAreas>
           </renderingStyle>
         </styles>
-        <styles id="shape-bg-blue-id">
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
           <renderingStyle>
             <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
               <adaptedGradientColoredAreas styleAdaption="0">
@@ -208,55 +229,199 @@
             </adaptedGradientColoredAreas>
           </renderingStyle>
         </styles>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.0/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.1/@anchors.0" sequenceFlow="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA"/>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-red-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-red-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.1/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="8PmeYwyYNhCHQGEzEuc51Y0SZJ2sPnxk">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="8PmeYwyYNhCHQGEzEuc51Y0SZJ2sPnxk"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
               <points x="1"/>
               <points x="-6" y="-3"/>
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.1/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="wXzsydLM7El9TAkXTwJetAqJWHKqUeyO">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="wXzsydLM7El9TAkXTwJetAqJWHKqUeyO"/>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.3/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="ldHyI2lEhWrVnKtOUJoYS2xcpbbLEdSO">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="ldHyI2lEhWrVnKtOUJoYS2xcpbbLEdSO"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
               <points x="1"/>
               <points x="-6" y="-3"/>
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.2/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="FVIj1NKe12uYNdQgwbZq4R9dx0Wl4TiA">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="FVIj1NKe12uYNdQgwbZq4R9dx0Wl4TiA"/>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.2/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.1/@anchors.0" sequenceFlow="rcByuQr8xqj7dr7bBreBzfO6Nl0kggG3">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="rcByuQr8xqj7dr7bBreBzfO6Nl0kggG3"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
               <points x="1"/>
               <points x="-6" y="-3"/>
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.3/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="DebmgheCAUi1AHWrxeqaomqaX10MFgsm">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="DebmgheCAUi1AHWrxeqaomqaX10MFgsm"/>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.0/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="Hjikk717SyFIo0onS5oXizlPWMHqDCpm">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="Hjikk717SyFIo0onS5oXizlPWMHqDCpm"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
               <points x="1"/>
               <points x="-6" y="-3"/>
             </graphicsAlgorithm>
           </connectionDecorators>
         </connections>
-        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.4/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.5/@anchors.0" sequenceFlow="TFZXzlHwn6IQkTYqWlBtnQQMmDf8IUIQ">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-          <link businessObjects="TFZXzlHwn6IQkTYqWlBtnQQMmDf8IUIQ"/>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.4/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.5/@anchors.0" sequenceFlow="orimRuwxlce5Ktkp3V5QxyqKmc5Z9rIi">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="orimRuwxlce5Ktkp3V5QxyqKmc5Z9rIi"/>
           <connectionDecorators visible="true" locationRelative="true" location="1.0">
-            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
               <points x="-6" y="3"/>
               <points x="1"/>
               <points x="-6" y="-3"/>
@@ -264,7 +429,441 @@
           </connectionDecorators>
         </connections>
         <colors red="227" green="238" blue="249"/>
-        <colors red="255" green="255" blue="255"/>
+        <colors red="164" green="193" blue="162"/>
+        <colors red="51" green="51" blue="51"/>
+        <colors red="174" green="198" blue="207"/>
+        <colors red="239" green="126" blue="138"/>
+        <fonts name="Segoe UI" size="9"/>
+      </diagram>
+    </testElements>
+    <testElements xsi:type="yest:Workflow" id="jbo3DsCMiTsdmOz1r6RB96UJuLtXkYbL" name="Parcours juste pour modifier">
+      <flowElements xsi:type="yest:StartPoint" id="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE" name=""/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours juste pour modifier" pictogramLinks="//@subFolders.0/@testElements.1/@diagram/@children.0/@link" version="0.16.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.1/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.1/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="150" y="100" style="//@subFolders.0/@testElements.1/@diagram/@styles.0"/>
+          <link businessObjects="WOy0Z0Go6oXnVo1O43iQzYZ9UqFF2hFE"/>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+        </children>
+        <styles filled="true" lineVisible="true" id="shape-bg-green-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <colors red="227" green="238" blue="249"/>
+        <colors red="164" green="193" blue="162"/>
+      </diagram>
+    </testElements>
+    <testElements xsi:type="yest:Workflow" id="b3DNLorxFYKV2o4KJFkpryeFHMA3okpO" name="Parcours : un utilisateur veut récupérer le travail d'un collègue">
+      <flowElements xsi:type="yest:StartPoint" id="Js8di7bUxkvPQ1njmNfXP2WJORqb5y1H" name="" outgoings="PfOh2BezbgtwewQE9mUGRMUr2EkQ5MZX"/>
+      <flowElements xsi:type="yest:Task" id="2VmEbE5NqMOmVGvojZsWD5U6MQr4O58b" name="Us2 clone un repertoire Git" incomings="PfOh2BezbgtwewQE9mUGRMUr2EkQ5MZX" outgoings="Or69kVG8qc7O3SaOL6TI7yEoDizorSvh">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="iTDvTJrPvsyKqnAw4F9qI91hU5LFK7G1"/>
+          <decisions id="jjV8Gt8bGnoXkswny4YelkJoMoXYKbOq">
+            <cells key="iTDvTJrPvsyKqnAw4F9qI91hU5LFK7G1">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="E2JukpjpXCMcRGdxqJ5UI7TzY0AsNzmb"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:Task" id="RvGgbZgl5vzQ5ZkK5K8eb93ZxKJtxAwx" name="Ouvrir un projet du repo" incomings="Or69kVG8qc7O3SaOL6TI7yEoDizorSvh">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="iu48nRVeLLPm1WcpAcSVBSHX5OD6op4S"/>
+          <decisions id="20bmdCUBUejhfGbyxnirNZAJ9HGnQwUq">
+            <cells key="iu48nRVeLLPm1WcpAcSVBSHX5OD6op4S">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="NTUGy9oB8DmgVjk35QqPBfRq7AWgL1Mj"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:SequenceFlow" id="PfOh2BezbgtwewQE9mUGRMUr2EkQ5MZX" name="" target="2VmEbE5NqMOmVGvojZsWD5U6MQr4O58b" source="Js8di7bUxkvPQ1njmNfXP2WJORqb5y1H"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="Or69kVG8qc7O3SaOL6TI7yEoDizorSvh" name="" target="RvGgbZgl5vzQ5ZkK5K8eb93ZxKJtxAwx" source="2VmEbE5NqMOmVGvojZsWD5U6MQr4O58b"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours : un utilisateur veut récupérer le travail d'un collègue" pictogramLinks="//@subFolders.0/@testElements.2/@diagram/@children.0/@link //@subFolders.0/@testElements.2/@diagram/@children.1/@link //@subFolders.0/@testElements.2/@diagram/@children.2/@link //@subFolders.0/@testElements.2/@diagram/@connections.0/@link //@subFolders.0/@testElements.2/@diagram/@connections.1/@link" version="0.16.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.2/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="Js8di7bUxkvPQ1njmNfXP2WJORqb5y1H">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="300" y="61" style="//@subFolders.0/@testElements.2/@diagram/@styles.0"/>
+          <link businessObjects="Js8di7bUxkvPQ1njmNfXP2WJORqb5y1H"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.2/@diagram/@connections.0"/>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.2/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="2VmEbE5NqMOmVGvojZsWD5U6MQr4O58b">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="144" height="62" x="244" y="116" style="//@subFolders.0/@testElements.2/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="2VmEbE5NqMOmVGvojZsWD5U6MQr4O58b"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.2/@diagram/@connections.1" incomingConnections="//@subFolders.0/@testElements.2/@diagram/@connections.0"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Us2 clone un repertoire&#xD;&#xA;Git"/>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.2/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="RvGgbZgl5vzQ5ZkK5K8eb93ZxKJtxAwx">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="101" height="51" x="265" y="204" style="//@subFolders.0/@testElements.2/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="RvGgbZgl5vzQ5ZkK5K8eb93ZxKJtxAwx"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.2/@diagram/@connections.1"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.0/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Ouvrir un projet&#xD;&#xA;du repo"/>
+          </children>
+        </children>
+        <styles filled="true" lineVisible="true" id="shape-bg-green-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.2/@diagram/@children.0/@anchors.0" end="//@subFolders.0/@testElements.2/@diagram/@children.1/@anchors.0" sequenceFlow="PfOh2BezbgtwewQE9mUGRMUr2EkQ5MZX">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="PfOh2BezbgtwewQE9mUGRMUr2EkQ5MZX"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.2/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.2/@diagram/@children.1/@anchors.0" end="//@subFolders.0/@testElements.2/@diagram/@children.2/@anchors.0" sequenceFlow="Or69kVG8qc7O3SaOL6TI7yEoDizorSvh">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="Or69kVG8qc7O3SaOL6TI7yEoDizorSvh"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.2/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <colors red="227" green="238" blue="249"/>
+        <colors red="164" green="193" blue="162"/>
+        <colors red="51" green="51" blue="51"/>
+        <colors red="174" green="198" blue="207"/>
+        <fonts name="Segoe UI" size="9"/>
+      </diagram>
+    </testElements>
+    <testElements xsi:type="yest:Workflow" id="cWJ9sc9PpeiBYIhyqgmi3MXLc9Aqsuk7" name="Parcours : un utilisateur fait un nouveau projet sur un depot">
+      <flowElements xsi:type="yest:StartPoint" id="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO" name="" outgoings="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA"/>
+      <flowElements xsi:type="yest:Task" id="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl" name="Us1 crée un nouveau projet Yest dans un repo Git" incomings="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA" outgoings="ehe4Fb3rAhbflpvFuzURzzORsh9DqOyI">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="cyFb14kPzgl9jKzGvuYo71ONTcexUKS6"/>
+          <decisions id="MuVcHO0jDOsD3o8apFOPsdaGvGpuZjOe">
+            <cells key="cyFb14kPzgl9jKzGvuYo71ONTcexUKS6">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="JsMsGOwhmOjhieiAcDR8CklbSdSFeB96"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:CallActivity" id="qvmfeknKltpL6HI7ohTWknQnH8NW9iUO" name="Vérifier la fonctionnalité &quot;Statut&quot;" incomings="ehe4Fb3rAhbflpvFuzURzzORsh9DqOyI" subWorkflow="DvY9kXBctDDqBD2BRLxvViv1y94P4vu2"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA" name="" target="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl" source="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="ehe4Fb3rAhbflpvFuzURzzORsh9DqOyI" name="" target="qvmfeknKltpL6HI7ohTWknQnH8NW9iUO" source="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours : un utilisateur fait un nouveau projet sur un depot" pictogramLinks="//@subFolders.0/@testElements.3/@diagram/@children.0/@link //@subFolders.0/@testElements.3/@diagram/@children.1/@link //@subFolders.0/@testElements.3/@diagram/@children.2/@link //@subFolders.0/@testElements.3/@diagram/@connections.0/@link //@subFolders.0/@testElements.3/@diagram/@connections.1/@link" version="0.16.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.3/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="300" y="61" style="//@subFolders.0/@testElements.3/@diagram/@styles.0"/>
+          <link businessObjects="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.3/@diagram/@connections.0"/>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.3/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="144" height="62" x="244" y="116" style="//@subFolders.0/@testElements.3/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.3/@diagram/@connections.1" incomingConnections="//@subFolders.0/@testElements.3/@diagram/@connections.0"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.3/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Us1 crée un nouveau&#xD;&#xA;projet Yest dans un repo&#xD;&#xA;Git"/>
+          </children>
+        </children>
+        <children xsi:type="yest:CallActivityShape" visible="true" active="true" text="//@subFolders.0/@testElements.3/@diagram/@children.2/@children.0/@graphicsAlgorithm" extras="//@subFolders.0/@testElements.3/@diagram/@children.2/@children.1/@graphicsAlgorithm //@subFolders.0/@testElements.3/@diagram/@children.2/@children.2/@graphicsAlgorithm //@subFolders.0/@testElements.3/@diagram/@children.2/@children.3/@graphicsAlgorithm" flowNode="qvmfeknKltpL6HI7ohTWknQnH8NW9iUO">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.3" lineWidth="2" filled="true" transparency="0.0" width="173" height="80" x="126" y="261" style="//@subFolders.0/@testElements.3/@diagram/@styles.2" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="qvmfeknKltpL6HI7ohTWknQnH8NW9iUO"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.3/@diagram/@connections.1"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="159" height="48" x="7" y="7" font="//@subFolders.0/@testElements.3/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Vérifier la fonctionnalité&#xD;&#xA;&quot;Statut&quot;"/>
+          </children>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.3" lineWidth="2">
+              <points x="77" y="80"/>
+              <points x="77" y="62"/>
+              <points x="95" y="62"/>
+              <points x="95" y="80"/>
+            </graphicsAlgorithm>
+          </children>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.3" lineWidth="2">
+              <points x="79" y="70"/>
+              <points x="93" y="70"/>
+            </graphicsAlgorithm>
+          </children>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.3" lineWidth="2">
+              <points x="85" y="64"/>
+              <points x="85" y="78"/>
+            </graphicsAlgorithm>
+          </children>
+        </children>
+        <styles filled="true" lineVisible="true" id="shape-bg-green-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.3/@diagram/@children.0/@anchors.0" end="//@subFolders.0/@testElements.3/@diagram/@children.1/@anchors.0" sequenceFlow="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.3/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.3/@diagram/@children.1/@anchors.0" end="//@subFolders.0/@testElements.3/@diagram/@children.2/@anchors.0" sequenceFlow="ehe4Fb3rAhbflpvFuzURzzORsh9DqOyI">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="ehe4Fb3rAhbflpvFuzURzzORsh9DqOyI"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.3/@diagram/@colors.2" foreground="//@subFolders.0/@testElements.3/@diagram/@colors.2" lineWidth="1" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <colors red="227" green="238" blue="249"/>
         <colors red="164" green="193" blue="162"/>
         <colors red="51" green="51" blue="51"/>
         <colors red="174" green="198" blue="207"/>
@@ -312,9 +911,43 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
+  <testElements xsi:type="yest:TestOperation" id="EZkrKR1wBPdqyLUS1kUsq8GSUEyOkOGs">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Cliquer sur Statut, vérifier la dernière version synchonisée"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="La dernière version synchronisée montre un autre projet que le mien et pas mon projet, et c'est bien la dernière version"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="E2JukpjpXCMcRGdxqJ5UI7TzY0AsNzmb">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="User 2 clone un répertoire Git"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Le dépot git est cloné"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="NTUGy9oB8DmgVjk35QqPBfRq7AWgL1Mj">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Ouvrir un projet du repo"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Le projet Yest est ouvert, avec le chemin du repo local"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
   <designDataDictionary id="tZSMuupN8nzbiX4u6VajWROUKZsgeAQV" name="#designDataDictionary">
     <datas xsi:type="yest:DesignData" name="versions_à_récupérer_du_serveur" id="iIREH7PAZEtGpuhA58J9pCi6JtPYsRGR"/>
     <datas xsi:type="yest:DesignData" name="dernière_action_us2" id="1lp48bnpWqWvgqybOtBQfgqh14dRCB0V"/>
+    <datas xsi:type="yest:DesignData" name="état_dernière_version_synchronisée" id="VODVySTDLmwfOF8RpBoTxV1EE0lYJBx4">
+      <possibleValues definition="C'est l'utilisateur courant qui à envoyé la dernière version" id="FugcSH9YKyyALyw6qfGo80DO9ovu2VxK"/>
+      <possibleValues definition="C'est un autre utilisateur qui a envoyé la dernière version" id="YatxvPKeAVF8VvLOakmzugVQNGRtCDP8"/>
+    </datas>
   </designDataDictionary>
   <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary"/>
   <dataSetCatalog name="#catalog" id="fTX9DJQOjHpMFxmS9sztIkEoy9ptx4tU"/>

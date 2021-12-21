@@ -2428,11 +2428,11 @@
     </datas>
     <datas xsi:type="yest:DesignData" name="récupérer_version" id="c2fFirEWHWynkwMF8hGQ1oxl6F7IN2Av"/>
     <datas xsi:type="yest:DesignData" name="jdd" id="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
-    <datas xsi:type="yest:DesignData" name="donnée_conception_renommée" id="TbTKuvahsD0qxj22oh45hKicoNjVcBVK"/>
+    <datas xsi:type="yest:DesignData" name="donnée_conception" id="TbTKuvahsD0qxj22oh45hKicoNjVcBVK"/>
     <datas xsi:type="yest:DesignData" name="donnée_implémentation" id="yCYexBCrxoYDbYlltVnCXWsva5bsCmYy"/>
   </designDataDictionary>
   <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary">
-    <datas xsi:type="yest:ImplementationData" name="donnée_i1_renommée" id="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4"/>
+    <datas xsi:type="yest:ImplementationData" name="donnée_i1" id="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4"/>
   </implementationDataDictionary>
   <dataSetCatalog name="#catalog" id="fTX9DJQOjHpMFxmS9sztIkEoy9ptx4tU">
     <dataSetCollections name="jdd u2" id="9L6LidONcbru6gnafSezFxlwcCooXG12"/>

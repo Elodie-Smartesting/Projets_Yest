@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yest:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:yest="http://www.smartesting.com/yest/metamodel" name="Projet Yest Alpha1" id="JllSZ8mc5TKAvqBgyCsDIQf8QNsYJCaB">
+  <metadata key="ProjectVersion" value="10"/>
+  <metadata key="ApplicationVersion" value="3.1.0"/>
+  <subFolders name="Dossier" id="1802dfi7oI0kV59dcqlxNZqw48N0q3tW">
+    <testElements xsi:type="yest:Workflow" id="cWJ9sc9PpeiBYIhyqgmi3MXLc9Aqsuk7" name="Parcours">
+      <flowElements xsi:type="yest:StartPoint" id="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO" name="" outgoings="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA"/>
+      <flowElements xsi:type="yest:Task" id="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl" name="Us1 crée un nouveau projet Yest dans un repo Git" incomings="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="cyFb14kPzgl9jKzGvuYo71ONTcexUKS6"/>
+          <decisions id="MuVcHO0jDOsD3o8apFOPsdaGvGpuZjOe">
+            <cells key="cyFb14kPzgl9jKzGvuYo71ONTcexUKS6">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="JsMsGOwhmOjhieiAcDR8CklbSdSFeB96"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:SequenceFlow" id="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA" name="" target="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl" source="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours" pictogramLinks="//@subFolders.0/@testElements.0/@diagram/@children.0/@link //@subFolders.0/@testElements.0/@diagram/@children.1/@link //@subFolders.0/@testElements.0/@diagram/@connections.0/@link" version="0.16.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.0/@diagram/@colors.1" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="300" y="61" style="//@subFolders.0/@testElements.0/@diagram/@styles.0"/>
+          <link businessObjects="oxl5fNeX0LzIWhGLy2zG916gI9MXmvdO"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="244" y="116" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="LRFQ8NugoZZEhZKhCA5yYyZ7tYuL5lZl"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Us1 crée un nouveau&#xD;&#xA;projet Yest dans un repo&#xD;&#xA;Git"/>
+          </children>
+        </children>
+        <styles id="shape-bg-green-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.0/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.1/@anchors.0" sequenceFlow="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="cQ7JCbg2dmvxCtSoPBOrlRCGRKZUwMbA"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <colors red="227" green="238" blue="249"/>
+        <colors red="255" green="255" blue="255"/>
+        <colors red="164" green="193" blue="162"/>
+        <colors red="51" green="51" blue="51"/>
+        <colors red="174" green="198" blue="207"/>
+        <fonts name="Segoe UI" size="9"/>
+      </diagram>
+    </testElements>
+  </subFolders>
+  <testElements xsi:type="yest:TestOperation" id="JsMsGOwhmOjhieiAcDR8CklbSdSFeB96">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Us1 crée un nouveau projet Yest dans un repo Git"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Le projet est avec une icone Git"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <designDataDictionary id="tZSMuupN8nzbiX4u6VajWROUKZsgeAQV" name="#designDataDictionary"/>
+  <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary"/>
+  <dataSetCatalog name="#catalog" id="fTX9DJQOjHpMFxmS9sztIkEoy9ptx4tU"/>
+</yest:Project>

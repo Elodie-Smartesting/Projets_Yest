@@ -2720,7 +2720,7 @@
         <stepElements xsi:type="yest:StepText" content="Tâche3"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="modif U2"/>
+        <stepElements xsi:type="yest:StepText" content="modif U1"/>
       </expectedResult>
     </highLevelStep>
   </testElements>

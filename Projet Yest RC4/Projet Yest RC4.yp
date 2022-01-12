@@ -10005,12 +10005,12 @@
       </subFolders>
       <subFolders name="1_Test renommage_accepter" id="gyTO3vqMSx3Y3AlIkFf4G0eoxSZCGMOL">
         <subFolders name="Dossier pour renommage" id="FHKukce5DAsLRU0vDiOUHi4LC4uHSUyY">
-          <subFolders name="Dossier3" id="pKByDznGTbmbk4PoMzXvQjaEgL7M0n7u"/>
-          <testElements xsi:type="yest:TestScenario" id="gq9e1iexsmqK4XBvoSaUlz8CHp8j5cTR" name="Scénario3" associatedWorkflow="3g09OUjpkoqXosMKiqGZu7NZktrsDA5C">
+          <subFolders name="Dossier4" id="pKByDznGTbmbk4PoMzXvQjaEgL7M0n7u"/>
+          <testElements xsi:type="yest:TestScenario" id="gq9e1iexsmqK4XBvoSaUlz8CHp8j5cTR" name="Scénario4" associatedWorkflow="3g09OUjpkoqXosMKiqGZu7NZktrsDA5C">
             <testActions id="2GNWaEHsH6rS0w9vxOMdLaEAsypIfl4O" operation="c6pcfDHGI3lPttRQjqSag4hZ1cUEF6b2"/>
             <testActions id="UTFXNR0u4eUY8cfq6TPOZ54NfNrzmwaR" operation="4CS5GCeTvLEPYLC3Ak5Tw6RiHYs4CUEM"/>
           </testElements>
-          <testElements xsi:type="yest:Workflow" id="3g09OUjpkoqXosMKiqGZu7NZktrsDA5C" name="Parcours 3">
+          <testElements xsi:type="yest:Workflow" id="3g09OUjpkoqXosMKiqGZu7NZktrsDA5C" name="Parcours 4">
             <flowElements xsi:type="yest:StartPoint" id="pAU1YE8hqW46bdcwuU483mYp98opGyWw" name="" outgoings="qA1xWhK5Q6woyOJ3NqMN2u0aDLEq09Eb"/>
             <flowElements xsi:type="yest:Task" id="HxBvDWNrTpOpQePREGJFCZ6QXQ7QOnYt" name="Etape 1" incomings="qA1xWhK5Q6woyOJ3NqMN2u0aDLEq09Eb" outgoings="ugYAI4fYMyE4kQdfvcK8VlfH6V4AcLDA">
               <table>
@@ -10038,7 +10038,7 @@
             </flowElements>
             <flowElements xsi:type="yest:SequenceFlow" id="qA1xWhK5Q6woyOJ3NqMN2u0aDLEq09Eb" name="" target="HxBvDWNrTpOpQePREGJFCZ6QXQ7QOnYt" source="pAU1YE8hqW46bdcwuU483mYp98opGyWw"/>
             <flowElements xsi:type="yest:SequenceFlow" id="ugYAI4fYMyE4kQdfvcK8VlfH6V4AcLDA" name="" target="BJ4mIKTbt5CAbyra629eu03WLrlCX8ZP" source="HxBvDWNrTpOpQePREGJFCZ6QXQ7QOnYt"/>
-            <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours 3" pictogramLinks="//@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@children.0/@link //@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@children.1/@link //@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@children.2/@link //@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@connections.0/@link //@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@connections.1/@link" version="0.16.0">
+            <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours 4" pictogramLinks="//@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@children.0/@link //@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@children.1/@link //@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@children.2/@link //@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@connections.0/@link //@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@connections.1/@link" version="0.16.0">
               <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
               <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="pAU1YE8hqW46bdcwuU483mYp98opGyWw">
                 <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="150" y="100" style="//@subFolders.2/@subFolders.1/@subFolders.2/@subFolders.0/@testElements.1/@diagram/@styles.0"/>
@@ -10198,26 +10198,26 @@
               <fonts name="Segoe UI" size="9"/>
             </diagram>
           </testElements>
-          <testElements xsi:type="yest:PublisherConfiguration" id="cZachcMJn1qOg48F6XwQeF0SOm7Zq1Fm" campaign="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="PublicationALM3" publisherId="com.smartesting.publishers.alm.AlmPublisherEditor"/>
-          <testElements xsi:type="yest:AutomationConfiguration" id="538BxfeR44oMcqKgWzJi834vnfcjj0NP" campaign="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="PublicationRobot Framework3" publisherId="com.smartesting.publishers.robotframework.RobotframeworkEditor">
+          <testElements xsi:type="yest:PublisherConfiguration" id="cZachcMJn1qOg48F6XwQeF0SOm7Zq1Fm" campaign="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="PublicationALM4" publisherId="com.smartesting.publishers.alm.AlmPublisherEditor"/>
+          <testElements xsi:type="yest:AutomationConfiguration" id="538BxfeR44oMcqKgWzJi834vnfcjj0NP" campaign="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="PublicationRobot Framework4" publisherId="com.smartesting.publishers.robotframework.RobotframeworkEditor">
             <globalBefore/>
             <globalAfter/>
           </testElements>
-          <testElements xsi:type="yest:PublisherConfiguration" id="ts5ONalO6p9OnDeBucbDHcsdfPdTvm4I" campaign="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="PublicationSquashTM3" publisherId="com.smartesting.publishers.squashtm.api.SquashTmApiPublisherEditor"/>
-          <testElements xsi:type="yest:PublisherConfiguration" id="Q1LYYPAo6QjqMG5x7kJtI9xvMCrfdsKY" campaign="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="PublicationExcel3" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor"/>
-          <testElements xsi:type="yest:TestCampaign" id="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="Campagne à renommer3"/>
-          <testElements xsi:type="yest:TestCampaign" id="ABqJEkOQZFxpfyduUOdWqDDk5erUhZFs" name="Campagne qui aura le même nom3"/>
-          <testElements xsi:type="yest:TestCampaign" id="D4mUJo0zMqXK9tLHzHbfMjvFHSCh1pXI" name="Campagne à renommer pour avoir le même nom3"/>
+          <testElements xsi:type="yest:PublisherConfiguration" id="ts5ONalO6p9OnDeBucbDHcsdfPdTvm4I" campaign="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="PublicationSquashTM4" publisherId="com.smartesting.publishers.squashtm.api.SquashTmApiPublisherEditor"/>
+          <testElements xsi:type="yest:PublisherConfiguration" id="Q1LYYPAo6QjqMG5x7kJtI9xvMCrfdsKY" campaign="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="PublicationExcel4" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor"/>
+          <testElements xsi:type="yest:TestCampaign" id="0mmXxM8l9GGRNbeWXE8TgGc4xi7EU08w" name="Campagne à renommer4"/>
+          <testElements xsi:type="yest:TestCampaign" id="ABqJEkOQZFxpfyduUOdWqDDk5erUhZFs" name="Campagne qui aura le même nom4"/>
+          <testElements xsi:type="yest:TestCampaign" id="D4mUJo0zMqXK9tLHzHbfMjvFHSCh1pXI" name="Campagne à renommer pour avoir le même nom4"/>
         </subFolders>
       </subFolders>
       <subFolders name="1_Test renommage_refuser" id="py7njuqsmm3Yf8yyOU26Ib0yJ1gnKKRM">
         <subFolders name="Dossier pour renommage" id="2pCxeqtJYja9baMu6vIKV1BA1xMNgUPP">
-          <subFolders name="Dossier2" id="LvkOGwE2vmIX6NbRbjmEMsgeDIlF9qHe"/>
-          <testElements xsi:type="yest:TestScenario" id="jmBHxOnhT80ybzUKYt0QXuh6T7uEXjdu" name="Scénario2" associatedWorkflow="jgDxQGTVbqnREHGzYhbYvYdSE0VlkLPK">
+          <subFolders name="Dossier4" id="LvkOGwE2vmIX6NbRbjmEMsgeDIlF9qHe"/>
+          <testElements xsi:type="yest:TestScenario" id="jmBHxOnhT80ybzUKYt0QXuh6T7uEXjdu" name="Scénario4" associatedWorkflow="jgDxQGTVbqnREHGzYhbYvYdSE0VlkLPK">
             <testActions id="fNpPG9WVcAVCx8lynxPXJwGHPirMIAVG" operation="c6pcfDHGI3lPttRQjqSag4hZ1cUEF6b2"/>
             <testActions id="TzgK8yekpXmcSn2APIx4aKyYDPuT7Qss" operation="4CS5GCeTvLEPYLC3Ak5Tw6RiHYs4CUEM"/>
           </testElements>
-          <testElements xsi:type="yest:Workflow" id="jgDxQGTVbqnREHGzYhbYvYdSE0VlkLPK" name="Parcours2">
+          <testElements xsi:type="yest:Workflow" id="jgDxQGTVbqnREHGzYhbYvYdSE0VlkLPK" name="Parcours4">
             <flowElements xsi:type="yest:StartPoint" id="FpnFty0fTiYN2ckvSdQME2i6b48f7ZhS" name="" outgoings="VWJcQdpjFoq2jPTtTWh2wWdS313ODs05"/>
             <flowElements xsi:type="yest:Task" id="M5HDMzUj8ZVcguZkoTJAZVZSirGElkhu" name="Etape 1" incomings="VWJcQdpjFoq2jPTtTWh2wWdS313ODs05" outgoings="dCqCzC5yPxn6AalylbiEqvSLdmChpNlD">
               <table>
@@ -10245,7 +10245,7 @@
             </flowElements>
             <flowElements xsi:type="yest:SequenceFlow" id="VWJcQdpjFoq2jPTtTWh2wWdS313ODs05" name="" target="M5HDMzUj8ZVcguZkoTJAZVZSirGElkhu" source="FpnFty0fTiYN2ckvSdQME2i6b48f7ZhS"/>
             <flowElements xsi:type="yest:SequenceFlow" id="dCqCzC5yPxn6AalylbiEqvSLdmChpNlD" name="" target="vj4I69izkdcjo9WjLxxVnDAdyPvS170y" source="M5HDMzUj8ZVcguZkoTJAZVZSirGElkhu"/>
-            <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours2" pictogramLinks="//@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@children.0/@link //@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@children.1/@link //@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@children.2/@link //@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@connections.0/@link //@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@connections.1/@link" version="0.16.0">
+            <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Parcours4" pictogramLinks="//@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@children.0/@link //@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@children.1/@link //@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@children.2/@link //@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@connections.0/@link //@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@connections.1/@link" version="0.16.0">
               <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
               <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="FpnFty0fTiYN2ckvSdQME2i6b48f7ZhS">
                 <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="150" y="100" style="//@subFolders.2/@subFolders.1/@subFolders.3/@subFolders.0/@testElements.1/@diagram/@styles.0"/>
@@ -10405,14 +10405,14 @@
               <fonts name="Segoe UI" size="9"/>
             </diagram>
           </testElements>
-          <testElements xsi:type="yest:PublisherConfiguration" id="uwAiRN7i2X5fRUUA60O7KhUHeWpz3i4g" campaign="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="PublicationALM2" publisherId="com.smartesting.publishers.alm.AlmPublisherEditor"/>
-          <testElements xsi:type="yest:AutomationConfiguration" id="Ugpstpy8t0pzzLEhf7A7PCqkDGzJQqb0" campaign="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="PublicationRobot Framework2" publisherId="com.smartesting.publishers.robotframework.RobotframeworkEditor">
+          <testElements xsi:type="yest:PublisherConfiguration" id="uwAiRN7i2X5fRUUA60O7KhUHeWpz3i4g" campaign="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="PublicationALM4" publisherId="com.smartesting.publishers.alm.AlmPublisherEditor"/>
+          <testElements xsi:type="yest:AutomationConfiguration" id="Ugpstpy8t0pzzLEhf7A7PCqkDGzJQqb0" campaign="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="PublicationRobot Framework4" publisherId="com.smartesting.publishers.robotframework.RobotframeworkEditor">
             <globalBefore/>
             <globalAfter/>
           </testElements>
-          <testElements xsi:type="yest:PublisherConfiguration" id="N7I44ptm3dwS8L7cXRou9256byhr2Tqp" campaign="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="PublicationSquashTM2" publisherId="com.smartesting.publishers.squashtm.api.SquashTmApiPublisherEditor"/>
-          <testElements xsi:type="yest:PublisherConfiguration" id="DfQqOiSWTbdypKFUC8eD9qAhrCV4Xikl" campaign="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="PublicationExcel2" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor"/>
-          <testElements xsi:type="yest:TestCampaign" id="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="Campagne2"/>
+          <testElements xsi:type="yest:PublisherConfiguration" id="N7I44ptm3dwS8L7cXRou9256byhr2Tqp" campaign="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="PublicationSquashTM4" publisherId="com.smartesting.publishers.squashtm.api.SquashTmApiPublisherEditor"/>
+          <testElements xsi:type="yest:PublisherConfiguration" id="DfQqOiSWTbdypKFUC8eD9qAhrCV4Xikl" campaign="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="PublicationExcel4" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor"/>
+          <testElements xsi:type="yest:TestCampaign" id="MaF2QhRO9BOHrDhoTaUvVtURCuiJtnPp" name="Campagne4"/>
         </subFolders>
       </subFolders>
       <subFolders name="1_Test suppression_accepter" id="rQlGcWDADXY0YEyfXms532bJQgQIDFh0">

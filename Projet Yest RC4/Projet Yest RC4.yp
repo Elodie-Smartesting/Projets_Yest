@@ -12027,14 +12027,18 @@
           <testElements xsi:type="yest:PublisherConfiguration" id="Bc2GgdPL5IRCpfhASpEVedplbbfXja9M" campaign="5k4uTXCpMdZmQouslVkhsNlnSghMj8hE" name="PublicationSquashTM1" publisherId="com.smartesting.publishers.squashtm.api.SquashTmApiPublisherEditor"/>
           <testElements xsi:type="yest:PublisherConfiguration" id="RK53hBir7NalKN5mQc4GHIoj2mJmA7hK" campaign="5k4uTXCpMdZmQouslVkhsNlnSghMj8hE" name="PublicationExcel1" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor"/>
           <testElements xsi:type="yest:TestCampaign" id="5k4uTXCpMdZmQouslVkhsNlnSghMj8hE" name="Campagne1"/>
+          <testElements xsi:type="yest:TestScenario" id="mibcsG4WgNG4McNGeb9jhRgZ15DtpAWC" name="Scénario à renommer nom commun" associatedWorkflow="Rmx6u5ivRyq06610DaSEALzLuAchIegA">
+            <testActions id="OVblKkmXfGkotk5RGSkelXmbl5rEvhxI" operation="c6pcfDHGI3lPttRQjqSag4hZ1cUEF6b2"/>
+            <testActions id="w4RfNyZYDG7CxxPZBZ2MZdOV71bAbHZo" operation="gU511xgkUbEE6oKEoSlnjkOYHzU3GtwU"/>
+          </testElements>
         </subFolders>
       </subFolders>
       <subFolders name="1_Test renommage_accepter" id="fQtTvsiqyRY0oozUhNR0kjXRYXm4iBg7">
         <subFolders name="Dossier pour renommage" id="BaGH3Br11rF3ouOb3aTUcQBiG9XRVzxF">
           <subFolders name="Dossier2" id="5vsor2MVqier54SeiewUNcbPvxbDrCQR"/>
-          <testElements xsi:type="yest:TestScenario" id="cV9uq91uqItUa2oAky6R39k8DyV8rCfD" name="Scénario2" associatedWorkflow="Rmx6u5ivRyq06610DaSEALzLuAchIegA">
+          <testElements xsi:type="yest:TestScenario" id="cV9uq91uqItUa2oAky6R39k8DyV8rCfD" name="Scénario à renommer nom commun" associatedWorkflow="Rmx6u5ivRyq06610DaSEALzLuAchIegA">
             <testActions id="vxjKCGbikn5XDcXn8eIF8bVLyZK2YW3e" operation="c6pcfDHGI3lPttRQjqSag4hZ1cUEF6b2"/>
-            <testActions id="YmpWa7vMwNRnsZMs9zN1s7B0UXbvsf8D" operation="4CS5GCeTvLEPYLC3Ak5Tw6RiHYs4CUEM"/>
+            <testActions id="YmpWa7vMwNRnsZMs9zN1s7B0UXbvsf8D" operation="gU511xgkUbEE6oKEoSlnjkOYHzU3GtwU"/>
           </testElements>
           <testElements xsi:type="yest:Workflow" id="Rmx6u5ivRyq06610DaSEALzLuAchIegA" name="Parcours2">
             <flowElements xsi:type="yest:StartPoint" id="0athTNA5VcAjYVWpZwe32vL5aKQ4QlZT" name="" outgoings="HLs3cqiaDiFnMyR6Rp1ypam6cVo2ui5W"/>
@@ -12231,9 +12235,7 @@
           </testElements>
           <testElements xsi:type="yest:PublisherConfiguration" id="6HIBSL9wNP3dFgfguWX6POiqXygp2sPN" campaign="r6vGeFjeHViceocEbhgYzL96lD7XDtj0" name="PublicationSquashTM2" publisherId="com.smartesting.publishers.squashtm.api.SquashTmApiPublisherEditor"/>
           <testElements xsi:type="yest:PublisherConfiguration" id="ekr5rs2OqhqImlju2Gld6pB6SubwkfNG" campaign="r6vGeFjeHViceocEbhgYzL96lD7XDtj0" name="PublicationExcel2" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor"/>
-          <testElements xsi:type="yest:TestCampaign" id="r6vGeFjeHViceocEbhgYzL96lD7XDtj0" name="Campagne à renommer2"/>
-          <testElements xsi:type="yest:TestCampaign" id="JI6PCe0mFFXJN9oTrRyYo1oV4mAmnWPm" name="Campagne qui aura le même nom2"/>
-          <testElements xsi:type="yest:TestCampaign" id="AU3IOosKpkyHREatQww7AaNTobQCJD8C" name="Campagne à renommer pour avoir le même nom : toto"/>
+          <testElements xsi:type="yest:TestCampaign" id="r6vGeFjeHViceocEbhgYzL96lD7XDtj0" name="Campagne à renommer nom commun"/>
         </subFolders>
       </subFolders>
       <subFolders name="1_Test suppression_accepter" id="GgHJCTa0tclgjTp6VJzGMqycMLiCLfLA">
@@ -44861,6 +44863,14 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Cloner un dépot Git"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="gU511xgkUbEE6oKEoSlnjkOYHzU3GtwU">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Etape 2 U2"/>
       </action>
       <expectedResult/>
     </highLevelStep>

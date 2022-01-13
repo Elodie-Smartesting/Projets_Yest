@@ -12027,6 +12027,9 @@
           <testElements xsi:type="yest:PublisherConfiguration" id="Bc2GgdPL5IRCpfhASpEVedplbbfXja9M" campaign="5k4uTXCpMdZmQouslVkhsNlnSghMj8hE" name="PublicationSquashTM1" publisherId="com.smartesting.publishers.squashtm.api.SquashTmApiPublisherEditor"/>
           <testElements xsi:type="yest:PublisherConfiguration" id="RK53hBir7NalKN5mQc4GHIoj2mJmA7hK" campaign="5k4uTXCpMdZmQouslVkhsNlnSghMj8hE" name="PublicationExcel1" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor"/>
           <testElements xsi:type="yest:TestCampaign" id="5k4uTXCpMdZmQouslVkhsNlnSghMj8hE" name="Campagne1"/>
+          <testElements xsi:type="yest:TestScenario" id="z5Ci50yDaaAjBwmZExyeqQyU33SB3X98" name="Scénario à renommer nom commun" associatedWorkflow="Rmx6u5ivRyq06610DaSEALzLuAchIegA">
+            <testActions id="H0TYLI2YW7KoZJ6r2JPGqD8TGSmnuNMt" operation="bUHh0MVYYpcQ0GopAI7aJYELVtoNo9lI"/>
+          </testElements>
         </subFolders>
       </subFolders>
       <subFolders name="1_Test renommage_accepter" id="fQtTvsiqyRY0oozUhNR0kjXRYXm4iBg7">
@@ -12234,6 +12237,9 @@
           <testElements xsi:type="yest:TestCampaign" id="r6vGeFjeHViceocEbhgYzL96lD7XDtj0" name="Campagne à renommer2"/>
           <testElements xsi:type="yest:TestCampaign" id="JI6PCe0mFFXJN9oTrRyYo1oV4mAmnWPm" name="Campagne qui aura le même nom2"/>
           <testElements xsi:type="yest:TestCampaign" id="AU3IOosKpkyHREatQww7AaNTobQCJD8C" name="Campagne à renommer pour avoir le même nom : toto"/>
+          <testElements xsi:type="yest:TestScenario" id="SdpDAgvGPKKOPrvrQjH1rE4uadi6tYfG" name="Scénario à renommer nom commun" associatedWorkflow="Rmx6u5ivRyq06610DaSEALzLuAchIegA">
+            <testActions id="l56PAifntT5DQAHqxj7Hdi3N1XtMD5VA" operation="bUHh0MVYYpcQ0GopAI7aJYELVtoNo9lI"/>
+          </testElements>
         </subFolders>
       </subFolders>
       <subFolders name="1_Test suppression_accepter" id="GgHJCTa0tclgjTp6VJzGMqycMLiCLfLA">
@@ -44861,6 +44867,14 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Cloner un dépot Git"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="bUHh0MVYYpcQ0GopAI7aJYELVtoNo9lI">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="U1"/>
       </action>
       <expectedResult/>
     </highLevelStep>

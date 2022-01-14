@@ -37252,21 +37252,20 @@
           <flowElements xsi:type="yest:StartPoint" id="VeRVXrjLtfjJDIIxuweYaEGZe0JnqaWv" name="" outgoings="eKlyQR4nMkpRoAPcwz9LIMYjFhrOeMHL"/>
           <flowElements xsi:type="yest:Task" id="DVpMC2O4vj93Pv0FxBhVdUyEsSy4kSzf" name="Tâche affectation" incomings="eKlyQR4nMkpRoAPcwz9LIMYjFhrOeMHL" outgoings="yVpABgf7vv6jvT3L1cnUWbeHAHdQZCeu">
             <table>
-              <columns xsi:type="yest:DataColumn" id="XLQkK7poKmsW6uYFtG7ZRZ9jFg4gkicp" type="SET" data="IlliqK60lowuNMb0cn6MbydL6xMGeYZt"/>
-              <columns xsi:type="yest:DataColumn" id="1kYp4v0wPXNTpsM9Nml9YGgc2tr0OUWi" type="SET" data="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
+              <columns xsi:type="yest:DataColumn" id="FuWy7IEA0bnjKL6oas5Mc3c7nF7SEIRl" data="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
               <columns xsi:type="yest:DataColumn" id="yov8aeAxs0oeACmVgCBOJehgqIyGIcCw" type="SET" data="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
-              <columns xsi:type="yest:DataColumn" id="FuWy7IEA0bnjKL6oas5Mc3c7nF7SEIRl" type="SET" data="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
               <columns xsi:type="yest:DataColumn" id="wtEnXjyDmVkXxDccsuCK2VaXof1exGsY" type="SET" data="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>
               <columns xsi:type="yest:DataColumn" id="pNlMFEOhyDBY2mgWZMrBV1ngyDgBvJ3w" type="SET" data="k1lK4bjs1BKVqS9lRqwDu7uS7aNat09b"/>
+              <columns xsi:type="yest:DataColumn" id="1kYp4v0wPXNTpsM9Nml9YGgc2tr0OUWi" type="SET" data="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
+              <columns xsi:type="yest:DataColumn" id="LzcDeKxCyRXR1k6ak7ptQjs4XqwJ8O1f" type="SET" data="NCTivdolEPTthDhIdKpcZTc7FA6QHsac"/>
+              <columns xsi:type="yest:DataColumn" id="wyjdv5b0q4qP1sreapEOjH5ykxr6bn7c" type="SET" data="7OUabtql2QhCJ4vhR0TavvF99zd6hsEY"/>
+              <columns xsi:type="yest:DataColumn" id="fSLs3zOLcDbweTIIYPPSVmQ5vm4CgSp7" type="SET" data="8NluwcKcyMWMY1W1Ya3u41hMPLXRGhL5"/>
               <columns xsi:type="yest:OperationColumn" id="e55DPT13LQPBwrNQciyBvcfac8RCaSRJ"/>
               <decisions id="AXANLLQwCMfVVQjuLRoZOuXK0w11cAF0">
                 <cells key="e55DPT13LQPBwrNQciyBvcfac8RCaSRJ">
                   <value xsi:type="yest:OperationCell">
                     <operations reference="2P4q8KpwQlt9aP2XiLmmeafq7iS2mHbw"/>
                   </value>
-                </cells>
-                <cells key="XLQkK7poKmsW6uYFtG7ZRZ9jFg4gkicp">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
                 </cells>
                 <cells key="1kYp4v0wPXNTpsM9Nml9YGgc2tr0OUWi">
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
@@ -37278,10 +37277,19 @@
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
                 </cells>
                 <cells key="wtEnXjyDmVkXxDccsuCK2VaXof1exGsY">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value="valeur de U2"/>
                 </cells>
                 <cells key="pNlMFEOhyDBY2mgWZMrBV1ngyDgBvJ3w">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value=""/>
+                </cells>
+                <cells key="LzcDeKxCyRXR1k6ak7ptQjs4XqwJ8O1f">
+                  <value xsi:type="yest:StringCell" value="val1"/>
+                </cells>
+                <cells key="wyjdv5b0q4qP1sreapEOjH5ykxr6bn7c">
+                  <value xsi:type="yest:StringCell" value="dC"/>
+                </cells>
+                <cells key="fSLs3zOLcDbweTIIYPPSVmQ5vm4CgSp7">
+                  <value xsi:type="yest:StringCell" value="donnéedeU2"/>
                 </cells>
               </decisions>
             </table>
@@ -37289,23 +37297,17 @@
           <flowElements xsi:type="yest:SequenceFlow" id="eKlyQR4nMkpRoAPcwz9LIMYjFhrOeMHL" name="" target="DVpMC2O4vj93Pv0FxBhVdUyEsSy4kSzf" source="VeRVXrjLtfjJDIIxuweYaEGZe0JnqaWv"/>
           <flowElements xsi:type="yest:Task" id="MIE1DFDNHo8qVgpW2dZa94XFU41c0qUH" name="Tâche condition" incomings="yVpABgf7vv6jvT3L1cnUWbeHAHdQZCeu" outgoings="6CHnTt2aTpuPo10ygA76liDJUQau3z84">
             <table>
-              <columns xsi:type="yest:DataColumn" id="jQpmG2cwNHjAxqUjPvpxZwu1GUTL4QAo" data="8Pgbdr883JnpLw0Z6DsnNgDWHVeCRyPo"/>
-              <columns xsi:type="yest:DataColumn" id="fvZhJW3tL2Kr0nxK1rm1Ryf18kA0KE7U" data="8Pgbdr883JnpLw0Z6DsnNgDWHVeCRyPo"/>
-              <columns xsi:type="yest:DataColumn" id="USpMJCqiwJI3fq2WsHjqeavtv45xn7Sk" data="WCFA99Uqp2leFGfU41xDf2N4IDPTbPs4"/>
               <columns xsi:type="yest:DataColumn" id="l6thcQdElIxVpsLgz0loAwcptBb35Bzm" data="WCFA99Uqp2leFGfU41xDf2N4IDPTbPs4"/>
-              <columns xsi:type="yest:DataColumn" id="ovXIuVuJt2xlRVRh7gCgYIldbhAEamej" data="IvAS0ft3R0w04m21o1m5OQebQKcSUZNJ"/>
-              <columns xsi:type="yest:DataColumn" id="rnM4U5RseMBOU1JaTLkqFBWJ1QjoSbUS" data="IvAS0ft3R0w04m21o1m5OQebQKcSUZNJ"/>
-              <columns xsi:type="yest:DataColumn" id="2zZeFPC92fewResZZRpQOY9LcQ0vSR6A" data="xEAUcresueJZnyiPZt4R1YMpkJdAj4j4"/>
-              <columns xsi:type="yest:DataColumn" id="Odq8Id2gJlTDythdrPEVtOU1ZxzwfSRZ" data="xEAUcresueJZnyiPZt4R1YMpkJdAj4j4"/>
+              <columns xsi:type="yest:DataColumn" id="fvZhJW3tL2Kr0nxK1rm1Ryf18kA0KE7U" data="8Pgbdr883JnpLw0Z6DsnNgDWHVeCRyPo"/>
               <columns xsi:type="yest:DataColumn" id="rtHTYK7bGusOJW0D0jx4n3jFkbMZsT09" data="O5DwNOx52L1nIZKnKTACEBQoWLODwT3T"/>
-              <columns xsi:type="yest:DataColumn" id="MGM7pHXepj4RqwejV17VUBxEFRz2NTPZ" data="O5DwNOx52L1nIZKnKTACEBQoWLODwT3T"/>
               <columns xsi:type="yest:DataColumn" id="v9kU0a9xg1coNGfeAF07cDBJHYd4btgF" data="hTom9jhLPgTl95JhF5EaVFuokpCwYura"/>
-              <columns xsi:type="yest:DataColumn" id="wfI1y6msu6oMLNwCDJ0kJsl0LlLqhySX" data="hTom9jhLPgTl95JhF5EaVFuokpCwYura"/>
               <columns xsi:type="yest:DataColumn" id="xi8yoeYqjB9rmeYC3OxlBLax4qE934hq" data="KC6y4kxzgTsdnqFayBHtkj2ZnGdcQfCO"/>
               <columns xsi:type="yest:DataColumn" id="9U3wObqWnmkqjQbJ0CeaRlnnWxcPyzhg" data="oUSbcATCW9wOLnYNeAT0qwxI6dpzTJAS"/>
-              <columns xsi:type="yest:DataColumn" id="HiUoyMBGW1ADlqFzW3X2VqZ6Bq9rJxlI" data="pHGJA1DKDHjVzfiJSydyOcaJZsKjOIO5"/>
-              <columns xsi:type="yest:DataColumn" id="0toCEpBZ483cxocAg6OqiDX2StMiJAvQ" data="R5LTyiIY5M4oRwrEhy5k2nm2EQNHBgFM"/>
+              <columns xsi:type="yest:DataColumn" id="jQpmG2cwNHjAxqUjPvpxZwu1GUTL4QAo" data="8Pgbdr883JnpLw0Z6DsnNgDWHVeCRyPo"/>
               <columns xsi:type="yest:DataColumn" id="qxDnn4AwfJ1xxfE0FavNwBpj4BL5RqTq" data="PNhzfuYqCYCUeoKK4NnqABzX961Ykj8H"/>
+              <columns xsi:type="yest:DataColumn" id="ItArHzgGhkJW01RgijZBV18XzVi7dUOl" data="TrftLlUHhRi3HRG4DEIVeh5Xef0ESA5L"/>
+              <columns xsi:type="yest:DataColumn" id="sPZc4dcP3BBXj8ht9LmxCw93R11xCpwy" data="bpYXGGVgrEk5bH2Yy4RiOc4raaYViXAd"/>
+              <columns xsi:type="yest:DataColumn" id="2zZeFPC92fewResZZRpQOY9LcQ0vSR6A" type="SET" data="xEAUcresueJZnyiPZt4R1YMpkJdAj4j4"/>
               <columns xsi:type="yest:OperationColumn" id="jchR0QXDtFcOcs5VDF332t33JroWYvn8"/>
               <decisions id="yT7jOGDpagVu8QUx9YEfDr5XtfeKdn4J">
                 <cells key="jchR0QXDtFcOcs5VDF332t33JroWYvn8">
@@ -37316,20 +37318,14 @@
                 <cells key="jQpmG2cwNHjAxqUjPvpxZwu1GUTL4QAo">
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
                 </cells>
-                <cells key="USpMJCqiwJI3fq2WsHjqeavtv45xn7Sk">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
-                <cells key="ovXIuVuJt2xlRVRh7gCgYIldbhAEamej">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
                 <cells key="2zZeFPC92fewResZZRpQOY9LcQ0vSR6A">
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
                 </cells>
                 <cells key="rtHTYK7bGusOJW0D0jx4n3jFkbMZsT09">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value="valeur de U2"/>
                 </cells>
                 <cells key="v9kU0a9xg1coNGfeAF07cDBJHYd4btgF">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value=""/>
                 </cells>
                 <cells key="xi8yoeYqjB9rmeYC3OxlBLax4qE934hq">
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
@@ -37340,29 +37336,17 @@
                 <cells key="l6thcQdElIxVpsLgz0loAwcptBb35Bzm">
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
                 </cells>
-                <cells key="rnM4U5RseMBOU1JaTLkqFBWJ1QjoSbUS">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
-                <cells key="Odq8Id2gJlTDythdrPEVtOU1ZxzwfSRZ">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
-                <cells key="MGM7pHXepj4RqwejV17VUBxEFRz2NTPZ">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
-                <cells key="wfI1y6msu6oMLNwCDJ0kJsl0LlLqhySX">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
                 <cells key="9U3wObqWnmkqjQbJ0CeaRlnnWxcPyzhg">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
-                <cells key="HiUoyMBGW1ADlqFzW3X2VqZ6Bq9rJxlI">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
-                <cells key="0toCEpBZ483cxocAg6OqiDX2StMiJAvQ">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value="newC2"/>
                 </cells>
                 <cells key="qxDnn4AwfJ1xxfE0FavNwBpj4BL5RqTq">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value="dC"/>
+                </cells>
+                <cells key="ItArHzgGhkJW01RgijZBV18XzVi7dUOl">
+                  <value xsi:type="yest:StringCell" value="val"/>
+                </cells>
+                <cells key="sPZc4dcP3BBXj8ht9LmxCw93R11xCpwy">
+                  <value xsi:type="yest:StringCell" value="val"/>
                 </cells>
               </decisions>
             </table>
@@ -46799,6 +46783,7 @@
     <datas xsi:type="yest:DesignData" name="DonnéeCommune" id="z1sAT0FVOd7BVycp4HViHOJmtxN1aBDI"/>
     <datas xsi:type="yest:DesignData" name="DonnéeA" id="SqcylMzIGM63eBcTFQJ5kRWg1eKrkw3x"/>
     <datas xsi:type="yest:DesignData" name="DonnéeB" id="lkjoPFgHm6luxF5vbNn54ECewQv3XAAF"/>
+    <datas xsi:type="yest:DesignData" name="donnéedeU2" id="ZVnC0DQopz3YUqt9qda6gz6PIkyoPtEL"/>
     <subCategories xsi:type="yest:DesignDataCategory" id="y4qhfQyYTVpEC67ouMf4bLVZVRuuuPyz" name="table">
       <subCategories xsi:type="yest:DesignDataCategory" id="xJdMRrZ5HRMCfiODeVi6gcthgZTfnFii" name="affectation">
         <datas xsi:type="yest:DesignData" name="affectation_à_déplacer" id="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
@@ -46807,10 +46792,13 @@
         <datas xsi:type="yest:DesignData" name="affectation_à_transformer" id="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
         <datas xsi:type="yest:DesignData" name="affectation_changer_la_valeur" id="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>
         <datas xsi:type="yest:DesignData" name="affectation_supprimer_la_valeur" id="k1lK4bjs1BKVqS9lRqwDu7uS7aNat09b"/>
+        <datas xsi:type="yest:DesignData" name="nouvelleAffectationU2" id="NCTivdolEPTthDhIdKpcZTc7FA6QHsac"/>
+        <datas xsi:type="yest:DesignData" name="aff_valeur_que_U2" id="8NluwcKcyMWMY1W1Ya3u41hMPLXRGhL5"/>
+        <datas xsi:type="yest:DesignData" name="affectation_avecValAutreDonnée" id="7OUabtql2QhCJ4vhR0TavvF99zd6hsEY"/>
       </subCategories>
       <subCategories xsi:type="yest:DesignDataCategory" id="8LTANUheS3lmnoQoXwycUAhgycuGJoyS" name="condition">
         <datas xsi:type="yest:DesignData" name="condition_à_déplacer" id="8Pgbdr883JnpLw0Z6DsnNgDWHVeCRyPo"/>
-        <datas xsi:type="yest:DesignData" name="condition_à_renommer" id="WCFA99Uqp2leFGfU41xDf2N4IDPTbPs4"/>
+        <datas xsi:type="yest:DesignData" name="condition_renommé_par_U2" id="WCFA99Uqp2leFGfU41xDf2N4IDPTbPs4"/>
         <datas xsi:type="yest:DesignData" name="condition_à_supprimer" id="IvAS0ft3R0w04m21o1m5OQebQKcSUZNJ"/>
         <datas xsi:type="yest:DesignData" name="condition_à_transformer" id="xEAUcresueJZnyiPZt4R1YMpkJdAj4j4"/>
         <datas xsi:type="yest:DesignData" name="condition_changer_la_valeur" id="O5DwNOx52L1nIZKnKTACEBQoWLODwT3T"/>
@@ -46824,13 +46812,17 @@
         <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_qui_est_renommé_sur_serveur" id="pHGJA1DKDHjVzfiJSydyOcaJZsKjOIO5">
           <possibleValues definition="valeur origine" id="k8HDINY5CaTTLPf0Zweu687gHJCDAu5M"/>
         </datas>
-        <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_a_renommer_pour_avoir_meme_nom_quneDonneeServeur" id="oUSbcATCW9wOLnYNeAT0qwxI6dpzTJAS">
+        <datas xsi:type="yest:DesignData" name="condition_valeur_nouvelle_donnée_U2" id="oUSbcATCW9wOLnYNeAT0qwxI6dpzTJAS">
           <possibleValues definition="valeur origine" id="CtqvXvqDPz2O96PAvBMPmTMfj6KwsnhZ"/>
           <possibleValues definition="Valeur" id="MqYYbt4mGOmUjorIV6NMvrlMfTT9wpYr"/>
+          <possibleValues definition="Valeur1" id="Kn2XQgxpStvgHxrcSShXjkelIIRyOqDO"/>
         </datas>
         <datas xsi:type="yest:DesignData" name="condition_à_ajouter" id="KC6y4kxzgTsdnqFayBHtkj2ZnGdcQfCO">
           <possibleValues definition="valeur origine" id="pdtgBXOhYInnmtMOzkoYVfwFQPQywAjZ"/>
         </datas>
+        <datas xsi:type="yest:DesignData" name="newC2" id="XfH8pjtT7s4eMTRJnDjo8Iv4NqDQEjiX"/>
+        <datas xsi:type="yest:DesignData" name="condition_ajouté_par_U2" id="TrftLlUHhRi3HRG4DEIVeh5Xef0ESA5L"/>
+        <datas xsi:type="yest:DesignData" name="condition_avec_nouvelle_valeur" id="bpYXGGVgrEk5bH2Yy4RiOc4raaYViXAd"/>
       </subCategories>
     </subCategories>
     <subCategories xsi:type="yest:DesignDataCategory" id="dGszMlcY4jXO4mm6FIDd7ivHdel1wvTh" name="Sous parcours">

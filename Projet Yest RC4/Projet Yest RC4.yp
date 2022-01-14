@@ -46787,7 +46787,7 @@
     <subCategories xsi:type="yest:DesignDataCategory" id="y4qhfQyYTVpEC67ouMf4bLVZVRuuuPyz" name="table">
       <subCategories xsi:type="yest:DesignDataCategory" id="xJdMRrZ5HRMCfiODeVi6gcthgZTfnFii" name="affectation">
         <datas xsi:type="yest:DesignData" name="affectation_à_déplacer" id="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
-        <datas xsi:type="yest:DesignData" name="affectation_à_renommer" id="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
+        <datas xsi:type="yest:DesignData" name="affectation_renommé_par_U2" id="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
         <datas xsi:type="yest:DesignData" name="affectation_à_supprimer" id="IlliqK60lowuNMb0cn6MbydL6xMGeYZt"/>
         <datas xsi:type="yest:DesignData" name="affectation_à_transformer" id="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
         <datas xsi:type="yest:DesignData" name="affectation_changer_la_valeur" id="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>

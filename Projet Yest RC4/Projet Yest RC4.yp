@@ -37815,7 +37815,7 @@
               <decisions id="1NDo25rxTMGiPSBfTZAQq8uskM5rRn6l">
                 <cells key="HdQ8EnpfKr47O2fD9J5JMc6tKzrAzZvI">
                   <value xsi:type="yest:OperationCell">
-                    <operations reference="2P4q8KpwQlt9aP2XiLmmeafq7iS2mHbw"/>
+                    <operations reference="W8jBd5gXeXlilctTK86hwBKmdHyzd3tm"/>
                   </value>
                 </cells>
               </decisions>
@@ -37833,7 +37833,7 @@
                   </value>
                 </cells>
                 <cells key="fHhijZRjywCl66mQ3xgZrtBlkPmHUlN2">
-                  <value xsi:type="yest:StringCell" value="val 1"/>
+                  <value xsi:type="yest:StringCell" value="val 2"/>
                 </cells>
               </decisions>
             </table>
@@ -37841,16 +37841,16 @@
           <flowElements xsi:type="yest:SequenceFlow" id="nnlkatOzwKZAMj9R1ZHxBmXYwt5acsqN" name="" target="Xs9UZe0VWenXPcdJQeQDEYEVDfAxfa1v" source="s4dW15l5PzRq9hkVwjaiTrjexznM97Df"/>
           <flowElements xsi:type="yest:Task" id="DbRwGisso79DMIF5KORn11Z9XYNG2kgU" name="Etape de test à modifier la donnée de conception &quot;DonnéeA&quot; par la donnée &quot;DonnéeB&quot; (commune au projet de user 1 et 2) (1)" incomings="dlANV0MqKtjcKATrjAU7HdnfP4AEsneK" outgoings="Ly3MZ7U7C6YZDfXOgJahT6GNZmfk5OPS">
             <table>
-              <columns xsi:type="yest:DataColumn" id="R2yURGWSxc30lLV2JS8c5NleWiNEyTUz" type="SET" data="SqcylMzIGM63eBcTFQJ5kRWg1eKrkw3x"/>
+              <columns xsi:type="yest:DataColumn" id="R2yURGWSxc30lLV2JS8c5NleWiNEyTUz" type="SET" data="lkjoPFgHm6luxF5vbNn54ECewQv3XAAF"/>
               <columns xsi:type="yest:OperationColumn" id="3d1vjeXZRPxpLhiZUsGCUuRPm7hZQdEC"/>
               <decisions id="bQgy2NbUCWnge5eJmZW7OyfMAwIkzA38">
                 <cells key="3d1vjeXZRPxpLhiZUsGCUuRPm7hZQdEC">
                   <value xsi:type="yest:OperationCell">
-                    <operations reference="IwNeJe8s3wOEVXWZUs1WuPWnB4tlonSU"/>
+                    <operations reference="Fw1Vftg9LPlnHXLr7ukLtLGWyS6Gn4GY"/>
                   </value>
                 </cells>
                 <cells key="R2yURGWSxc30lLV2JS8c5NleWiNEyTUz">
-                  <value xsi:type="yest:StringCell" value="val 1"/>
+                  <value xsi:type="yest:StringCell" value="val 2"/>
                 </cells>
               </decisions>
             </table>
@@ -37858,16 +37858,16 @@
           <flowElements xsi:type="yest:SequenceFlow" id="dlANV0MqKtjcKATrjAU7HdnfP4AEsneK" name="" target="DbRwGisso79DMIF5KORn11Z9XYNG2kgU" source="Xs9UZe0VWenXPcdJQeQDEYEVDfAxfa1v"/>
           <flowElements xsi:type="yest:Task" id="lbjQAu1oFttaFDvMnhTzBgxuNXcnhY48" name="Etape de test à modifier la donnée de conception &quot;DonnéeA&quot; par la donnée &quot;DonnéeA2&quot; (Uniquement U2 à la donnée)" incomings="Ly3MZ7U7C6YZDfXOgJahT6GNZmfk5OPS" outgoings="ZLFqBvb9r8orGC9hTzD1GJyy0xIRuPH8">
             <table>
-              <columns xsi:type="yest:DataColumn" id="RWTAucyZTKuW3UokM6amtzC2LWWWFLYr" type="SET" data="SqcylMzIGM63eBcTFQJ5kRWg1eKrkw3x"/>
+              <columns xsi:type="yest:DataColumn" id="RWTAucyZTKuW3UokM6amtzC2LWWWFLYr" type="SET" data="byimWxh5hKmKHmu3rK3x39ezWbZNkKYN"/>
               <columns xsi:type="yest:OperationColumn" id="qNDDcdjv4LtCpfdtfyvplqawZUmG5x3O"/>
               <decisions id="RzHPfDiUKOeVrnYANdAAPUDHTuWkfNOq">
                 <cells key="qNDDcdjv4LtCpfdtfyvplqawZUmG5x3O">
                   <value xsi:type="yest:OperationCell">
-                    <operations reference="IwNeJe8s3wOEVXWZUs1WuPWnB4tlonSU"/>
+                    <operations reference="fJkJ9uRDJEW2LwDiDcLeTx7Z5tfxlycR"/>
                   </value>
                 </cells>
                 <cells key="RWTAucyZTKuW3UokM6amtzC2LWWWFLYr">
-                  <value xsi:type="yest:StringCell" value="val 1"/>
+                  <value xsi:type="yest:StringCell" value="val 2"/>
                 </cells>
               </decisions>
             </table>
@@ -37875,12 +37875,16 @@
           <flowElements xsi:type="yest:SequenceFlow" id="Ly3MZ7U7C6YZDfXOgJahT6GNZmfk5OPS" name="" target="lbjQAu1oFttaFDvMnhTzBgxuNXcnhY48" source="DbRwGisso79DMIF5KORn11Z9XYNG2kgU"/>
           <flowElements xsi:type="yest:Task" id="qUnQuZ9chPcoabhYf6HDcREsXyDIIi9q" name="Etape de test à modifier en ajoutant la donnée de conception &quot;DonnéeB2&quot; (Uniquement U2 à la donnée) (1)" incomings="ZLFqBvb9r8orGC9hTzD1GJyy0xIRuPH8" outgoings="eFMDjsBdqj6DlxHlzgxQobby8AMJcL4a">
             <table>
+              <columns xsi:type="yest:DataColumn" id="q33w2k90XDeA6zxSxVaLokeGhukLazXY" type="SET" data="ImhsezkckSVyAjMtq3f3qZaEigtkf33c"/>
               <columns xsi:type="yest:OperationColumn" id="ZajLJN5ehrOfXqsZt5wA7pcWM2WnfGSI"/>
               <decisions id="eXeIo8BGvsLYUo6LqMs9XXqwfy7DS6Di">
                 <cells key="ZajLJN5ehrOfXqsZt5wA7pcWM2WnfGSI">
                   <value xsi:type="yest:OperationCell">
-                    <operations reference="2P4q8KpwQlt9aP2XiLmmeafq7iS2mHbw"/>
+                    <operations reference="AzsYXj6RCiF3hW3x44vfVN5IWDdti5gr"/>
                   </value>
+                </cells>
+                <cells key="q33w2k90XDeA6zxSxVaLokeGhukLazXY">
+                  <value xsi:type="yest:StringCell" value="val2"/>
                 </cells>
               </decisions>
             </table>
@@ -46792,6 +46796,41 @@
       <expectedResult/>
     </highLevelStep>
   </testElements>
+  <testElements xsi:type="yest:TestOperation" id="W8jBd5gXeXlilctTK86hwBKmdHyzd3tm">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche modifiée par U2"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="Fw1Vftg9LPlnHXLr7ukLtLGWyS6Gn4GY">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche "/>
+        <stepElements xsi:type="yest:StepField" id="nUTaVtWzHFMjUNPjYsKbJKFyBNilx2Zq" data="lkjoPFgHm6luxF5vbNn54ECewQv3XAAF"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="fJkJ9uRDJEW2LwDiDcLeTx7Z5tfxlycR">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche "/>
+        <stepElements xsi:type="yest:StepField" id="wRwvrgjnvfwLbXxm6D35pyOFHr8z3kpP" data="byimWxh5hKmKHmu3rK3x39ezWbZNkKYN"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="AzsYXj6RCiF3hW3x44vfVN5IWDdti5gr">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche "/>
+        <stepElements xsi:type="yest:StepField" id="qlepSDK9C9mY2iGPuGHbt9sKnoeCKqoj" data="ImhsezkckSVyAjMtq3f3qZaEigtkf33c"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
   <designDataDictionary id="tZSMuupN8nzbiX4u6VajWROUKZsgeAQV" name="#designDataDictionary">
     <datas xsi:type="yest:DesignData" name="versions_à_récupérer_du_serveur" id="iIREH7PAZEtGpuhA58J9pCi6JtPYsRGR">
       <possibleValues definition="10 versions" id="yz8DJP8BlDyWJkgMowgypcB93Wz8utmD"/>
@@ -46815,11 +46854,12 @@
     <datas xsi:type="yest:DesignData" name="aff_valeur_que_U2" id="8NluwcKcyMWMY1W1Ya3u41hMPLXRGhL5"/>
     <datas xsi:type="yest:DesignData" name="donnéedeU2" id="ZVnC0DQopz3YUqt9qda6gz6PIkyoPtEL"/>
     <datas xsi:type="yest:DesignData" name="affectation_avecValAutreDonnée" id="7OUabtql2QhCJ4vhR0TavvF99zd6hsEY"/>
-    <datas xsi:type="yest:DesignData" name="nexD2" id="qrFgzcaTZpgAzZIaLMIs5QCzDzfbzpJW"/>
+    <datas xsi:type="yest:DesignData" name="Donnée_A2" id="byimWxh5hKmKHmu3rK3x39ezWbZNkKYN"/>
+    <datas xsi:type="yest:DesignData" name="DonnéeB2" id="ImhsezkckSVyAjMtq3f3qZaEigtkf33c"/>
     <subCategories xsi:type="yest:DesignDataCategory" id="y4qhfQyYTVpEC67ouMf4bLVZVRuuuPyz" name="table">
       <subCategories xsi:type="yest:DesignDataCategory" id="xJdMRrZ5HRMCfiODeVi6gcthgZTfnFii" name="affectation">
         <datas xsi:type="yest:DesignData" name="affectation_à_déplacer" id="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
-        <datas xsi:type="yest:DesignData" name="affectation_renommé_par_U2" id="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
+        <datas xsi:type="yest:DesignData" name="affectation_a_renommer" id="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
         <datas xsi:type="yest:DesignData" name="affectation_à_supprimer" id="IlliqK60lowuNMb0cn6MbydL6xMGeYZt"/>
         <datas xsi:type="yest:DesignData" name="affectation_à_transformer" id="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
         <datas xsi:type="yest:DesignData" name="affectation_à_changer_la_valeur" id="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>

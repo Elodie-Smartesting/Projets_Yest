@@ -5,7 +5,7 @@
   <designDataDictionary id="4wvqKNTgmKyFWRtsOIoKeNY1aPDJ7bOU" name="#designDataDictionary">
     <subCategories xsi:type="yest:DesignDataCategory" id="U3fdf4BcTyCpZsku2OjkaqRybG1qe3WR" name="Catégories">
       <datas xsi:type="yest:DesignData" name="Donnée" id="WAGhLa9sW4aNlH22gJzujLmQrsQYFPqm">
-        <possibleValues definition="valeur 1 renommé par U1 et que U2 va supprimer" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
+        <possibleValues definition="valeur 1 renommé  par U1 et que U2 va supprimer" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
         <possibleValues definition="valeur 2 remplacé par U2" id="IupJ6bR3Jk35CwWTybJ4ubmXajdEszBB"/>
       </datas>
     </subCategories>

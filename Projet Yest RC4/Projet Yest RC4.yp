@@ -38709,10 +38709,9 @@
           <flowElements xsi:type="yest:StartPoint" id="Nfl5gv8GCidPbKsSQ1CuwgQnEA68V2N9" name="" outgoings="FI793NaG1uFyxi1wYtTMDxDedP3tCtRD"/>
           <flowElements xsi:type="yest:Task" id="2dV5Mhv3OAsTRIBbc3WhPKLSzuoS5vz5" name="Tâche affectation" incomings="FI793NaG1uFyxi1wYtTMDxDedP3tCtRD" outgoings="OCydduVRFQr2SgulecWRuZ8RJQj5Pe4N">
             <table>
-              <columns xsi:type="yest:DataColumn" id="aHxwKSVLCNnODXKEvw3q5nEaRT0zJVOI" type="SET" data="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
-              <columns xsi:type="yest:DataColumn" id="YdI3cXIiLXk801FY5TXjByfiZN45OIze" type="SET" data="IlliqK60lowuNMb0cn6MbydL6xMGeYZt"/>
+              <columns xsi:type="yest:DataColumn" id="3TpPjrkHhlKr9Kh7ynynX8w0Ap8H6TiD" data="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
               <columns xsi:type="yest:DataColumn" id="hnJOO57LCPteY9YH1ATtu41YIBPQRIpQ" type="SET" data="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
-              <columns xsi:type="yest:DataColumn" id="3TpPjrkHhlKr9Kh7ynynX8w0Ap8H6TiD" type="SET" data="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
+              <columns xsi:type="yest:DataColumn" id="aHxwKSVLCNnODXKEvw3q5nEaRT0zJVOI" type="SET" data="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
               <columns xsi:type="yest:DataColumn" id="oRTbiNc5XG9JbGgcWJDD9MKLRFbGY0oI" type="SET" data="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>
               <columns xsi:type="yest:DataColumn" id="k90TQsuSZvv9OasfeVzVnBXu2oF3DKar" type="SET" data="k1lK4bjs1BKVqS9lRqwDu7uS7aNat09b"/>
               <columns xsi:type="yest:DataColumn" id="ImBP8IVZntR5b728ZLZvyDoGnFjjFN5E" type="SET" data="PvNnUH0taoe7bw8TGWJY3FjVDD9DizGm"/>
@@ -38724,9 +38723,6 @@
                     <operations reference="2P4q8KpwQlt9aP2XiLmmeafq7iS2mHbw"/>
                   </value>
                 </cells>
-                <cells key="YdI3cXIiLXk801FY5TXjByfiZN45OIze">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
-                </cells>
                 <cells key="aHxwKSVLCNnODXKEvw3q5nEaRT0zJVOI">
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
                 </cells>
@@ -38737,16 +38733,16 @@
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
                 </cells>
                 <cells key="oRTbiNc5XG9JbGgcWJDD9MKLRFbGY0oI">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value="valeur de U2"/>
                 </cells>
                 <cells key="k90TQsuSZvv9OasfeVzVnBXu2oF3DKar">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value=""/>
                 </cells>
                 <cells key="ImBP8IVZntR5b728ZLZvyDoGnFjjFN5E">
-                  <value xsi:type="yest:StringCell" value="val1"/>
+                  <value xsi:type="yest:StringCell" value="aff_valeur_que_U2"/>
                 </cells>
                 <cells key="0fWZzkoRyju8eEGA5Q4p8OppWZJy43Jg">
-                  <value xsi:type="yest:StringCell" value=""/>
+                  <value xsi:type="yest:StringCell" value="nexD2"/>
                 </cells>
               </decisions>
             </table>
@@ -46819,10 +46815,11 @@
     <datas xsi:type="yest:DesignData" name="aff_valeur_que_U2" id="8NluwcKcyMWMY1W1Ya3u41hMPLXRGhL5"/>
     <datas xsi:type="yest:DesignData" name="donnéedeU2" id="ZVnC0DQopz3YUqt9qda6gz6PIkyoPtEL"/>
     <datas xsi:type="yest:DesignData" name="affectation_avecValAutreDonnée" id="7OUabtql2QhCJ4vhR0TavvF99zd6hsEY"/>
+    <datas xsi:type="yest:DesignData" name="nexD2" id="qrFgzcaTZpgAzZIaLMIs5QCzDzfbzpJW"/>
     <subCategories xsi:type="yest:DesignDataCategory" id="y4qhfQyYTVpEC67ouMf4bLVZVRuuuPyz" name="table">
       <subCategories xsi:type="yest:DesignDataCategory" id="xJdMRrZ5HRMCfiODeVi6gcthgZTfnFii" name="affectation">
         <datas xsi:type="yest:DesignData" name="affectation_à_déplacer" id="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
-        <datas xsi:type="yest:DesignData" name="affectation_a_renommer" id="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
+        <datas xsi:type="yest:DesignData" name="affectation_renommé_par_U2" id="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
         <datas xsi:type="yest:DesignData" name="affectation_à_supprimer" id="IlliqK60lowuNMb0cn6MbydL6xMGeYZt"/>
         <datas xsi:type="yest:DesignData" name="affectation_à_transformer" id="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
         <datas xsi:type="yest:DesignData" name="affectation_à_changer_la_valeur" id="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>

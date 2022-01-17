@@ -37893,12 +37893,7 @@
           <flowElements xsi:type="yest:EndPoint" id="p7gJsflUE3TuhbPZXwn8p6g5k3vZycc2" name="" incomings="U8MOGLgppFtwAnOzqevp7EQR6roA6kRL"/>
           <flowElements xsi:type="yest:Task" id="HdAgb4mBF99LG3hleaXZUh9WSOJ7YzYz" name="Tâche Ajouter étape" incomings="abJDLVoDZL1mukSrscbppfHqU0rpdHy2" outgoings="SOAfpCJzTv9zk9e9tUROfmdY5v3UqXNv">
             <table>
-              <columns xsi:type="yest:OperationColumn" id="f1CXKdUIVPD2cfJRKwTz4oD6tELmr6lh"/>
-              <decisions id="GD5wf9ZusAEt9EGQflV48Hpz0CUBPKmZ">
-                <cells key="f1CXKdUIVPD2cfJRKwTz4oD6tELmr6lh">
-                  <value xsi:type="yest:OperationCell"/>
-                </cells>
-              </decisions>
+              <decisions id="GD5wf9ZusAEt9EGQflV48Hpz0CUBPKmZ"/>
             </table>
           </flowElements>
           <flowElements xsi:type="yest:SequenceFlow" id="abJDLVoDZL1mukSrscbppfHqU0rpdHy2" name="" target="HdAgb4mBF99LG3hleaXZUh9WSOJ7YzYz" source="qUnQuZ9chPcoabhYf6HDcREsXyDIIi9q"/>

@@ -4,13 +4,9 @@
   <metadata key="ApplicationVersion" value="3.1.0"/>
   <designDataDictionary id="4wvqKNTgmKyFWRtsOIoKeNY1aPDJ7bOU" name="#designDataDictionary">
     <subCategories xsi:type="yest:DesignDataCategory" id="U3fdf4BcTyCpZsku2OjkaqRybG1qe3WR" name="Catégories">
-      <datas xsi:type="yest:DesignData" name="Donnée1_U2_renomme" id="GSzB85f2QHDh0SPlp9jZ42HJJz9NvglW">
-        <possibleValues definition="Donnée" id="12BfNBz38a6Gw7osNMe3y32dLYduHOxD"/>
-        <possibleValues definition="2" id="mFA8nUXrvNgtkVEIBu76di6czYWCxmNF"/>
-      </datas>
       <datas xsi:type="yest:DesignData" name="Donnée" id="WAGhLa9sW4aNlH22gJzujLmQrsQYFPqm">
-        <possibleValues definition="23" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
-        <possibleValues definition="234" id="IupJ6bR3Jk35CwWTybJ4ubmXajdEszBB"/>
+        <possibleValues definition="valeur 1" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
+        <possibleValues definition="valeur 2" id="IupJ6bR3Jk35CwWTybJ4ubmXajdEszBB"/>
       </datas>
     </subCategories>
   </designDataDictionary>

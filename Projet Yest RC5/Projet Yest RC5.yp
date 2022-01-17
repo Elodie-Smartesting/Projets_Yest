@@ -4,9 +4,8 @@
   <metadata key="ApplicationVersion" value="3.1.0"/>
   <designDataDictionary id="4wvqKNTgmKyFWRtsOIoKeNY1aPDJ7bOU" name="#designDataDictionary">
     <subCategories xsi:type="yest:DesignDataCategory" id="U3fdf4BcTyCpZsku2OjkaqRybG1qe3WR" name="Catégories">
-      <datas xsi:type="yest:DesignData" name="Donnée" id="m0fz5kmJLpHqfqwiDgBVZn6lehDtdvDC"/>
-      <datas xsi:type="yest:DesignData" name="Donnée1" id="GSzB85f2QHDh0SPlp9jZ42HJJz9NvglW"/>
       <datas xsi:type="yest:DesignData" name="Donnée2" id="PN7KRok6eVhJ3EvNFYmGdf4leTQ10K38"/>
+      <datas xsi:type="yest:DesignData" name="Donnée1" id="GSzB85f2QHDh0SPlp9jZ42HJJz9NvglW"/>
     </subCategories>
   </designDataDictionary>
   <implementationDataDictionary id="2oWBu4k4yclN1U2tQykm8cbFovquaS9Z" name="#implementationDataDictionary"/>

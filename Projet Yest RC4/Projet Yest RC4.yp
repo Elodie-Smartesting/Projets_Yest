@@ -47691,7 +47691,12 @@
       <subCategories xsi:type="yest:DesignDataCategory" id="09jahIhoWHCdGQ3aJ4DlL4h9hvYhqwdl" name="Catégorie à renommer"/>
       <subCategories xsi:type="yest:DesignDataCategory" id="iSOqphVpKq1uzS2XlfhFb7pygzl6XGfq" name="Catégorie a supprimer"/>
     </subCategories>
-    <subCategories xsi:type="yest:DesignDataCategory" id="18EK0M0pnSQtdycgSi90fA6kHYj9bEoH" name="Test"/>
+    <subCategories xsi:type="yest:DesignDataCategory" id="18EK0M0pnSQtdycgSi90fA6kHYj9bEoH" name="Test">
+      <subCategories xsi:type="yest:DesignDataCategory" id="i2wpMrgTmbq0qIyo1lsoB9K0rSPJRLem" name="nouvelle cat a accepter">
+        <datas xsi:type="yest:DesignData" name="Donnée_de_ma_nouvelle_cat" id="12SKBAyUAvl7pcIdbPpdPpbnvNG89oCp"/>
+      </subCategories>
+      <subCategories xsi:type="yest:DesignDataCategory" id="Fv8DRjw3xyvA8Jh0NO8ySJsDBhQwigZq" name="nouvelle car a refuser"/>
+    </subCategories>
   </designDataDictionary>
   <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary">
     <datas xsi:type="yest:ImplementationData" name="di" id="X6IlAAgTkyVTiz4xcc417Ub8Tle9KMp4"/>

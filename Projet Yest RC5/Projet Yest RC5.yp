@@ -9,8 +9,8 @@
         <possibleValues definition="2" id="mFA8nUXrvNgtkVEIBu76di6czYWCxmNF"/>
       </datas>
       <datas xsi:type="yest:DesignData" name="Donnée" id="WAGhLa9sW4aNlH22gJzujLmQrsQYFPqm">
-        <possibleValues definition="1" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
-        <possibleValues definition="2" id="IupJ6bR3Jk35CwWTybJ4ubmXajdEszBB"/>
+        <possibleValues definition="23" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
+        <possibleValues definition="234" id="IupJ6bR3Jk35CwWTybJ4ubmXajdEszBB"/>
       </datas>
     </subCategories>
   </designDataDictionary>

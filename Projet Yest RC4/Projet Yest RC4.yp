@@ -47655,7 +47655,7 @@
         </subCategories>
       </subCategories>
     </subCategories>
-    <subCategories xsi:type="yest:DesignDataCategory" id="BqHPSrsNqmQtDqPUKDBpAmOnA5B5kifA" name="Données pour les tests sur les données">
+    <subCategories xsi:type="yest:DesignDataCategory" id="BqHPSrsNqmQtDqPUKDBpAmOnA5B5kifA" name="CAt renommé">
       <datas xsi:type="yest:DesignData" name="Donnée_commune_accepter" id="w4HqYpy4VLYC7eYHMmlFvcXPlkewosdE">
         <possibleValues definition="val origine" id="xeGcYZoYLTxHJGJOnLqLwHFttHaktXJN"/>
         <possibleValues definition="val à changer" id="17oleG5Ep6w5s5BkLMV1gQ1KTJoZ68B2"/>
@@ -47668,15 +47668,17 @@
     </subCategories>
     <subCategories xsi:type="yest:DesignDataCategory" id="kxda3juDnfFU9fJugGjRRCiyItjyeARd" name="Accepter">
       <datas xsi:type="yest:DesignData" name="Donnée_commune_accepter_1" id="2kATE1YJOfZYBgO40BI72w62ZZ0xqqQX">
-        <possibleValues definition="val origine" id="Zdh1Uu0wJTiQ36RpepxuauvFPrpXcwXf"/>
-        <possibleValues definition="val à changer" id="2CXvXb1DStIiNvqiyIUoO9OejeVwLL5F"/>
-        <possibleValues definition="val à supprimer" id="s0bYN9YIhR7cCm5FSFQwSB81mKxp2e23"/>
+        <possibleValues definition="val origine modifier" id="Zdh1Uu0wJTiQ36RpepxuauvFPrpXcwXf"/>
+        <possibleValues definition="val à changer par U2" id="2CXvXb1DStIiNvqiyIUoO9OejeVwLL5F"/>
         <possibleValues definition="Donnée_commune_accepter" id="0Dyh8tRZRLnPg9HEyiggHOH25Ia7JbW6"/>
-        <possibleValues definition="val ou mettre une autre donnée existante" id="TysG3W8SIXLaHIz9aXWMnQoDLBXw1bmM"/>
-        <possibleValues definition="val ou mettre une autre donnée nouvelle" id="zkGdVafnVoZh24Z1vYDzff0jhQgaQY2I"/>
+        <possibleValues definition="Donnée_ou_ajouter_val_1" id="TysG3W8SIXLaHIz9aXWMnQoDLBXw1bmM"/>
+        <possibleValues definition="newD" id="zkGdVafnVoZh24Z1vYDzff0jhQgaQY2I"/>
       </datas>
       <datas xsi:type="yest:DesignData" name="Donnée_ou_ajouter_val_1" id="ELaZrOVaYwokqCWeGUg34888hXDZX1sm"/>
-      <subCategories xsi:type="yest:DesignDataCategory" id="fg0kKT9LRAFOlxgcHgHDAyzDPMjAlZzZ" name="Données pour les tests sur les données"/>
+      <datas xsi:type="yest:DesignData" name="newD" id="PXBqPHo5jeaEYzKvfogSLUVZjhApJlsM">
+        <possibleValues definition="Valeur" id="7UO4EuygazUSquJm8rJwj5tALcvTNM28"/>
+      </datas>
+      <subCategories xsi:type="yest:DesignDataCategory" id="qbPcZDHsIyG5NvkzOY5Q03X9pYX1h4Ou" name="nouvelle Cat"/>
     </subCategories>
     <subCategories xsi:type="yest:DesignDataCategory" id="zHvefpIsmvgq8SJKTFmtyouLxrFEZ9Hg" name="Refuser">
       <datas xsi:type="yest:DesignData" name="Donnée_commune_accepter_2" id="per3FQAfL243t9cuIRecR3GbGr4VLgIJ">
@@ -47687,9 +47689,8 @@
         <possibleValues definition="val ou mettre une autre donnée existante" id="CdVjUGDRKjP8fesKqqdfmIQ6IPGHBNcf"/>
         <possibleValues definition="val ou mettre une autre donnée nouvelle" id="HSCWOgxcZFhxmnngrcaMypOJnnvVElf0"/>
       </datas>
-      <datas xsi:type="yest:DesignData" name="Donnée_ou_ajouter_val_2" id="3lJwisG9jPnJBgioDcU1KgMcNXIJM4Xp"/>
-      <subCategories xsi:type="yest:DesignDataCategory" id="09jahIhoWHCdGQ3aJ4DlL4h9hvYhqwdl" name="Catégorie à renommer"/>
-      <subCategories xsi:type="yest:DesignDataCategory" id="iSOqphVpKq1uzS2XlfhFb7pygzl6XGfq" name="Catégorie a supprimer"/>
+      <datas xsi:type="yest:DesignData" name="Donnée_renommée_parU2" id="3lJwisG9jPnJBgioDcU1KgMcNXIJM4Xp"/>
+      <subCategories xsi:type="yest:DesignDataCategory" id="09jahIhoWHCdGQ3aJ4DlL4h9hvYhqwdl" name="Catégorie renommé par U2"/>
     </subCategories>
   </designDataDictionary>
   <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary">

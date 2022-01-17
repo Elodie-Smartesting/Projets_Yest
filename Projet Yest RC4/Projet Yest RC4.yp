@@ -37892,20 +37892,18 @@
           <flowElements xsi:type="yest:SequenceFlow" id="ZLFqBvb9r8orGC9hTzD1GJyy0xIRuPH8" name="" target="qUnQuZ9chPcoabhYf6HDcREsXyDIIi9q" source="lbjQAu1oFttaFDvMnhTzBgxuNXcnhY48"/>
           <flowElements xsi:type="yest:EndPoint" id="p7gJsflUE3TuhbPZXwn8p6g5k3vZycc2" name="" incomings="U8MOGLgppFtwAnOzqevp7EQR6roA6kRL"/>
           <flowElements xsi:type="yest:Task" id="HdAgb4mBF99LG3hleaXZUh9WSOJ7YzYz" name="Tâche Ajouter étape" incomings="abJDLVoDZL1mukSrscbppfHqU0rpdHy2" outgoings="SOAfpCJzTv9zk9e9tUROfmdY5v3UqXNv">
-            <table/>
-          </flowElements>
-          <flowElements xsi:type="yest:SequenceFlow" id="abJDLVoDZL1mukSrscbppfHqU0rpdHy2" name="" target="HdAgb4mBF99LG3hleaXZUh9WSOJ7YzYz" source="qUnQuZ9chPcoabhYf6HDcREsXyDIIi9q"/>
-          <flowElements xsi:type="yest:Task" id="Vw3rO4kPwCUCu8sFaiM94ZMFXqyFSyfQ" name="Tache supprimer étape" incomings="SOAfpCJzTv9zk9e9tUROfmdY5v3UqXNv" outgoings="U8MOGLgppFtwAnOzqevp7EQR6roA6kRL">
             <table>
-              <columns xsi:type="yest:OperationColumn" id="ABtCSrUcy8SoiXBFcY87vBzOhRrYGbc0"/>
-              <decisions id="kePxu0ul3IXoqygWFQFoBLOzCNq1Z6qm">
-                <cells key="ABtCSrUcy8SoiXBFcY87vBzOhRrYGbc0">
-                  <value xsi:type="yest:OperationCell">
-                    <operations reference="Gye1ElG3fOLjkZ5SC7OS67v3bvqY30k3"/>
-                  </value>
+              <columns xsi:type="yest:OperationColumn" id="f1CXKdUIVPD2cfJRKwTz4oD6tELmr6lh"/>
+              <decisions id="GD5wf9ZusAEt9EGQflV48Hpz0CUBPKmZ">
+                <cells key="f1CXKdUIVPD2cfJRKwTz4oD6tELmr6lh">
+                  <value xsi:type="yest:OperationCell"/>
                 </cells>
               </decisions>
             </table>
+          </flowElements>
+          <flowElements xsi:type="yest:SequenceFlow" id="abJDLVoDZL1mukSrscbppfHqU0rpdHy2" name="" target="HdAgb4mBF99LG3hleaXZUh9WSOJ7YzYz" source="qUnQuZ9chPcoabhYf6HDcREsXyDIIi9q"/>
+          <flowElements xsi:type="yest:Task" id="Vw3rO4kPwCUCu8sFaiM94ZMFXqyFSyfQ" name="Tache supprimer étape" incomings="SOAfpCJzTv9zk9e9tUROfmdY5v3UqXNv" outgoings="U8MOGLgppFtwAnOzqevp7EQR6roA6kRL">
+            <table/>
           </flowElements>
           <flowElements xsi:type="yest:SequenceFlow" id="SOAfpCJzTv9zk9e9tUROfmdY5v3UqXNv" name="" target="Vw3rO4kPwCUCu8sFaiM94ZMFXqyFSyfQ" source="HdAgb4mBF99LG3hleaXZUh9WSOJ7YzYz"/>
           <flowElements xsi:type="yest:SequenceFlow" id="U8MOGLgppFtwAnOzqevp7EQR6roA6kRL" name="" target="p7gJsflUE3TuhbPZXwn8p6g5k3vZycc2" source="Vw3rO4kPwCUCu8sFaiM94ZMFXqyFSyfQ"/>
@@ -46882,14 +46880,6 @@
       <action>
         <stepElements xsi:type="yest:StepText" content="Tâche "/>
         <stepElements xsi:type="yest:StepField" id="qlepSDK9C9mY2iGPuGHbt9sKnoeCKqoj" data="ImhsezkckSVyAjMtq3f3qZaEigtkf33c"/>
-      </action>
-      <expectedResult/>
-    </highLevelStep>
-  </testElements>
-  <testElements xsi:type="yest:TestOperation" id="Gye1ElG3fOLjkZ5SC7OS67v3bvqY30k3">
-    <highLevelStep>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Tache supprimer étape"/>
       </action>
       <expectedResult/>
     </highLevelStep>

@@ -46243,6 +46243,705 @@
       </testElements>
     </subFolders>
   </subFolders>
+  <subFolders name="Test données" id="X0tw7W7vedlLhtgG0JtD9Gkwf3euJF2t">
+    <testElements xsi:type="yest:Workflow" id="hzpNZPcBeeXbaOcj3mkCwMWQ84qStNXB" name="0_Parcours génération test">
+      <flowElements xsi:type="yest:StartPoint" id="YidwiiyDtOD4P3t26HLx6Vln4FMlD5hm" name="" outgoings="t4t6iwUKDolvyC7kzyWOjrvoW2CM8TJe"/>
+      <flowElements xsi:type="yest:Task" id="xJlU4bn93ACr89IQvuiR7BJJzkYG8YUp" name="U2 crée une donnée" incomings="t4t6iwUKDolvyC7kzyWOjrvoW2CM8TJe" outgoings="ggxwq20seLISHYrJ6IZuq9IYl0YsHCwX">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="S0UCzpVcHxeAFKccty6I7HqRto2uagou"/>
+          <decisions id="kKMyq3sjFJcF8HoPNEIa0ntEKFE3njrS">
+            <cells key="S0UCzpVcHxeAFKccty6I7HqRto2uagou">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="cAaxAbVqPf9wAM4T7IZF8JKfV1PvHjyG"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:SequenceFlow" id="t4t6iwUKDolvyC7kzyWOjrvoW2CM8TJe" name="" target="xJlU4bn93ACr89IQvuiR7BJJzkYG8YUp" source="YidwiiyDtOD4P3t26HLx6Vln4FMlD5hm"/>
+      <flowElements xsi:type="yest:Task" id="ln72dzPzF3EIymHBoy116Flla4hpbMfU" name="U2 crée une donnée et U1 la récupère (1)" incomings="vEh9YAHLX9fOPDHvBqE8Q07nAoiC4Ow2">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="7qivUGIAyrNEyYga4rPaNdmmgNHulRZR"/>
+          <decisions id="6iZZcWU9sngQuU9yfznVqytB4fwtSjEy">
+            <cells key="7qivUGIAyrNEyYga4rPaNdmmgNHulRZR">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="cAaxAbVqPf9wAM4T7IZF8JKfV1PvHjyG"/>
+              </value>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:Task" id="m5MLxQdBpuLB7QAWSmgqMdJrfQmzLNUt" name="Créer une catégorie" incomings="ggxwq20seLISHYrJ6IZuq9IYl0YsHCwX" outgoings="vEh9YAHLX9fOPDHvBqE8Q07nAoiC4Ow2"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="ggxwq20seLISHYrJ6IZuq9IYl0YsHCwX" name="" target="m5MLxQdBpuLB7QAWSmgqMdJrfQmzLNUt" source="xJlU4bn93ACr89IQvuiR7BJJzkYG8YUp"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="vEh9YAHLX9fOPDHvBqE8Q07nAoiC4Ow2" name="" target="ln72dzPzF3EIymHBoy116Flla4hpbMfU" source="m5MLxQdBpuLB7QAWSmgqMdJrfQmzLNUt"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="0_Parcours génération test" pictogramLinks="//@subFolders.7/@testElements.0/@diagram/@children.0/@link //@subFolders.7/@testElements.0/@diagram/@children.1/@link //@subFolders.7/@testElements.0/@diagram/@connections.0/@link //@subFolders.7/@testElements.0/@diagram/@children.2/@link //@subFolders.7/@testElements.0/@diagram/@children.4/@link //@subFolders.7/@testElements.0/@diagram/@connections.1/@link //@subFolders.7/@testElements.0/@diagram/@connections.2/@link" version="0.16.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.7/@testElements.0/@diagram/@styles.0/@renderingStyle/@adaptedGradientColoredAreas/@adaptedGradientColoredAreas.0/@gradientColor.0/@end/@color" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="YidwiiyDtOD4P3t26HLx6Vln4FMlD5hm">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.1" lineWidth="2" transparency="0.0" width="31" height="31" x="363" y="34" style="//@subFolders.7/@testElements.0/@diagram/@styles.0"/>
+          <link businessObjects="YidwiiyDtOD4P3t26HLx6Vln4FMlD5hm"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.7/@testElements.0/@diagram/@connections.0"/>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.7/@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="xJlU4bn93ACr89IQvuiR7BJJzkYG8YUp">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.3" lineWidth="2" transparency="0.0" width="144" height="62" x="307" y="109" style="//@subFolders.7/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="xJlU4bn93ACr89IQvuiR7BJJzkYG8YUp"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.7/@testElements.0/@diagram/@connections.1" incomingConnections="//@subFolders.7/@testElements.0/@diagram/@connections.0"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.7/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="U2 crée une donnée"/>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.7/@testElements.0/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="ln72dzPzF3EIymHBoy116Flla4hpbMfU">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.3" lineWidth="2" transparency="0.0" width="144" height="62" x="307" y="410" style="//@subFolders.7/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="ln72dzPzF3EIymHBoy116Flla4hpbMfU"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.7/@testElements.0/@diagram/@connections.2"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.7/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="U2 crée une donnée et&#xD;&#xA;U1 la récupère (1)"/>
+          </children>
+        </children>
+        <children xsi:type="yest:TextAnnotationShape" visible="true" active="true" extras="//@subFolders.7/@testElements.0/@diagram/@children.3/@children.1/@graphicsAlgorithm" text="//@subFolders.7/@testElements.0/@diagram/@children.3/@children.0/@graphicsAlgorithm" id="hNZCbvMOFHiBanjCVuiKvRxZk0E5pYv1">
+          <graphicsAlgorithm xsi:type="al:Rectangle" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.6" lineWidth="1" lineVisible="true" transparency="0.0" width="145" height="60" x="483" y="411" style="//@subFolders.7/@testElements.0/@diagram/@styles.15"/>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:MultiText" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.7" lineWidth="1" filled="false" transparency="0.0" width="133" height="48" x="6" y="6" font="//@subFolders.7/@testElements.0/@diagram/@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="La donnée est utilisée dans une nouvelle étape de test de U2"/>
+          </children>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.8" lineWidth="2" filled="true" lineVisible="true" transparency="0.0">
+              <points x="36"/>
+              <points/>
+              <points y="60"/>
+              <points x="36" y="60"/>
+            </graphicsAlgorithm>
+          </children>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.7/@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm" flowNode="m5MLxQdBpuLB7QAWSmgqMdJrfQmzLNUt">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.3" lineWidth="2" transparency="0.0" width="101" height="51" x="327" y="194" style="//@subFolders.7/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="m5MLxQdBpuLB7QAWSmgqMdJrfQmzLNUt"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.7/@testElements.0/@diagram/@connections.2" incomingConnections="//@subFolders.7/@testElements.0/@diagram/@connections.1"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.7/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Créer une&#xD;&#xA;catégorie"/>
+          </children>
+        </children>
+        <styles filled="true" lineVisible="true" id="shape-bg-green-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-red-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-red-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-yellow-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-yellow-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-yellow-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-yellow-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="227" blue="73"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles filled="true" lineVisible="true" id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles id="shape-bg-gray-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-gray-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="219" green="219" blue="219"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="219" green="219" blue="219"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="219" green="219" blue="219"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="219" green="219" blue="219"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="219" green="219" blue="219"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.7/@testElements.0/@diagram/@children.0/@anchors.0" end="//@subFolders.7/@testElements.0/@diagram/@children.1/@anchors.0" sequenceFlow="t4t6iwUKDolvyC7kzyWOjrvoW2CM8TJe">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="t4t6iwUKDolvyC7kzyWOjrvoW2CM8TJe"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.7/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.7/@testElements.0/@diagram/@children.1/@anchors.0" end="//@subFolders.7/@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="ggxwq20seLISHYrJ6IZuq9IYl0YsHCwX">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="ggxwq20seLISHYrJ6IZuq9IYl0YsHCwX"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.7/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.7/@testElements.0/@diagram/@children.4/@anchors.0" end="//@subFolders.7/@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="vEh9YAHLX9fOPDHvBqE8Q07nAoiC4Ow2">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="vEh9YAHLX9fOPDHvBqE8Q07nAoiC4Ow2"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.7/@testElements.0/@diagram/@colors.2" foreground="//@subFolders.7/@testElements.0/@diagram/@colors.2" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <colors red="227" green="238" blue="249"/>
+        <colors red="164" green="193" blue="162"/>
+        <colors red="51" green="51" blue="51"/>
+        <colors red="174" green="198" blue="207"/>
+        <colors red="239" green="126" blue="138"/>
+        <colors red="255" green="198" blue="64"/>
+        <colors red="191" green="191" blue="191"/>
+        <colors red="100" green="100" blue="100"/>
+        <colors red="171" green="171" blue="171"/>
+        <fonts name="Segoe UI" size="9"/>
+      </diagram>
+    </testElements>
+  </subFolders>
   <testElements xsi:type="yest:TestOperation" id="JsMsGOwhmOjhieiAcDR8CklbSdSFeB96">
     <highLevelStep>
       <action>
@@ -46879,72 +47578,118 @@
       <expectedResult/>
     </highLevelStep>
   </testElements>
+  <testElements xsi:type="yest:TestOperation" id="cAaxAbVqPf9wAM4T7IZF8JKfV1PvHjyG">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="U2 crée une donnée et U1 la récupère"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
   <designDataDictionary id="tZSMuupN8nzbiX4u6VajWROUKZsgeAQV" name="#designDataDictionary">
-    <datas xsi:type="yest:DesignData" name="versions_à_récupérer_du_serveur" id="iIREH7PAZEtGpuhA58J9pCi6JtPYsRGR">
-      <possibleValues definition="10 versions" id="yz8DJP8BlDyWJkgMowgypcB93Wz8utmD"/>
-    </datas>
-    <datas xsi:type="yest:DesignData" name="état_dernière_version_synchronisée" id="VODVySTDLmwfOF8RpBoTxV1EE0lYJBx4">
-      <possibleValues definition="C'est l'utilisateur courant qui à envoyé la dernière version" id="FugcSH9YKyyALyw6qfGo80DO9ovu2VxK"/>
-      <possibleValues definition="C'est un autre utilisateur qui a envoyé la dernière version" id="YatxvPKeAVF8VvLOakmzugVQNGRtCDP8"/>
-    </datas>
-    <datas xsi:type="yest:DesignData" name="récupérer_version" id="c2fFirEWHWynkwMF8hGQ1oxl6F7IN2Av"/>
-    <datas xsi:type="yest:DesignData" name="jdd" id="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
-    <datas xsi:type="yest:DesignData" name="dC" id="TbTKuvahsD0qxj22oh45hKicoNjVcBVK">
-      <possibleValues definition="c3" id="gEbWaNQ4yciZxjvx3TO0cSByc81OPKtI"/>
-    </datas>
-    <datas xsi:type="yest:DesignData" name="artefact" id="ldN5bPBxeDrc3BKEyT3nothfIJACSwkC"/>
-    <datas xsi:type="yest:DesignData" name="action" id="Y82y16rKGEehvWJPWSk2fPmdXvnOWoa9"/>
-    <datas xsi:type="yest:DesignData" name="action_merge" id="1EIfafJE0SnAvDVr545PecHKFojUShSm"/>
-    <datas xsi:type="yest:DesignData" name="DonnéeCommune" id="z1sAT0FVOd7BVycp4HViHOJmtxN1aBDI"/>
-    <datas xsi:type="yest:DesignData" name="DonnéeA" id="SqcylMzIGM63eBcTFQJ5kRWg1eKrkw3x"/>
-    <datas xsi:type="yest:DesignData" name="DonnéeB" id="lkjoPFgHm6luxF5vbNn54ECewQv3XAAF"/>
-    <datas xsi:type="yest:DesignData" name="nouvelleAffectationU2" id="NCTivdolEPTthDhIdKpcZTc7FA6QHsac"/>
-    <datas xsi:type="yest:DesignData" name="aff_valeur_que_U2" id="8NluwcKcyMWMY1W1Ya3u41hMPLXRGhL5"/>
-    <datas xsi:type="yest:DesignData" name="donnéedeU2" id="ZVnC0DQopz3YUqt9qda6gz6PIkyoPtEL"/>
-    <datas xsi:type="yest:DesignData" name="affectation_avecValAutreDonnée" id="7OUabtql2QhCJ4vhR0TavvF99zd6hsEY"/>
-    <datas xsi:type="yest:DesignData" name="Donnée_A2" id="byimWxh5hKmKHmu3rK3x39ezWbZNkKYN"/>
-    <datas xsi:type="yest:DesignData" name="DonnéeB2" id="ImhsezkckSVyAjMtq3f3qZaEigtkf33c"/>
-    <subCategories xsi:type="yest:DesignDataCategory" id="y4qhfQyYTVpEC67ouMf4bLVZVRuuuPyz" name="table">
-      <subCategories xsi:type="yest:DesignDataCategory" id="xJdMRrZ5HRMCfiODeVi6gcthgZTfnFii" name="affectation">
-        <datas xsi:type="yest:DesignData" name="affectation_à_déplacer" id="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
-        <datas xsi:type="yest:DesignData" name="affectation_a_renommer" id="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
-        <datas xsi:type="yest:DesignData" name="affectation_à_supprimer" id="IlliqK60lowuNMb0cn6MbydL6xMGeYZt"/>
-        <datas xsi:type="yest:DesignData" name="affectation_à_transformer" id="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
-        <datas xsi:type="yest:DesignData" name="affectation_à_changer_la_valeur" id="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>
-        <datas xsi:type="yest:DesignData" name="affectation_supprimer_la_valeur" id="k1lK4bjs1BKVqS9lRqwDu7uS7aNat09b"/>
-        <datas xsi:type="yest:DesignData" name="affectation_ou_mettre_une_autre_donnée" id="PvNnUH0taoe7bw8TGWJY3FjVDD9DizGm"/>
-        <datas xsi:type="yest:DesignData" name="affectation_ou_mettre_une_donnée_nouvelle_U2" id="4ZULli5SaUsZw5MhxY88bF9KMDjzKXO2"/>
+    <subCategories xsi:type="yest:DesignDataCategory" id="fnHBYxi6Xol0qD1FRHUGt7SD1noFQ9sy" name="Données">
+      <datas xsi:type="yest:DesignData" name="action" id="Y82y16rKGEehvWJPWSk2fPmdXvnOWoa9"/>
+      <datas xsi:type="yest:DesignData" name="action_merge" id="1EIfafJE0SnAvDVr545PecHKFojUShSm"/>
+      <datas xsi:type="yest:DesignData" name="aff_valeur_que_U2" id="8NluwcKcyMWMY1W1Ya3u41hMPLXRGhL5"/>
+      <datas xsi:type="yest:DesignData" name="affectation_avecValAutreDonnée" id="7OUabtql2QhCJ4vhR0TavvF99zd6hsEY"/>
+      <datas xsi:type="yest:DesignData" name="artefact" id="ldN5bPBxeDrc3BKEyT3nothfIJACSwkC"/>
+      <datas xsi:type="yest:DesignData" name="dC" id="TbTKuvahsD0qxj22oh45hKicoNjVcBVK">
+        <possibleValues definition="c3" id="gEbWaNQ4yciZxjvx3TO0cSByc81OPKtI"/>
+      </datas>
+      <datas xsi:type="yest:DesignData" name="Donnée_A2" id="byimWxh5hKmKHmu3rK3x39ezWbZNkKYN"/>
+      <datas xsi:type="yest:DesignData" name="DonnéeA" id="SqcylMzIGM63eBcTFQJ5kRWg1eKrkw3x"/>
+      <datas xsi:type="yest:DesignData" name="DonnéeB" id="lkjoPFgHm6luxF5vbNn54ECewQv3XAAF"/>
+      <datas xsi:type="yest:DesignData" name="DonnéeB2" id="ImhsezkckSVyAjMtq3f3qZaEigtkf33c"/>
+      <datas xsi:type="yest:DesignData" name="DonnéeCommune" id="z1sAT0FVOd7BVycp4HViHOJmtxN1aBDI"/>
+      <datas xsi:type="yest:DesignData" name="donnéedeU2" id="ZVnC0DQopz3YUqt9qda6gz6PIkyoPtEL"/>
+      <datas xsi:type="yest:DesignData" name="état_dernière_version_synchronisée" id="VODVySTDLmwfOF8RpBoTxV1EE0lYJBx4">
+        <possibleValues definition="C'est l'utilisateur courant qui à envoyé la dernière version" id="FugcSH9YKyyALyw6qfGo80DO9ovu2VxK"/>
+        <possibleValues definition="C'est un autre utilisateur qui a envoyé la dernière version" id="YatxvPKeAVF8VvLOakmzugVQNGRtCDP8"/>
+      </datas>
+      <datas xsi:type="yest:DesignData" name="jdd" id="EOdM2EFueLbg9X8ZeA3AJkLk0w1hlNf3"/>
+      <datas xsi:type="yest:DesignData" name="nouvelleAffectationU2" id="NCTivdolEPTthDhIdKpcZTc7FA6QHsac"/>
+      <datas xsi:type="yest:DesignData" name="récupérer_version" id="c2fFirEWHWynkwMF8hGQ1oxl6F7IN2Av"/>
+      <datas xsi:type="yest:DesignData" name="versions_à_récupérer_du_serveur" id="iIREH7PAZEtGpuhA58J9pCi6JtPYsRGR">
+        <possibleValues definition="10 versions" id="yz8DJP8BlDyWJkgMowgypcB93Wz8utmD"/>
+      </datas>
+      <subCategories xsi:type="yest:DesignDataCategory" id="dGszMlcY4jXO4mm6FIDd7ivHdel1wvTh" name="Sous parcours">
+        <datas xsi:type="yest:DesignData" name="état_sous_parcours" id="ua8zfuntu4ipqf2gj0JNkG0f4XdUwZUj">
+          <possibleValues definition="existe pour U1" id="61TvijacOMllZNIXKulyqCslDVXSVeY8"/>
+          <possibleValues definition="existe pas pour U1" id="wJj6zGpiGKSQNtUr3YNdsziBmwBpw2nn"/>
+        </datas>
       </subCategories>
-      <subCategories xsi:type="yest:DesignDataCategory" id="8LTANUheS3lmnoQoXwycUAhgycuGJoyS" name="condition">
-        <datas xsi:type="yest:DesignData" name="condition_à_déplacer" id="8Pgbdr883JnpLw0Z6DsnNgDWHVeCRyPo"/>
-        <datas xsi:type="yest:DesignData" name="condition_à_renommer" id="WCFA99Uqp2leFGfU41xDf2N4IDPTbPs4"/>
-        <datas xsi:type="yest:DesignData" name="condition_à_supprimer" id="IvAS0ft3R0w04m21o1m5OQebQKcSUZNJ"/>
-        <datas xsi:type="yest:DesignData" name="condition_à_transformer" id="xEAUcresueJZnyiPZt4R1YMpkJdAj4j4"/>
-        <datas xsi:type="yest:DesignData" name="condition_changer_la_valeur" id="O5DwNOx52L1nIZKnKTACEBQoWLODwT3T"/>
-        <datas xsi:type="yest:DesignData" name="condition_supprimer_la_valeur" id="hTom9jhLPgTl95JhF5EaVFuokpCwYura"/>
-        <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_qui_existe_sur_serveur" id="PNhzfuYqCYCUeoKK4NnqABzX961Ykj8H">
-          <possibleValues definition="valeur origine" id="T5kXjL2lqwcArcNpxQ8uSWKorh4ZjK6s"/>
-        </datas>
-        <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_qui_existe_pas_sur_serveur" id="R5LTyiIY5M4oRwrEhy5k2nm2EQNHBgFM">
-          <possibleValues definition="valeur origine" id="Aq0hboJ5o0fF4GzJiYxvhlW0DPfebqa2"/>
-        </datas>
-        <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_qui_est_renommé_sur_serveur" id="pHGJA1DKDHjVzfiJSydyOcaJZsKjOIO5">
-          <possibleValues definition="valeur origine" id="k8HDINY5CaTTLPf0Zweu687gHJCDAu5M"/>
-        </datas>
-        <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_a_renommer_pour_avoir_meme_nom_quneDonneeServeur" id="oUSbcATCW9wOLnYNeAT0qwxI6dpzTJAS">
-          <possibleValues definition="valeur origine" id="CtqvXvqDPz2O96PAvBMPmTMfj6KwsnhZ"/>
-          <possibleValues definition="Valeur" id="MqYYbt4mGOmUjorIV6NMvrlMfTT9wpYr"/>
-        </datas>
-        <datas xsi:type="yest:DesignData" name="condition_à_ajouter" id="KC6y4kxzgTsdnqFayBHtkj2ZnGdcQfCO">
-          <possibleValues definition="valeur origine" id="pdtgBXOhYInnmtMOzkoYVfwFQPQywAjZ"/>
-        </datas>
+      <subCategories xsi:type="yest:DesignDataCategory" id="y4qhfQyYTVpEC67ouMf4bLVZVRuuuPyz" name="table">
+        <subCategories xsi:type="yest:DesignDataCategory" id="xJdMRrZ5HRMCfiODeVi6gcthgZTfnFii" name="affectation">
+          <datas xsi:type="yest:DesignData" name="affectation_à_déplacer" id="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
+          <datas xsi:type="yest:DesignData" name="affectation_a_renommer" id="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
+          <datas xsi:type="yest:DesignData" name="affectation_à_supprimer" id="IlliqK60lowuNMb0cn6MbydL6xMGeYZt"/>
+          <datas xsi:type="yest:DesignData" name="affectation_à_transformer" id="rrdQ07UKemDZgAfsV0o3ZgbXUf2PWi4T"/>
+          <datas xsi:type="yest:DesignData" name="affectation_à_changer_la_valeur" id="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>
+          <datas xsi:type="yest:DesignData" name="affectation_supprimer_la_valeur" id="k1lK4bjs1BKVqS9lRqwDu7uS7aNat09b"/>
+          <datas xsi:type="yest:DesignData" name="affectation_ou_mettre_une_autre_donnée" id="PvNnUH0taoe7bw8TGWJY3FjVDD9DizGm"/>
+          <datas xsi:type="yest:DesignData" name="affectation_ou_mettre_une_donnée_nouvelle_U2" id="4ZULli5SaUsZw5MhxY88bF9KMDjzKXO2"/>
+        </subCategories>
+        <subCategories xsi:type="yest:DesignDataCategory" id="8LTANUheS3lmnoQoXwycUAhgycuGJoyS" name="condition">
+          <datas xsi:type="yest:DesignData" name="condition_à_déplacer" id="8Pgbdr883JnpLw0Z6DsnNgDWHVeCRyPo"/>
+          <datas xsi:type="yest:DesignData" name="condition_à_renommer" id="WCFA99Uqp2leFGfU41xDf2N4IDPTbPs4"/>
+          <datas xsi:type="yest:DesignData" name="condition_à_supprimer" id="IvAS0ft3R0w04m21o1m5OQebQKcSUZNJ"/>
+          <datas xsi:type="yest:DesignData" name="condition_à_transformer" id="xEAUcresueJZnyiPZt4R1YMpkJdAj4j4"/>
+          <datas xsi:type="yest:DesignData" name="condition_changer_la_valeur" id="O5DwNOx52L1nIZKnKTACEBQoWLODwT3T"/>
+          <datas xsi:type="yest:DesignData" name="condition_supprimer_la_valeur" id="hTom9jhLPgTl95JhF5EaVFuokpCwYura"/>
+          <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_qui_existe_sur_serveur" id="PNhzfuYqCYCUeoKK4NnqABzX961Ykj8H">
+            <possibleValues definition="valeur origine" id="T5kXjL2lqwcArcNpxQ8uSWKorh4ZjK6s"/>
+          </datas>
+          <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_qui_existe_pas_sur_serveur" id="R5LTyiIY5M4oRwrEhy5k2nm2EQNHBgFM">
+            <possibleValues definition="valeur origine" id="Aq0hboJ5o0fF4GzJiYxvhlW0DPfebqa2"/>
+          </datas>
+          <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_qui_est_renommé_sur_serveur" id="pHGJA1DKDHjVzfiJSydyOcaJZsKjOIO5">
+            <possibleValues definition="valeur origine" id="k8HDINY5CaTTLPf0Zweu687gHJCDAu5M"/>
+          </datas>
+          <datas xsi:type="yest:DesignData" name="condition_valeur_autre_donnée_a_renommer_pour_avoir_meme_nom_quneDonneeServeur" id="oUSbcATCW9wOLnYNeAT0qwxI6dpzTJAS">
+            <possibleValues definition="valeur origine" id="CtqvXvqDPz2O96PAvBMPmTMfj6KwsnhZ"/>
+            <possibleValues definition="Valeur" id="MqYYbt4mGOmUjorIV6NMvrlMfTT9wpYr"/>
+          </datas>
+          <datas xsi:type="yest:DesignData" name="condition_à_ajouter" id="KC6y4kxzgTsdnqFayBHtkj2ZnGdcQfCO">
+            <possibleValues definition="valeur origine" id="pdtgBXOhYInnmtMOzkoYVfwFQPQywAjZ"/>
+          </datas>
+        </subCategories>
       </subCategories>
     </subCategories>
-    <subCategories xsi:type="yest:DesignDataCategory" id="dGszMlcY4jXO4mm6FIDd7ivHdel1wvTh" name="Sous parcours">
-      <datas xsi:type="yest:DesignData" name="état_sous_parcours" id="ua8zfuntu4ipqf2gj0JNkG0f4XdUwZUj">
-        <possibleValues definition="existe pour U1" id="61TvijacOMllZNIXKulyqCslDVXSVeY8"/>
-        <possibleValues definition="existe pas pour U1" id="wJj6zGpiGKSQNtUr3YNdsziBmwBpw2nn"/>
+    <subCategories xsi:type="yest:DesignDataCategory" id="BqHPSrsNqmQtDqPUKDBpAmOnA5B5kifA" name="Données pour les tests sur les données">
+      <datas xsi:type="yest:DesignData" name="Donnée_commune_accepter" id="w4HqYpy4VLYC7eYHMmlFvcXPlkewosdE">
+        <possibleValues definition="val origine" id="xeGcYZoYLTxHJGJOnLqLwHFttHaktXJN"/>
+        <possibleValues definition="val à changer" id="17oleG5Ep6w5s5BkLMV1gQ1KTJoZ68B2"/>
+        <possibleValues definition="val à supprimer" id="Fayt1VUr6LkGXLlpal4hTfA7eKEY7g8S"/>
+        <possibleValues definition="Donnée_commune_accepter" id="vJws6TFvpJTdN8wBFtQH8opdPT8NbucH"/>
+        <possibleValues definition="val ou mettre une autre donnée existante" id="glUgu3ymHFY8ifSj7rI9eq25tq7aF0ik"/>
+        <possibleValues definition="val ou mettre une autre donnée nouvelle" id="9J3f9Eqzv1wML5VccXl1U4shEdc5gnuF"/>
       </datas>
+      <datas xsi:type="yest:DesignData" name="Donnée_ou_ajouter_val" id="zq7rGEvm55VlEU3U50k4TmLhKjyVuRiL"/>
+    </subCategories>
+    <subCategories xsi:type="yest:DesignDataCategory" id="kxda3juDnfFU9fJugGjRRCiyItjyeARd" name="Accepter">
+      <datas xsi:type="yest:DesignData" name="Donnée_commune_accepter_1" id="2kATE1YJOfZYBgO40BI72w62ZZ0xqqQX">
+        <possibleValues definition="val origine" id="Zdh1Uu0wJTiQ36RpepxuauvFPrpXcwXf"/>
+        <possibleValues definition="val à changer" id="2CXvXb1DStIiNvqiyIUoO9OejeVwLL5F"/>
+        <possibleValues definition="val à supprimer" id="s0bYN9YIhR7cCm5FSFQwSB81mKxp2e23"/>
+        <possibleValues definition="Donnée_commune_accepter" id="0Dyh8tRZRLnPg9HEyiggHOH25Ia7JbW6"/>
+        <possibleValues definition="val ou mettre une autre donnée existante" id="TysG3W8SIXLaHIz9aXWMnQoDLBXw1bmM"/>
+        <possibleValues definition="val ou mettre une autre donnée nouvelle" id="zkGdVafnVoZh24Z1vYDzff0jhQgaQY2I"/>
+      </datas>
+      <datas xsi:type="yest:DesignData" name="Donnée_ou_ajouter_val_1" id="ELaZrOVaYwokqCWeGUg34888hXDZX1sm"/>
+      <subCategories xsi:type="yest:DesignDataCategory" id="fg0kKT9LRAFOlxgcHgHDAyzDPMjAlZzZ" name="Données pour les tests sur les données"/>
+    </subCategories>
+    <subCategories xsi:type="yest:DesignDataCategory" id="zHvefpIsmvgq8SJKTFmtyouLxrFEZ9Hg" name="Refuser">
+      <datas xsi:type="yest:DesignData" name="Donnée_commune_accepter_2" id="per3FQAfL243t9cuIRecR3GbGr4VLgIJ">
+        <possibleValues definition="val origine" id="Me5BjuPQnASK3JgiqqL5MpFsw7kIBTlW"/>
+        <possibleValues definition="val à changer" id="8sCTtgehqkHTrs4mzapipUhAbaL7zyZG"/>
+        <possibleValues definition="val à supprimer" id="7cjUAtH9WmGGWHc91MzrYFeGp7vWRHYC"/>
+        <possibleValues definition="Donnée_commune_accepter" id="TG43rXubUXDdl6MXyGBQrKjkF5KFPgDP"/>
+        <possibleValues definition="val ou mettre une autre donnée existante" id="CdVjUGDRKjP8fesKqqdfmIQ6IPGHBNcf"/>
+        <possibleValues definition="val ou mettre une autre donnée nouvelle" id="HSCWOgxcZFhxmnngrcaMypOJnnvVElf0"/>
+      </datas>
+      <datas xsi:type="yest:DesignData" name="Donnée_ou_ajouter_val_2" id="3lJwisG9jPnJBgioDcU1KgMcNXIJM4Xp"/>
+      <subCategories xsi:type="yest:DesignDataCategory" id="09jahIhoWHCdGQ3aJ4DlL4h9hvYhqwdl" name="Catégorie à renommer"/>
+      <subCategories xsi:type="yest:DesignDataCategory" id="iSOqphVpKq1uzS2XlfhFb7pygzl6XGfq" name="Catégorie a supprimer"/>
     </subCategories>
   </designDataDictionary>
   <implementationDataDictionary id="hq1mQo64Zc2Td8O8NjvVCzib5muT2xbG" name="#implementationDataDictionary">

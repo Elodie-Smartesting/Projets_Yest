@@ -48466,20 +48466,20 @@
       <testActions id="80LPLSZQrAiqQZAQfbS2GbSMOziCAQwk" operation="Tng0u2wj8HRtNHIWYEmwpnktGz4lniHd"/>
       <testActions id="bMtuD10oAOtWDpezU2WmUmK4TI74UUf6" operation="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF"/>
     </testElements>
-    <testElements xsi:type="yest:TestScenario" id="1IW1EOdZbp3398KDgZ8l5JV9diX3mGGg" name="P2-t1-t2-t4" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
-      <testActions id="6LAvxoTPT6hZl76UqqXveOE0S92ioZRY" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc"/>
-      <testActions id="v3rkx8fD4x2UUAdpVyA1lPXiOqmwOl33" operation="aeRXrE1wsTgHJggYWvRqTurDzxrkkelJ"/>
-      <testActions id="jpn2iexk8XQKWohMow09c6Ne8ROZNOT5" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48"/>
-    </testElements>
-    <testElements xsi:type="yest:TestScenario" id="dP8qRx6ds6OX1qI8D9M9ePDc5fbzSBEy" name="P1-t1-t4-t5-t6" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
-      <testActions id="5FI1yQJ3rV6rDSCfGMfINFHY2RPlQuQB" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc"/>
-      <testActions id="O4y4tfC1cC8t7jdidDETRq88JoTA6cwr" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48"/>
-      <testActions id="MQCIp6hyz75UnfSI8xKUAuy8v85AvQyu" operation="Tng0u2wj8HRtNHIWYEmwpnktGz4lniHd"/>
-      <testActions id="hKGBbB9jESd8k1grzNwnMLnas7WQJERC" operation="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF"/>
-    </testElements>
     <testElements xsi:type="yest:TestScenario" id="vKOXwsVST1OO7uDywuYMzgFMKmZRTxAg" name="P3-t1-t4" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
       <testActions id="0AL18A2d0VXGD3oOdfrkRoQ4tjuUuaQ2" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc"/>
       <testActions id="eEtHrbxIcEq93MpYRTXkTNFQokGm9ekQ" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48"/>
+    </testElements>
+    <testElements xsi:type="yest:TestScenario" id="1IW1EOdZbp3398KDgZ8l5JV9diX3mGGg" name="P2-t1-t2-t4" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
+      <testActions id="OohZSdVBvqxTVJVC7xG9CuSNlVTZ4ume" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc"/>
+      <testActions id="6i9ufEKwjHI91pTyhpaYkCYAoSfj1Inn" operation="aeRXrE1wsTgHJggYWvRqTurDzxrkkelJ"/>
+      <testActions id="M1cmjaZrniLYzGBP0UXhXN9ixinAlViA" operation="cU2XRaBZ8VZdG4vZt6In6QwINVk6Ruip"/>
+    </testElements>
+    <testElements xsi:type="yest:TestScenario" id="dP8qRx6ds6OX1qI8D9M9ePDc5fbzSBEy" name="P1-t1-t4-t5-t6" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
+      <testActions id="SaHJ7BfMI9ocpBK5cOnjJVqpr8lGt4fh" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc"/>
+      <testActions id="Wu6DJxnBxF5Hs3WlaWWnwYHwyQuQuDby" operation="cU2XRaBZ8VZdG4vZt6In6QwINVk6Ruip"/>
+      <testActions id="yTG1mbNiUNrDVSWqCHNuxFUhzfWnkhdX" operation="Tng0u2wj8HRtNHIWYEmwpnktGz4lniHd"/>
+      <testActions id="FStsjf8uvl7F0BZLexi763Jwm9fxxEjM" operation="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF"/>
     </testElements>
   </subFolders>
   <testElements xsi:type="yest:TestOperation" id="JsMsGOwhmOjhieiAcDR8CklbSdSFeB96">
@@ -49135,6 +49135,14 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Tâche 1 -"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="cU2XRaBZ8VZdG4vZt6In6QwINVk6Ruip">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Tâche 4 modif U2"/>
       </action>
       <expectedResult/>
     </highLevelStep>

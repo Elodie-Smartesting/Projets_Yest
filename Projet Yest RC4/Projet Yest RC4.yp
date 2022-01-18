@@ -47228,7 +47228,7 @@
           <decisions id="aZzB5RwQcUuQe3t9ZDKQ2WRbWbWcAj0R">
             <cells key="bHljToYRgGC1QcwERjWzv2a3mAHGu6Rf">
               <value xsi:type="yest:OperationCell">
-                <operations reference="G0Q6DP2g2eyM5UGVbSzjoh0UqZ7dFu26"/>
+                <operations reference="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc"/>
               </value>
             </cells>
             <cells key="iZDmg8fRcfUrqzOFBpgPOCeDBpu8Jpno">
@@ -48467,7 +48467,7 @@
       <testActions id="bMtuD10oAOtWDpezU2WmUmK4TI74UUf6" operation="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF"/>
     </testElements>
     <testElements xsi:type="yest:TestScenario" id="1IW1EOdZbp3398KDgZ8l5JV9diX3mGGg" name="P2-t1-t2-t4" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
-      <testActions id="6LAvxoTPT6hZl76UqqXveOE0S92ioZRY" operation="G0Q6DP2g2eyM5UGVbSzjoh0UqZ7dFu26"/>
+      <testActions id="6LAvxoTPT6hZl76UqqXveOE0S92ioZRY" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc"/>
       <testActions id="v3rkx8fD4x2UUAdpVyA1lPXiOqmwOl33" operation="aeRXrE1wsTgHJggYWvRqTurDzxrkkelJ"/>
       <testActions id="jpn2iexk8XQKWohMow09c6Ne8ROZNOT5" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48"/>
     </testElements>
@@ -49091,14 +49091,6 @@
       <expectedResult/>
     </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestOperation" id="G0Q6DP2g2eyM5UGVbSzjoh0UqZ7dFu26">
-    <highLevelStep>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Tâche 1 modif par U1"/>
-      </action>
-      <expectedResult/>
-    </highLevelStep>
-  </testElements>
   <testElements xsi:type="yest:TestOperation" id="aeRXrE1wsTgHJggYWvRqTurDzxrkkelJ">
     <highLevelStep>
       <action>
@@ -49142,7 +49134,7 @@
   <testElements xsi:type="yest:TestOperation" id="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
     <highLevelStep>
       <action>
-        <stepElements xsi:type="yest:StepText" content="Tâche 1 modif U2"/>
+        <stepElements xsi:type="yest:StepText" content="Tâche 1 -"/>
       </action>
       <expectedResult/>
     </highLevelStep>

@@ -47263,6 +47263,7 @@
       </flowElements>
       <flowElements xsi:type="yest:Task" id="uO96o5YEhsWQYxM4rQLXTZFbbCI7j2sJ" name="Tâche 4" incomings="cd0cbSSV6Z2FhsDAdcyoXKLO32RH2iVg" outgoings="KA7VE54IJy7FxS3SDIQaGpRERs8TPCbr">
         <table>
+          <columns xsi:type="yest:DataColumn" id="GHBGX2WNHLhtjeS28DFgethURJfbXnw2" type="SET" data="SqcylMzIGM63eBcTFQJ5kRWg1eKrkw3x"/>
           <columns xsi:type="yest:OperationColumn" id="firxtYCe52R1uac0HusmGKszlGBjskBW"/>
           <columns xsi:type="yest:CriterionColumn" id="mTVyerfpsrxMk3NMXDdWA9M21mgesHJo" criterionType="#objective"/>
           <decisions id="LunsbNTmq0XDr4tGXYdRT6ITT0bNIwe2">
@@ -47273,6 +47274,9 @@
             </cells>
             <cells key="mTVyerfpsrxMk3NMXDdWA9M21mgesHJo">
               <value xsi:type="yest:StringCell" value="t4"/>
+            </cells>
+            <cells key="GHBGX2WNHLhtjeS28DFgethURJfbXnw2">
+              <value xsi:type="yest:StringCell" value="val U2"/>
             </cells>
           </decisions>
         </table>
@@ -48476,51 +48480,63 @@
         <fonts name="Segoe UI" size="9"/>
       </diagram>
     </testElements>
-    <testElements xsi:type="yest:TestScenario" id="IUreOQfqpQ6elaH1kiwH2IPHxEhqS2oV" name="U2-P1-t1-t2-t3" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
-      <testActions id="kx0h0BPqgYVrbLuRFQvYGpPAB1Mj8BXj" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
+    <testElements xsi:type="yest:TestScenario" id="wUdPycFEO48ujcvPMeG3to7IQMBHNjXt" name="U2-P1-t1-t2-t3" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
+      <testActions id="FgKv2oBvdFwD43jgOfiXVXZlUvVnGLfm" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
         <stepFieldValues referencedStepField="MMmQADwzd18r0FyCD0terUiVqL1DIHF9">
-          <value definition="val 2" id="Mofe8kkjm9rzRmfpWtv2tQw4gGWXQ24K"/>
+          <value definition="val 2" id="vXWQnR7DJ7E0A3UrDbuxhjd1qNPYukwa"/>
         </stepFieldValues>
       </testActions>
-      <testActions id="i4WPwQrLwlCf14ltedSF3bwZS6wOB9ZJ" operation="aeRXrE1wsTgHJggYWvRqTurDzxrkkelJ"/>
-      <testActions id="zdAHrPsKLfDX0aiCDjOvs1AewnaqyR78" operation="4MvtT7yglQvyjNw7udeOeOQgG8RIroDK"/>
+      <testActions id="KlfLSdJQVWXYCa704byhVuPYCtj9wAmP" operation="aeRXrE1wsTgHJggYWvRqTurDzxrkkelJ"/>
+      <testActions id="tEUII2jRgvqlu7qS8W4WGooU3wJp3x3e" operation="4MvtT7yglQvyjNw7udeOeOQgG8RIroDK"/>
     </testElements>
-    <testElements xsi:type="yest:TestScenario" id="3YqrxGCvs7mxNelwBHnKTlmOIjRpTqVa" name="U2-P3-t1-t3-t5-t6" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
-      <testActions id="aKNRnkIqjJPU93LWl0AHYdML3X5hJymu" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
+    <testElements xsi:type="yest:TestScenario" id="IoHFOaWL1PemkxnlbVWV99MYrF5TJThB" name="U2-P3-t1-t3-t5-t6" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
+      <testActions id="HaYWVng6fXdHEYfIcaUJuGFscjqV9JxZ" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
         <stepFieldValues referencedStepField="MMmQADwzd18r0FyCD0terUiVqL1DIHF9">
-          <value definition="val8" id="u6yewJnFdWMSfJSkwSc8LOBevAGL88in"/>
+          <value definition="val8" id="M3utxZtpMjB0r7qu4i1Ut8d6HQmHRQEk"/>
         </stepFieldValues>
       </testActions>
-      <testActions id="2jX4Oglce5Pajg2KpOdQWz74zFhIBI5d" operation="4MvtT7yglQvyjNw7udeOeOQgG8RIroDK"/>
-      <testActions id="5RiZtIiytw4kSedGSzT5cygLDgmPlIP8" operation="Tng0u2wj8HRtNHIWYEmwpnktGz4lniHd"/>
-      <testActions id="IjdjI5VZwbjbASF5gzX4l15srIeIMKZ3" operation="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF"/>
+      <testActions id="Cqo0K3wR2OteOBxi5MfHTGlMBYcPHspu" operation="4MvtT7yglQvyjNw7udeOeOQgG8RIroDK"/>
+      <testActions id="LRneQZeh3TaVoHgYNUWTzJA66yUBsG1f" operation="Tng0u2wj8HRtNHIWYEmwpnktGz4lniHd"/>
+      <testActions id="RAPlSlF54hE1SGvYnBLiELF320b8tAgU" operation="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF"/>
     </testElements>
-    <testElements xsi:type="yest:TestScenario" id="Hp0qMRstOVvmuzwE98WzN8WEmQIR41fv" name="U2-P2-t1-t2-t4" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
-      <testActions id="i1xDMP7VOKzH3K2KV7q0ruIxerbmTXEp" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
+    <testElements xsi:type="yest:TestScenario" id="zVecIUJLjaEbZX3zMXcxFNPisHOUfArm" name="U2-P2-t1-t2-t4" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
+      <testActions id="Pu9wPjdaUqFaY4N2jmvZqqIpxUI5dbQL" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
         <stepFieldValues referencedStepField="MMmQADwzd18r0FyCD0terUiVqL1DIHF9">
-          <value definition="val3" id="2LNcmOeLn05IfjAJXvqI7EWOuuzBFHj8"/>
+          <value definition="val3" id="GKUAWSVwNEeswd2yC43IcBG88on5dxeJ"/>
         </stepFieldValues>
       </testActions>
-      <testActions id="Gu07rsE48JahoDxKOZU5Gt9rZUfWIteR" operation="aeRXrE1wsTgHJggYWvRqTurDzxrkkelJ"/>
-      <testActions id="NfV1fYX4HleENoVdLfUl9Cxl8ErIKNJI" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48"/>
+      <testActions id="403pAdmLdq7sYi5Z1aMytRc3TWs9HaRl" operation="aeRXrE1wsTgHJggYWvRqTurDzxrkkelJ"/>
+      <testActions id="EnUQLOloof74mRLglBqZJAKUKMzAyXYk" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48">
+        <stepFieldValues referencedStepField="0cwzTTCIUN8efW8uG9llZmUIZtjTVKIc">
+          <value definition="val U2" id="GyBBo8plApenLidEkIm5HhiGraTP1JaD"/>
+        </stepFieldValues>
+      </testActions>
     </testElements>
-    <testElements xsi:type="yest:TestScenario" id="EtVD0jQ4ODACEZkXprKP2K4sTYHurTmV" name="U2-P1-t1-t4-t5-t6" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
-      <testActions id="g1kJ8GeMAccWwObgoo2IedaR466Bd5oj" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
+    <testElements xsi:type="yest:TestScenario" id="t0oxcvywBZrpEeZoALSbFMWsn22yhR0C" name="U2-P1-t1-t4-t5-t6" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
+      <testActions id="jjkB1IrqKqI6VZQvfY9Bb7QpfetLYigW" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
         <stepFieldValues referencedStepField="MMmQADwzd18r0FyCD0terUiVqL1DIHF9">
-          <value definition="val 2" id="zQHRNNCZDvhLGwCw5LCs4Lug03AAoUOh"/>
+          <value definition="val 2" id="anrfLPmbZRBB0QfZ7rAOY1jCcMFnLGYQ"/>
         </stepFieldValues>
       </testActions>
-      <testActions id="ale0AMj6ajCc4ECPPrcyCxstR6SDrf7i" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48"/>
-      <testActions id="KmfnCD4UyIAFW4q7YZkb99elgjVVaS4J" operation="Tng0u2wj8HRtNHIWYEmwpnktGz4lniHd"/>
-      <testActions id="ytR9ETNUxM3N62vju2urvAT5KLeWPbF0" operation="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF"/>
+      <testActions id="DZJWgrMFbW4TmhArcdi6zzcuNBsB6Qmp" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48">
+        <stepFieldValues referencedStepField="0cwzTTCIUN8efW8uG9llZmUIZtjTVKIc">
+          <value definition="val 2" id="DkmOPfvr0pdZTs7gx5GvOVmRjMLLOkfM"/>
+        </stepFieldValues>
+      </testActions>
+      <testActions id="zWHXXA2zzdh8X7xBXPVSJcbc7RDhM8Oh" operation="Tng0u2wj8HRtNHIWYEmwpnktGz4lniHd"/>
+      <testActions id="iD7BhTA9dYKDqAIPVK7684SGTvlJWy8o" operation="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF"/>
     </testElements>
-    <testElements xsi:type="yest:TestScenario" id="kpgz0pZIOZP6rSY2To6WtPcrDfNpyDHS" name="U2-P3-t1-t4" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
-      <testActions id="syHA8mJfRhI40XDXUEhpOyZlPzdw7zRm" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
+    <testElements xsi:type="yest:TestScenario" id="jNSRk5BwDvyYuifsfIP1o02O1P8wPqdA" name="U2-P3-t1-t4" associatedWorkflow="PMRFp9XnnP2FOHyxe3bZxXClnq8MWfS9">
+      <testActions id="hX2QpXjotNUzmfMdDH1fCL7IJkaBfuES" operation="NR7oHQCyOksjs1QLDfawMGmPTdpt9MAc">
         <stepFieldValues referencedStepField="MMmQADwzd18r0FyCD0terUiVqL1DIHF9">
-          <value definition="val8" id="aOD7jJF1WjbjlCHq9a53weHHKO5U4P10"/>
+          <value definition="val8" id="Ee0X1LgMtEdi4tNrrxcMcLMwa0ACipbe"/>
         </stepFieldValues>
       </testActions>
-      <testActions id="G69Wl2pYU3Bu6tZu9MqePp4gOY5nuw2g" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48"/>
+      <testActions id="7czAUmXHTQpT07nNPrbifECU6kPFZA4D" operation="UpDeCHaats8xKYhJr7YFcuEr1culVB48">
+        <stepFieldValues referencedStepField="0cwzTTCIUN8efW8uG9llZmUIZtjTVKIc">
+          <value definition="val8" id="PAgjuC2XoDm2keo22wLZwG29IsSXZ2MS"/>
+        </stepFieldValues>
+      </testActions>
     </testElements>
   </subFolders>
   <testElements xsi:type="yest:TestOperation" id="JsMsGOwhmOjhieiAcDR8CklbSdSFeB96">
@@ -49151,7 +49167,8 @@
   <testElements xsi:type="yest:TestOperation" id="UpDeCHaats8xKYhJr7YFcuEr1culVB48">
     <highLevelStep>
       <action>
-        <stepElements xsi:type="yest:StepText" content="Tâche 4 mofif U1"/>
+        <stepElements xsi:type="yest:StepText" content="Tâche 4 mofif U1 "/>
+        <stepElements xsi:type="yest:StepField" id="0cwzTTCIUN8efW8uG9llZmUIZtjTVKIc" data="SqcylMzIGM63eBcTFQJ5kRWg1eKrkw3x"/>
       </action>
       <expectedResult/>
     </highLevelStep>

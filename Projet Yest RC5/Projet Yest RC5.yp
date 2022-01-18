@@ -5,8 +5,8 @@
   <designDataDictionary id="4wvqKNTgmKyFWRtsOIoKeNY1aPDJ7bOU" name="#designDataDictionary">
     <subCategories xsi:type="yest:DesignDataCategory" id="U3fdf4BcTyCpZsku2OjkaqRybG1qe3WR" name="Catégories">
       <datas xsi:type="yest:DesignData" name="Donnée" id="WAGhLa9sW4aNlH22gJzujLmQrsQYFPqm">
-        <possibleValues definition="valeur 2 remplacé par U2" id="IupJ6bR3Jk35CwWTybJ4ubmXajdEszBB"/>
         <possibleValues definition="valeur 1 renommé  par U1 et que U2 va supprimer" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
+        <possibleValues definition="valeur 2 remplacé par U2" id="IupJ6bR3Jk35CwWTybJ4ubmXajdEszBB"/>
       </datas>
     </subCategories>
   </designDataDictionary>
@@ -16,11 +16,12 @@
     <subCategories xsi:type="yest:ImplementationDataCategory" id="gOKLTMqq8lNrszQYzgjq39jOWqGgfCob" name="Catégorie"/>
   </implementationDataDictionary>
   <dataSetCatalog name="#catalog" id="EXNLj8eiJqFFxJWkry0mFY7M6Y8IAQkF">
-    <subCategories name="Catégorie U2 vide" id="P6MJYkD6GRQcqrseCwPhkplK5eofyOhj"/>
-    <subCategories name="Catégorie U2 avec données" id="Nc8n4uO78ap8kNQhMyrBmAQEHmo6NgYR">
-      <dataSetCollections name="Ensemble de jeux de données U2" id="iiclCtkAflF1F2ruAyEnxrQyoy937sx3"/>
+    <subCategories name="Catégorie U2 vide" id="P6MJYkD6GRQcqrseCwPhkplK5eofyOhj">
+      <dataSetCollections name="Ensemble de jeux de données U1" id="99rvzyi1YX8TXB2PCLeBc8RSkNTryjaA"/>
     </subCategories>
-    <subCategories name="Catégorie à supprimer" id="cHJLju0x3xjfEtI0f3PPM3czTomsynut"/>
-    <subCategories name="Catégorie à modifier le nom" id="kWBoByWmKYnCnlNwulyOwTmcGt6rwxfL"/>
+    <subCategories name="Catégorie renommé par U1" id="kWBoByWmKYnCnlNwulyOwTmcGt6rwxfL"/>
+    <subCategories name="Catégorie U2 avec données" id="Nc8n4uO78ap8kNQhMyrBmAQEHmo6NgYR">
+      <dataSetCollections name="Ensemble de jeux de données renommé par U1" id="iiclCtkAflF1F2ruAyEnxrQyoy937sx3"/>
+    </subCategories>
   </dataSetCatalog>
 </yest:Project>

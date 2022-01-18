@@ -7,6 +7,7 @@
       <possibleValues definition="val1" id="POnHWQOQ2eaQ4zDcLHs1RPFJ7BxQOhQ7"/>
     </datas>
     <datas xsi:type="yest:DesignData" name="newC1" id="UYZkWo8HzHOA4Rg80LfFVAMwhEQevoGO"/>
+    <datas xsi:type="yest:DesignData" name="new2" id="hR2dWtziHIextViyhQT99RmjjQao6kqR"/>
     <subCategories xsi:type="yest:DesignDataCategory" id="U3fdf4BcTyCpZsku2OjkaqRybG1qe3WR" name="Catégories">
       <datas xsi:type="yest:DesignData" name="Donnée" id="WAGhLa9sW4aNlH22gJzujLmQrsQYFPqm">
         <possibleValues definition="valeur 1 renommé  par U1 et que U2 va supprimer" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
@@ -46,8 +47,7 @@
     <subCategories name="test" id="5zK6FPK5XdgbP5JhPyvKrUVpcf3zstwb">
       <dataSetCollections name="test jdd" id="QbnFACs65uqXqG7ag8nU0OeA9h2ZaF7c">
         <dataSets name="Jeu" id="WCf0JKFl2JmEb7gpHvgyidML5KvmbFjc">
-          <values data="UYZkWo8HzHOA4Rg80LfFVAMwhEQevoGO" value="val1"/>
-          <values data="tmqbL9EuKYO3X4BDCDbQmIVKyVgTab9t" value="val1"/>
+          <values data="hR2dWtziHIextViyhQT99RmjjQao6kqR" value="uu"/>
         </dataSets>
       </dataSetCollections>
     </subCategories>

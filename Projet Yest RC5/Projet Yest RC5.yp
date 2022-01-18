@@ -3,10 +3,14 @@
   <metadata key="ProjectVersion" value="10"/>
   <metadata key="ApplicationVersion" value="3.1.0"/>
   <designDataDictionary id="4wvqKNTgmKyFWRtsOIoKeNY1aPDJ7bOU" name="#designDataDictionary">
+    <datas xsi:type="yest:DesignData" name="donnéeC" id="aia6Ucwo2P0gdTBdHzYlzBJAt6kEiZHO">
+      <possibleValues definition="val1" id="POnHWQOQ2eaQ4zDcLHs1RPFJ7BxQOhQ7"/>
+    </datas>
     <subCategories xsi:type="yest:DesignDataCategory" id="U3fdf4BcTyCpZsku2OjkaqRybG1qe3WR" name="Catégories">
       <datas xsi:type="yest:DesignData" name="Donnée" id="WAGhLa9sW4aNlH22gJzujLmQrsQYFPqm">
         <possibleValues definition="valeur 1 renommé  par U1 et que U2 va supprimer" id="p4NlVkzKuIFajpoc52zIh4EJQGemepiG"/>
         <possibleValues definition="valeur 2 remplacé par U2" id="IupJ6bR3Jk35CwWTybJ4ubmXajdEszBB"/>
+        <possibleValues definition="val1" id="dkDKmW2JjPqLb6No7uIgpcRH7WHRKr14"/>
       </datas>
     </subCategories>
   </designDataDictionary>
@@ -19,7 +23,14 @@
     <subCategories name="Catégorie U2 vide" id="P6MJYkD6GRQcqrseCwPhkplK5eofyOhj"/>
     <subCategories name="Catégorie renommé par U1" id="kWBoByWmKYnCnlNwulyOwTmcGt6rwxfL"/>
     <subCategories name="Catégorie U2 avec données" id="Nc8n4uO78ap8kNQhMyrBmAQEHmo6NgYR">
-      <dataSetCollections name="Ensemble de jeux de données renommé par U1" id="iiclCtkAflF1F2ruAyEnxrQyoy937sx3"/>
+      <dataSetCollections name="Ensemble de jeux de données renommé par U1" id="iiclCtkAflF1F2ruAyEnxrQyoy937sx3">
+        <dataSets name="Jeu" id="SsQfhcJi7JBdoGowOcmR2i05PNZGUKOu">
+          <values data="FtrkKBPqqrSwSstdVdbC6QqwFuF1VS2U" value="val1"/>
+          <values data="Ew9KOK3cFLT4rQN7qE17WFgWMKN3AFs8" value="val1"/>
+          <values data="WAGhLa9sW4aNlH22gJzujLmQrsQYFPqm" value="val1"/>
+          <values data="aia6Ucwo2P0gdTBdHzYlzBJAt6kEiZHO" value="val1"/>
+        </dataSets>
+      </dataSetCollections>
     </subCategories>
   </dataSetCatalog>
 </yest:Project>

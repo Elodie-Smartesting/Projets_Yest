@@ -48709,7 +48709,7 @@
   <testElements xsi:type="yest:TestOperation" id="G0Q6DP2g2eyM5UGVbSzjoh0UqZ7dFu26">
     <highLevelStep>
       <action>
-        <stepElements xsi:type="yest:StepText" content="Tâche 1"/>
+        <stepElements xsi:type="yest:StepText" content="Tâche 1 modif par U1"/>
       </action>
       <expectedResult/>
     </highLevelStep>
@@ -48750,14 +48750,6 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Tâche 6"/>
-      </action>
-      <expectedResult/>
-    </highLevelStep>
-  </testElements>
-  <testElements xsi:type="yest:TestOperation" id="f8q7cxGQEKUWm5nWeOWhgVswIRKdWPvp">
-    <highLevelStep>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Tâche 2 U2"/>
       </action>
       <expectedResult/>
     </highLevelStep>

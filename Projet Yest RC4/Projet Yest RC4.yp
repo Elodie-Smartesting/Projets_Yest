@@ -38146,6 +38146,7 @@
           <flowElements xsi:type="yest:Task" id="D5h5i2c3VgiXwOlcpI2LumGHsfQCsRLy" name="Tâche" incomings="fkhFFC7q9TSD2hfWxnHuQlOhRviZWg0K">
             <table>
               <columns xsi:type="yest:DataColumn" id="t4daOYw3muxpRpUK1X70VL6ITTawAihg" type="SET" data="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>
+              <columns xsi:type="yest:DataColumn" id="B71slrh2EYisT8vftyPRO7Cctd1d8sUf" type="SET" data="2kATE1YJOfZYBgO40BI72w62ZZ0xqqQX"/>
               <columns xsi:type="yest:DataColumn" id="n5DZqFoPCkyyeOI0uUuiBxSjUy1sWcQt" type="SET" data="2Bs8mRGr3M6qqSEK7liqxpjnBG5fFoCI"/>
               <columns xsi:type="yest:DataColumn" id="xQxbVn82ivkOnKooV8Dv09a0Q4TvdkHF" type="SET" data="Xsjp7SUTiMpe4H6cy4A5wAHUyAf5Wmlm"/>
               <columns xsi:type="yest:OperationColumn" id="SZ8ogzZT9IxZsjHAwL1qGfkv7Sb4OfSY"/>
@@ -38156,13 +38157,16 @@
                   </value>
                 </cells>
                 <cells key="t4daOYw3muxpRpUK1X70VL6ITTawAihg">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value="valeur modif par U2"/>
                 </cells>
                 <cells key="n5DZqFoPCkyyeOI0uUuiBxSjUy1sWcQt">
                   <value xsi:type="yest:StringCell" value="valeur origine"/>
                 </cells>
                 <cells key="xQxbVn82ivkOnKooV8Dv09a0Q4TvdkHF">
-                  <value xsi:type="yest:StringCell" value="valeur origine"/>
+                  <value xsi:type="yest:StringCell" value="valeur d"/>
+                </cells>
+                <cells key="B71slrh2EYisT8vftyPRO7Cctd1d8sUf">
+                  <value xsi:type="yest:StringCell" value="ddd"/>
                 </cells>
               </decisions>
             </table>

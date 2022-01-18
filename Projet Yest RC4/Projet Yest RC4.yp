@@ -38143,7 +38143,7 @@
         </testElements>
         <testElements xsi:type="yest:Workflow" id="WywMbvvr5qJsaTAu58y6Ej3Scvz3YYdK" name="Parcours pour étape">
           <flowElements xsi:type="yest:StartPoint" id="s1ZN6PPdIkyXOhBPpwpEMwqbhogpjnbj" name="" outgoings="fkhFFC7q9TSD2hfWxnHuQlOhRviZWg0K"/>
-          <flowElements xsi:type="yest:Task" id="D5h5i2c3VgiXwOlcpI2LumGHsfQCsRLy" name="Tâche" incomings="fkhFFC7q9TSD2hfWxnHuQlOhRviZWg0K">
+          <flowElements xsi:type="yest:Task" id="D5h5i2c3VgiXwOlcpI2LumGHsfQCsRLy" name="Ciucou" incomings="fkhFFC7q9TSD2hfWxnHuQlOhRviZWg0K">
             <table>
               <columns xsi:type="yest:DataColumn" id="t4daOYw3muxpRpUK1X70VL6ITTawAihg" type="SET" data="AVhlKO7XgCzpXbRPaqesBgeYG4novryv"/>
               <columns xsi:type="yest:DataColumn" id="B71slrh2EYisT8vftyPRO7Cctd1d8sUf" type="SET" data="2kATE1YJOfZYBgO40BI72w62ZZ0xqqQX"/>
@@ -38184,7 +38184,7 @@
               <link businessObjects="D5h5i2c3VgiXwOlcpI2LumGHsfQCsRLy"/>
               <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.5/@subFolders.0/@subFolders.0/@testElements.2/@diagram/@connections.0"/>
               <children xsi:type="pi:ContainerShape" visible="true">
-                <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.5/@subFolders.0/@subFolders.0/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.5/@subFolders.0/@subFolders.0/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Tâche"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.5/@subFolders.0/@subFolders.0/@testElements.2/@diagram/@colors.2" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.5/@subFolders.0/@subFolders.0/@testElements.2/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Ciucou"/>
               </children>
             </children>
             <styles filled="true" lineVisible="true" id="shape-bg-green-id">

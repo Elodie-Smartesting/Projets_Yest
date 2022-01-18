@@ -45,11 +45,7 @@
       </dataSetCollections>
     </subCategories>
     <subCategories name="test" id="5zK6FPK5XdgbP5JhPyvKrUVpcf3zstwb">
-      <dataSetCollections name="test jdd" id="QbnFACs65uqXqG7ag8nU0OeA9h2ZaF7c">
-        <dataSets name="Jeu" id="WCf0JKFl2JmEb7gpHvgyidML5KvmbFjc">
-          <values data="hR2dWtziHIextViyhQT99RmjjQao6kqR" value="uu"/>
-        </dataSets>
-      </dataSetCollections>
+      <dataSetCollections name="test jdd" id="QbnFACs65uqXqG7ag8nU0OeA9h2ZaF7c"/>
     </subCategories>
   </dataSetCatalog>
 </yest:Project>

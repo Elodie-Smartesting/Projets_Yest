@@ -33,7 +33,13 @@
       </dataSetCollections>
     </subCategories>
     <subCategories name="Catégorie" id="EtOU4Dcac4nNaLeNI8wtWEZAj0j00TNT">
-      <dataSetCollections name="nouveau jdd vide de U2" id="OvjpYuu3MwTXNGxULhZO7XDXbgOe1e4T"/>
+      <dataSetCollections name="nouveau jdd vide de U2" id="OvjpYuu3MwTXNGxULhZO7XDXbgOe1e4T">
+        <dataSets name="Jeu" id="ZnXY6te1UfODLxnxDYBMkTUaYDUo4cbB">
+          <values data="FtrkKBPqqrSwSstdVdbC6QqwFuF1VS2U" value="val2"/>
+          <values data="Ew9KOK3cFLT4rQN7qE17WFgWMKN3AFs8" value="val2"/>
+          <values data="aia6Ucwo2P0gdTBdHzYlzBJAt6kEiZHO" value="val2"/>
+        </dataSets>
+      </dataSetCollections>
     </subCategories>
   </dataSetCatalog>
 </yest:Project>

@@ -49121,6 +49121,12 @@
       </action>
       <expectedResult/>
     </highLevelStep>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="ajout d'une description détaillée sur tache 1"/>
+      </action>
+      <expectedResult/>
+    </lowLevelSteps>
   </testElements>
   <testElements xsi:type="yest:TestOperation" id="2nmsGfOhNG8UHyDKIlgbXgvOlGXZbJoG">
     <highLevelStep>

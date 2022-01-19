@@ -49104,12 +49104,6 @@
       </action>
       <expectedResult/>
     </highLevelStep>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="une étape 5.1"/>
-      </action>
-      <expectedResult/>
-    </lowLevelSteps>
   </testElements>
   <testElements xsi:type="yest:TestOperation" id="xdDzZ6YULz3uWz3FeIE8HyexOIJs88tF">
     <highLevelStep>
